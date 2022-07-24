@@ -1,6 +1,6 @@
 # AI/ML Educational Resources
 
-Welcome to my educational resources repo! I originally studied BA [Computational Linguistics at UCLA](https://linguistics.ucla.edu/) then MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/). I've worked as a software engineer and freelanced in UI/UX then took a long break to homeschool my kids before returning to my original fascination with AI, particularly Natural Language Processing (NLP). Currently, I focus on educational outreach, bringing STEM to underrepresented populations. Below are some helpful resources I've used for learning.
+Welcome to my educational resources repo! I originally studied [Computational Linguistics at UCLA](https://linguistics.ucla.edu/) then MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/). I've worked as a software engineer and freelanced in UI/UX then took a long break to [homeschool](https://www.cheng2.com/blog/) my kids before returning to my original fascination with AI, particularly Natural Language Processing (NLP). Currently, I focus on educational outreach, bringing STEM to underrepresented populations. Below are some helpful resources I've used for learning.
 
 ## Courses
 - Coursera [DeepLearning](https://www.coursera.org/specializations/deep-learning) specialization 
@@ -54,4 +54,4 @@ Welcome to my educational resources repo! I originally studied BA [Computational
 ## Organizations
 For students interested in STEM, here are some great organizations I'm involved with
 - [AI4ALL](https://ai-4-all.org/) - Summer portfolio project, Mentor
-- [Technovation](https://www.technovation.org/) - Mobile app development for social good, Team Mentor & Judge Advisor
+- [Technovation](https://www.technovation.org/) - Mobile app development for social good, [Team Mentor](https://sites.google.com/view/code-work-ahead/) & Judge Advisor
