@@ -4,8 +4,8 @@ You've stumbled into my personal journal! I originally studied [Computational Li
 
 ## Readings
 After teaching all these years, instilling a lifelong love of learning, it's finally my turn again! I've been having a blast reading and exploring all kinds of rabbit holes:
-- [AI/NLP Courses & Journals](RESOURCES.md) - Some invaluable resources to get started.
-- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?ref=nav_mybooks&shelf=read) - Lots of general knowledge & random interests.
+- [AI/NLP Courses & Journals](RESOURCES.md) - Great resources to get started
+- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?ref=nav_mybooks&shelf=read) - General knowledge & random interests
 
 ## Presentations
 I've found a great group at [DataCircles](https://datacircles.org/) where we share what we've been learning in AI/ML. Here's some slides from my past presentations:
