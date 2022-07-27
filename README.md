@@ -4,11 +4,11 @@ You've stumbled into my personal journal! I originally studied [Computational Li
 
 ## Readings
 After teaching all these years, instilling a lifelong love of learning, it's finally my turn again! I've been having a blast reading and exploring all kinds of rabbit holes:
-- [AI/NLP Courses & Journals](RESOURCES.md) - Great resources to get started
-- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?ref=nav_mybooks&shelf=read) - General knowledge & random interests
+- [AI/NLP Courses & Journals](RESOURCES.md) - Resources that got me started
+- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?shelf=read) - General knowledge & random interests
 
 ## Presentations
-I've found a great group at [DataCircles](https://datacircles.org/) where we share what we've been learning in AI/ML. Here's some slides from my past presentations:
+I've found a lovely group at [DataCircles](https://datacircles.org/) where we share our learning in AI/ML. Here's some slides from my past presentations:
 - [AI Safety](https://github.com/ccstan99/ccstan99.github.io/blob/main/DataCircles-JournalClub/JournalClub%202022-03-02%20AGI%20Safety.pdf)
 - [AI Gridworlds](https://github.com/ccstan99/ccstan99.github.io/blob/main/DataCircles-JournalClub/JournalClub%202022-03-30%20AI%20Gridworlds.pdf)
 - [Winograd Schema Challenge](https://github.com/ccstan99/ccstan99.github.io/blob/main/DataCircles-JournalClub/JournalClub%202022-05-25%20NLP.pdf)
@@ -19,7 +19,7 @@ I've found a great group at [DataCircles](https://datacircles.org/) where we sha
 
 ## Projects
 I've been helping out in the AGI Alignment ecosystem.
-- [Stampy](ui.stampy.ai) - AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented semantic search and identified duplicate questions using NLP, used web worker to avoid GUI blocking issues, and created GitHub Actions to automate embeddings generation and website deployment.
+- [Stampy](ui.stampy.ai) - AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented in-browser semantic search & identified duplicate questions using NLP, used web workers to avoid GUI blocking issues, and created GitHub Actions to automate embeddings generation and website deployment.
 
 ## Mentoring
 For students interested in STEM, here are some wonderful organizations I'm involved with:
