@@ -1,4 +1,4 @@
-I"D<p>After years of homeschooling my kids, instilling a lifelong love of learning, it’s finally my turn! I’ve been immersed in all the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). Before all that, I did freelance work with interactive programming and design. I originally studied <a href="https://linguistics.ucla.edu/">Computational Linguistics at UCLA</a> then earned a MS Computer Science in <a href="https://hci.stanford.edu/">Human Computer Interaction (HCI) at Stanford</a>.</p>
+I"Z<p>After years of homeschooling my kids, instilling a lifelong love of learning, it’s finally my turn! I’ve been immersed in all the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). Before all that, I did freelance work with interactive programming and design. I originally studied <a href="https://linguistics.ucla.edu/">Computational Linguistics at UCLA</a> then earned a MS Computer Science in <a href="https://hci.stanford.edu/">Human Computer Interaction (HCI) at Stanford</a>.</p>
 
 <h2 id="readings">Readings</h2>
 <ul>
@@ -27,7 +27,7 @@
 <h2 id="mentoring">Mentoring</h2>
 <p>For students interested in STEM, here’s some wonderful organizations:</p>
 <ul>
-  <li><a href="https://ai-4-all.org/">AI4ALL</a> - As a mentor for the summer portfolio project, I put together a quick <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/HuggingFace_Tutorial.ipynb">Colab Notebook</a> to get students started with NLP classification tasks, fine-tuning Transformer models on Hugging Face.</li>
+  <li><a href="https://ai-4-all.org/">AI4ALL</a> - As a mentor for the summer portfolio project, I put together a quick <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/Hugging_Face_Text_Classification_TUTORIAL_.ipynb">Colab Notebook</a> to get students started with NLP classification tasks, fine-tuning Transformer models on Hugging Face.</li>
   <li><a href="https://www.technovation.org/">Technovation Challenge</a> - I’ve been a judge advisor the last few years, but I began by mentoring a team to create a mobile app social good. Their app <a href="https://sites.google.com/view/code-work-ahead/">Rooting for You</a> was the North America Regional Winner in 2020!</li>
 </ul>
 
