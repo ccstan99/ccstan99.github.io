@@ -1,3 +1,23 @@
-theme: jekyll-theme-minimal
-title: ccstan99.github.io
-description: personal page
+title:              ccstan99
+email:              ccstan99@gmail.com
+description:        ccstan99's learning journal
+author:             ccstan99
+baseurl:            ""
+url:                "https://ccstan99.github.io"
+
+# Social Profiles
+github_username:    ccstan99
+facebook_username:  cheng2.tan
+linkedin_username:  cheng2-tan
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
