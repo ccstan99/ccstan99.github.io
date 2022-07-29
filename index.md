@@ -5,8 +5,8 @@ background: '/img/bg-index.jpg'
 After years of homeschooling my kids, instilling a lifelong love of learning, it's finally my turn! I've been immersed in all the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). Before all that, I did freelance work with interactive programming and design. I originally studied [Computational Linguistics at UCLA](https://linguistics.ucla.edu/) then earned a MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/). 
 
 ## Readings
-- [AI/NLP Courses & Journals](/resources) - Resources that helped me start
-- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?shelf=read) - All sorts of rabbit holes
+- [AI/NLP Courses & Journals](/resources) - Particularly helpful resources for me
+- [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?shelf=read) - Exploring all sorts of rabbit holes
 
 ## Presentations
 The lovely people at [DataCircles](https://datacircles.org/) have provided a supportive environment to learn and share about AI & ML. Here's slides from my recent presentations:
@@ -29,5 +29,5 @@ For students interested in STEM, here's some wonderful organizations:
 
 ## Archaeological Dig
 A glimpse into my previous life:
-- [Archived work](/2022/01/01/archive.html)
+- [Samples of archived work](/2022/01/01/archive.html)
 - [Wordschooling adventures](https://www.cheng2.com/blog/)
