@@ -7,11 +7,10 @@ url:                "https://ccstan99.github.io"
 
 # Social Profiles
 github_username:    ccstan99
-facebook_username:  cheng2.tan
 linkedin_username:  cheng2-tan
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   G-3YWP38XYVC # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
