@@ -1,0 +1,102 @@
+I"�<p>I just finished the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera. I also went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d plop the charts here in case they’re helpful for others.</p>
+
+<h2 id="language-models">Language Models</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">year</th>
+      <th style="text-align: center">model</th>
+      <th style="text-align: left">description</th>
+      <th>details</th>
+      <th>specs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: center">GPT</td>
+      <td style="text-align: left">Generative Pre-trained Transformer</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: center">BERT</td>
+      <td style="text-align: left">Bidirectional Encoder Representation for Transformers</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">GPT-2</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">RoBERTa</td>
+      <td style="text-align: left">Robust BERT</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">T5</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2020</td>
+      <td style="text-align: center">GPT-3</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="acronyms">Acronyms</h2>
+<p>NLP	natural language processing
+NLU	natural language understanding
+NLI	natural language inference
+CoLA	Corpus of Linguistic Acceptability - grammatical sentence
+SST	Stanford Sentiment Treebank - sentiment analysis, movie reviews
+MRPC	Microsoft Research Paraphrase Corpus
+STS-B	Semantic Textual Similarity benchmark - semantic similarity
+QQP	Quora Question Pairs
+MNLI	Multi-Genre NLI Corpus - textual (entailment contradiction, neutral), matched (in-domain)/mismatched (cross-domain)
+QNLI	Question-answering NLI - SQuAd?
+RTE	Recognizing Textual Entailment - news, Wikipedia
+WNLI	Winograd NLI - reading comprehension, pronoun coreference resolution
+DPR	Definite Pronoun Resolution - WSC
+SemEval	Semantic Evaluation
+FraCaS	A Framework for Computational Semantics
+RACE	ReAding Comprehension from Examinations - question answering
+LAMBADA	LAnguage Modeling Broadened to Account for Discourse Aspects - long range dependencies
+CBT	Children’s Book Test
+CoQA	Conversation Question Answering
+SWAG	Situations with Adversarial Generation
+WMT	Workshop in Machine Translation
+UDA	unsupervised data augmentation
+RL2	reinforcement learning fast &amp; slow
+MAML	model-agnostic meta-learning
+BPE	byte-pair encoding
+C4	Colossal Clean Crawled Corpus based on Common Crawl based data
+BiDAF	bidirection attention flow
+CoVe	contextualized word vectors
+HSIC	Hilbert-Schmidt Independence Criterion
+PMI	Pointwise Mutual Information
+WSD	word sense disambiguation
+BoolQ	Boolean Questions
+CB	CommitmentBank
+CoPA	Choice of Plausible Alternatives
+MultiRC	Multi-Sentence Reading Comprehension
+ReCoRD	Reading Comprehension with Commonsense Reasoning Dataset
+WiC	Word in Context
+WSC	Winograd Schema Challenge
+AFS	Argument Facet Similarity
+TF-IDF	term frequency–inverse document frequency, reflect how important a word is to a document in a collection or corpus</p>
+:ET

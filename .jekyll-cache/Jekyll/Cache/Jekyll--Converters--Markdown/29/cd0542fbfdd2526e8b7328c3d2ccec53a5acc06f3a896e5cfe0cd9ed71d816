@@ -1,0 +1,107 @@
+I"<<p>I just finished the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera. I also went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d plop the charts here in case they’re helpful for others.</p>
+
+<h2 id="language-models">Language Models</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">year</th>
+      <th style="text-align: center">model</th>
+      <th style="text-align: left">description</th>
+      <th>specs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">2013</td>
+      <td style="text-align: center">word2vec</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2014</td>
+      <td style="text-align: center">GloVe</td>
+      <td style="text-align: left"><a href="https://www.semanticscholar.org/paper/GloVe%3A-Global-Vectors-for-Word-Representation-Pennington-Socher/f37e1b62a767a307c046404ca96bc140b3e68cb5">Global Vectors</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: center">GPT</td>
+      <td style="text-align: left"><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Generative Pre-trained Transformer</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: center">BERT</td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1810.04805">Bidirectional Encoder Representation for Transformers</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">GPT-2</td>
+      <td style="text-align: left"><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Unsupervised Multitask Learning</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">RoBERTa</td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1907.11692">Robustly Optimized BERT</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">T5</td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1910.10683">Transfer Learning with Text-to-Text Transformer</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2020</td>
+      <td style="text-align: center">GPT-3</td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/2005.14165">Few-Shot Learners</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="acronyms">Acronyms</h2>
+<p>NLP	natural language processing
+NLU	natural language understanding
+NLI	natural language inference
+CoLA	Corpus of Linguistic Acceptability - grammatical sentence
+SST	Stanford Sentiment Treebank - sentiment analysis, movie reviews
+MRPC	Microsoft Research Paraphrase Corpus
+STS-B	Semantic Textual Similarity benchmark - semantic similarity
+QQP	Quora Question Pairs
+MNLI	Multi-Genre NLI Corpus - textual (entailment contradiction, neutral), matched (in-domain)/mismatched (cross-domain)
+QNLI	Question-answering NLI - SQuAd?
+RTE	Recognizing Textual Entailment - news, Wikipedia
+WNLI	Winograd NLI - reading comprehension, pronoun coreference resolution
+DPR	Definite Pronoun Resolution - WSC
+SemEval	Semantic Evaluation
+FraCaS	A Framework for Computational Semantics
+RACE	ReAding Comprehension from Examinations - question answering
+LAMBADA	LAnguage Modeling Broadened to Account for Discourse Aspects - long range dependencies
+CBT	Children’s Book Test
+CoQA	Conversation Question Answering
+SWAG	Situations with Adversarial Generation
+WMT	Workshop in Machine Translation
+UDA	unsupervised data augmentation
+RL2	reinforcement learning fast &amp; slow
+MAML	model-agnostic meta-learning
+BPE	byte-pair encoding
+C4	Colossal Clean Crawled Corpus based on Common Crawl based data
+BiDAF	bidirection attention flow
+CoVe	contextualized word vectors
+HSIC	Hilbert-Schmidt Independence Criterion
+PMI	Pointwise Mutual Information
+WSD	word sense disambiguation
+BoolQ	Boolean Questions
+CB	CommitmentBank
+CoPA	Choice of Plausible Alternatives
+MultiRC	Multi-Sentence Reading Comprehension
+ReCoRD	Reading Comprehension with Commonsense Reasoning Dataset
+WiC	Word in Context
+WSC	Winograd Schema Challenge
+AFS	Argument Facet Similarity
+TF-IDF	term frequency–inverse document frequency, reflect how important a word is to a document in a collection or corpus</p>
+:ET
