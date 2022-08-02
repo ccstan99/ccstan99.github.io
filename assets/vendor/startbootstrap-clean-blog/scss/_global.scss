@@ -1,28 +1,12 @@
 // Global styling for this template
 body {
-    font-size: 20px;
+    font-size: 18px;
     color: $gray-900;
 }
 
+li,
 p {
-    line-height: 1.5;
-    margin: 30px 0;
-
-    a {
-        text-decoration: underline;
-    }
-}
-
-li {
-    a {
-        text-decoration: underline;
-    }
-}
-
-.nav-item {
-    a {
-        text-decoration: none;
-    }
+    line-height: 1.7;
 }
 
 h1,
@@ -31,7 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 800;
+    font-weight: 600;
+}
+
+div > h2 {
+    padding-top: 12px;
 }
 
 a {
@@ -43,19 +31,32 @@ a {
     }
 }
 
+p,
+li,
+table {
+    a {
+        text-decoration: underline;
+    }
+}
+
+ul {
+    padding-left: 16px;
+    list-style-type: '▪ ';
+}
+
 blockquote {
     font-style: italic;
     color: $gray-600;
 }
 
 .section-heading {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     margin-top: 60px;
 }
 
 .caption {
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
     display: block;
     margin: 0;
@@ -85,4 +86,36 @@ img::selection {
 img::-moz-selection {
     color: $white;
     background: transparent;
+}
+
+table {
+    border: 1px solid $gray-400;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+td {
+    font-size: 18px;
+    vertical-align: top;
+    border: 1px solid $gray-400;
+    padding: 6px;
+}
+
+th {
+    color: $white;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid $gray-400;
+    background-color: $primary;
+    padding: 6px;
+}
+
+tr:nth-child(even){background-color: $gray-100;}
+
+.post-subtitle {
+    font-size: 20px;
 }

@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-01T00:57:01-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">NLP Notes</title><link href="http://localhost:4000/2022/05/09/nlp-notes.html" rel="alternate" type="text/html" title="NLP Notes" /><published>2022-05-09T00:00:00-07:00</published><updated>2022-05-09T00:00:00-07:00</updated><id>http://localhost:4000/2022/05/09/nlp-notes</id><content type="html" xml:base="http://localhost:4000/2022/05/09/nlp-notes.html"><![CDATA[<p>I just finished the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera, went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the tables in here in case they’re helpful for others.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-02T09:43:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">NLP Notes</title><link href="http://localhost:4000/2022/05/09/nlp-notes.html" rel="alternate" type="text/html" title="NLP Notes" /><published>2022-05-09T00:00:00-07:00</published><updated>2022-05-09T00:00:00-07:00</updated><id>http://localhost:4000/2022/05/09/nlp-notes</id><content type="html" xml:base="http://localhost:4000/2022/05/09/nlp-notes.html"><![CDATA[<p>I just completed the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera, went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.</p>
 
 <h2 id="language-models">Language Models</h2>
+
+<p>Transformer specs indicate max values:
+L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
 
 <table>
   <thead>
@@ -28,37 +31,37 @@
       <td style="text-align: center">2018</td>
       <td style="text-align: left"><a href="https://huggingface.co/openai-gpt">GPT</a></td>
       <td style="text-align: left"><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Generative Pre-trained Transformer</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2018</td>
-      <td style="text-align: left"><a href="https://huggingface.co/bert-large-cased">BERT</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1810.04805">Bidirectional Encoder Representation for Transformers</a></td>
-      <td> </td>
+      <td>L=12, A=12, H=768</td>
     </tr>
     <tr>
       <td style="text-align: center">2019</td>
       <td style="text-align: left"><a href="https://huggingface.co/gpt2">GPT-2</a></td>
       <td style="text-align: left"><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Unsupervised Multitask Learning</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2019</td>
-      <td style="text-align: left"><a href="https://huggingface.co/roberta-large">RoBERTa</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1907.11692">Robustly Optimized BERT</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2019</td>
-      <td style="text-align: left"><a href="https://huggingface.co/t5-11b">T5</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1910.10683">Transfer Learning with Text-to-Text Transformer</a></td>
-      <td> </td>
+      <td>L=48, A=??, H=1600</td>
     </tr>
     <tr>
       <td style="text-align: center">2020</td>
       <td style="text-align: left"><a href="https://beta.openai.com/docs/models/gpt-3">GPT-3</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/2005.14165">Few-Shot Learners</a></td>
-      <td> </td>
+      <td>L=96, A=??, H=12288</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2018</td>
+      <td style="text-align: left"><a href="https://huggingface.co/bert-large-cased">BERT</a></td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1810.04805">Bidirectional Encoder Representation for Transformers</a></td>
+      <td>L=24, A=16, H=1024</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: left"><a href="https://huggingface.co/roberta-large">RoBERTa</a></td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1907.11692">Robustly Optimized BERT</a></td>
+      <td>L=24, A=16, H=1024</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: left"><a href="https://huggingface.co/t5-11b">T5</a></td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1910.10683">Transfer Learning with Text-to-Text Transformer</a></td>
+      <td>L=24, A=128, H=768</td>
     </tr>
   </tbody>
 </table>
@@ -75,58 +78,58 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue"><strong>GLUE</strong><br />General Language Understanding Evaluation</a></td>
+      <td style="text-align: left"><a href="https://gluebenchmark.com/"><strong>GLUE</strong></a></td>
+      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue">General Language Understanding Evaluation</a></td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">CoLA</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/cola/train">Corpus of Linguistic Acceptability</a></td>
-      <td style="text-align: left">Grammatically correct sentence?</td>
+      <td style="text-align: left">Sentence grammatically correct?</td>
     </tr>
     <tr>
       <td style="text-align: left">SST</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/sst2/train">Stanford Sentiment Treebank</a></td>
-      <td style="text-align: left">Sentiment analysis of movie reviews</td>
+      <td style="text-align: left">Movie review sentiment analysis</td>
     </tr>
     <tr>
       <td style="text-align: left">MRPC</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/mrpc/train">Microsoft Research Paraphrase Corpus</a></td>
-      <td style="text-align: left">Sentence pairs semantically equivalent?</td>
+      <td style="text-align: left">Sentences semantically equivalent?</td>
     </tr>
     <tr>
       <td style="text-align: left">QQP</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/qqp/train">Quora Question Pairs</a></td>
-      <td style="text-align: left">Sentence pairs semantically equivalent?</td>
+      <td style="text-align: left">Sentences semantically equivalent?</td>
     </tr>
     <tr>
       <td style="text-align: left">STS-b</td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1708.00055v1">Semantic Textual Similarity benchmark</a></td>
-      <td style="text-align: left">Sentence pairs semantically equivalent?</td>
+      <td style="text-align: left"><a href="https://arxiv.org/abs/1708.00055v1">Semantic Textual Similarity Benchmark</a></td>
+      <td style="text-align: left">Sentences semantically equivalent?</td>
     </tr>
     <tr>
       <td style="text-align: left">QNLI</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/qnli/train">Question-answering NLI</a></td>
-      <td style="text-align: left">Context sentence contains answer to question?</td>
+      <td style="text-align: left">Sentence contains answer to question?</td>
     </tr>
     <tr>
       <td style="text-align: left">RTE</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/rte/train">Recognizing Textual Entailment</a></td>
-      <td style="text-align: left">Wikipedia/news sentence entails a given hypothesis?</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">WNLI</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/wnli/train">Winograd NLI</a></td>
-      <td style="text-align: left">Reading comprehension, pronoun coreference resolution</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">MNLI</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/SetFit/mnli">Multi-Genre NLI Corpus</a></td>
-      <td style="text-align: left">Premise &amp; hypothesis textual (entailment contradiction, neutral), matched (in-domain)/mismatched</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/super_glue"><strong>SuperGLUE</strong></a></td>
+      <td style="text-align: left"><a href="https://super.gluebenchmark.com/"><strong>SuperGLUE</strong></a></td>
+      <td style="text-align: left"><a href="https://huggingface.co/datasets/super_glue">Stickier Benchmark for NLU</a></td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
@@ -145,13 +148,23 @@
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">DPR</td>
-      <td style="text-align: left">Definite Pronoun Resolution</td>
+      <td style="text-align: left">WSD</td>
+      <td style="text-align: left"><a href="https://paperswithcode.com/task/word-sense-disambiguation">Word Sense Disambiguation</a></td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
-      <td style="text-align: left">SemEval</td>
-      <td style="text-align: left">Semantic Evaluation</td>
+      <td style="text-align: left">WiC</td>
+      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/wic">Word in Context</a></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">MultiRC</td>
+      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/multirc">Multi-Sentence Reading Comprehension</a></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ReCoRD</td>
+      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/record">Reading Comprehension with Commonsense Reasoning Dataset</a></td>
       <td style="text-align: left"> </td>
     </tr>
     <tr>
@@ -162,17 +175,17 @@
     <tr>
       <td style="text-align: left">SQuAD</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/squad">Stanford Question Answering Dataset</a></td>
-      <td style="text-align: left">Question answering</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">RACE</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/race">ReAding Comprehension from Examinations</a></td>
-      <td style="text-align: left">Question answering</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">LAMBADA</td>
       <td style="text-align: left"><a href="https://huggingface.co/datasets/lambada">LAnguage Modeling Broadened to Account for Discourse Aspects</a></td>
-      <td style="text-align: left">Long range dependencies</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">CBT</td>
@@ -201,33 +214,8 @@
     </tr>
     <tr>
       <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/winogrande">Winogrande</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WSD</td>
-      <td style="text-align: left">Word Sense Disambiguation</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MultiRC</td>
-      <td style="text-align: left">Multi-Sentence Reading Comprehension</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ReCoRD</td>
-      <td style="text-align: left">Reading Comprehension with Commonsense Reasoning Dataset</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WiC</td>
-      <td style="text-align: left">Word in Context</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">AFS</td>
-      <td style="text-align: left">Argument Facet Similarity</td>
-      <td style="text-align: left"> </td>
+      <td style="text-align: left"><a href="https://huggingface.co/datasets/winogrande">WinoGrande</a></td>
+      <td style="text-align: left">Crowd-sourced WSC</td>
     </tr>
   </tbody>
 </table>
@@ -238,92 +226,108 @@
   <thead>
     <tr>
       <th style="text-align: left">term</th>
+      <th style="text-align: left">expanded</th>
       <th style="text-align: left">description</th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: left">NLP</td>
       <td style="text-align: left">Natural Language Processing</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">NLU</td>
       <td style="text-align: left">Natural Language Understanding</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">NLI</td>
       <td style="text-align: left">Natural Language Inference</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">DPR</td>
+      <td style="text-align: left">Definite Pronoun Resolution</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">AFS</td>
+      <td style="text-align: left">Argument Facet Similarity</td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">BiDAF</td>
       <td style="text-align: left">Bidirection Attention Flow</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BPE</td>
-      <td style="text-align: left">Byte-Pair Encoding</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WMT</td>
-      <td style="text-align: left">Workshop in Machine Translation</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">CoVe</td>
       <td style="text-align: left">Contextualized Word Vectors</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">HSIC</td>
       <td style="text-align: left">Hilbert-Schmidt Independence Criterion</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">PMI</td>
       <td style="text-align: left">Pointwise Mutual Information</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">UDA</td>
       <td style="text-align: left">Unsupervised Data Augmentation</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">RL2</td>
       <td style="text-align: left">Reinforcement Learning Fast &amp; Slow</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">MAML</td>
       <td style="text-align: left">Model-Agnostic Meta-Learning</td>
-      <td> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">BPE</td>
+      <td style="text-align: left"><a href="https://paperswithcode.com/method/bpe">Byte-Pair Encoding</a></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WMT</td>
+      <td style="text-align: left"><a href="https://aclanthology.org/venues/wmt/">Workshop in Machine Translation</a></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SemEval</td>
+      <td style="text-align: left"><a href="https://semeval.github.io/">Workshop on Semantic Evaluatio</a></td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: left">TF-IDF</td>
       <td style="text-align: left">Term Frequency–Inverse Document Frequency</td>
-      <td>Reflects how important a word is to a document in a collection or corpus</td>
+      <td style="text-align: left">Reflects word importance for document in corpus</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just finished the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the tables in here in case they’re helpful for others.]]></summary></entry><entry><title type="html">Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<h2 id="interactive-projects">Interactive Projects</h2>
+</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry><entry><title type="html">Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<h2 id="interactive-projects">Interactive Projects</h2>
+
 <ul>
-  <li><a href="nike">Nike Team Sports</a>: suite of uniform builders for basketball, baseball, football, camp series</li>
+  <li><strong>Nike Team Sports</strong> — Suite of uniform builders for basketball, baseball, football, camp series</li>
 </ul>
 
 <p><img src="/img/2022-01-01-archive/nike1.jpg" width="270" /> <img src="/img/2022-01-01-archive/nike3.jpg" width="270" /> <img src="/img/2022-01-01-archive/nike4.jpg" width="270" /></p>
 
 <ul>
-  <li><a href="refractec">Refractec</a>: eye surgery equipment tutorial for Ignite Health</li>
+  <li><strong>Refractec</strong> — Eye surgery equipment tutorial for Ignite Health</li>
 </ul>
 
 <p><img src="/img/2022-01-01-archive/refractec1.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec2.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec3.jpg" width="270" /></p>
 
 <ul>
-  <li><a href="ofivina.cd">Ofivina 01</a>: cd-rom commemorating Ofivina arts exhibit &amp; festival</li>
+  <li><a href="ofivina.cd">Ofivina 01</a>: CD-ROM commemorating arts exhibit &amp; festival</li>
 </ul>
 
 <p><img src="/img/2022-01-01-archive/ofivina1.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina2.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina4.jpg" width="270" /></p>
@@ -345,9 +349,10 @@
 <p><img src="/img/2022-01-01-archive/shh-fotos-cartridge.jpg" width="200" /> <img src="/img/2022-01-01-archive/shh-fotos-mailers.jpg" width="200" /> <img src="/img/2022-01-01-archive/zing-fotos-choco.jpg" width="200" /> <img src="/img/2022-01-01-archive/zing-fotos-spice.jpg" width="200" /></p>
 
 <h2 id="publications">Publications</h2>
+
 <ul>
   <li>Saw, Cheng Cheng (1993) <a href="http://phonetics.linguistics.ucla.edu/facilities/physiology/epg.html">Customized 3-D Electropalatography Display</a>. UCLA Working Papers in Phonetics, 85, 71-96.</li>
   <li>D. Byrd, E. Flemming, C. A. Mueller, &amp; C. C. Tan. (1995) <a href="/docs/1995%20jshr38%20-%20Using%20Regions%20and%20Indices%20in%20EPG%20Data%20Reduction.pdf">Using regions and indices in EPG data reduction</a>. Journal of Speech and Hearing Research, 38:821-827.</li>
   <li>D. Byrd &amp; C. C. Tan. (1996) <a href="/docs/1996%20JPhon%20-%20Saying%20consonant%20clusters%20quickly.pdf">Saying consonant clusters quickly</a>. Journal of Phonetics, 24(2):263-282.</li>
   <li><a href="/docs/resume-2002.pdf">Ancient Resumé</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Interactive Projects Nike Team Sports: suite of uniform builders for basketball, baseball, football, camp series]]></summary></entry></feed>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Interactive Projects]]></summary></entry></feed>

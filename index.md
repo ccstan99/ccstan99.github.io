@@ -3,11 +3,11 @@ layout: home
 background: '/img/bg-index.jpg'
 ---
 
-After years of homeschooling my kids, instilling a lifelong love of learning, it's finally my turn! I've been immersed in all the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). Before all that, I did freelance work with interactive programming and design. I originally studied [Computational Linguistics at UCLA](https://linguistics.ucla.edu/) then earned a MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/).
+I've been immersed in the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). After years of homeschooling my kids, instilling a lifelong love of learning, it's finally my turn! Before all that, I originally studied [Computational Linguistics at UCLA](https://linguistics.ucla.edu/), got a MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/), then did freelance work with interactive programming and design.
 
 ## Readings
 
-- [AI/NLP Courses & Journals](/resources) - Particularly helpful resources for me
+- [AI/NLP Courses & Journals](/resources) - Particularly helpful resources when I started
 - [Goodreads Bookshelf](https://www.goodreads.com/review/list/150236560-ccstan99?shelf=read) - Exploring all sorts of rabbit holes
 
 ## Presentations
@@ -28,18 +28,18 @@ The lovely people at [DataCircles](https://datacircles.org/) have provided a sup
 
 The AGI Alignment ecosystem has interesting projects I've been helping with:
 
-- [Stampy](ui.stampy.ai) - AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented in-browser semantic search & identified duplicate questions using NLP, created web workers to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
+- **[Stampy](ui.stampy.ai)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented in-browser semantic search & identified duplicate questions using NLP, created web workers to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
 
 ## Mentoring
 
 For students interested in STEM, here's some wonderful organizations:
 
-- [AI4ALL](https://ai-4-all.org/) - As a mentor for summer portfolio projects, I put together some quick [video overviews](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [Colab Notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/Hugging_Face_Text_Classification_TUTORIAL_.ipynb) to get students started with NLP classification tasks, fine-tuning Transformer models on Hugging Face.
-- [Technovation Challenge](https://www.technovation.org/) - I've been a judge advisor the last few years, but I began by mentoring a team to create a mobile app social good. Their app [Rooting for You](https://sites.google.com/view/code-work-ahead/) was the North America Regional Winner in 2020!
+- **[AI4ALL](https://ai-4-all.org/)** — As a mentor for summer portfolio projects, I create some quick [video overviews](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/Hugging_Face_Text_Classification_TUTORIAL_.ipynb) so students could perform NLP classification by fine-tuning a BERT Transformer on their dataset.
+- **[Technovation Challenge](https://www.technovation.org/)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the North America Regional Winner in 2020!
 
 ## Archaeological Dig
 
 A glimpse into my previous life:
 
-- [Samples of archived work](/2022/01/01/archive.html)
-- [Wordschooling adventures](https://www.cheng2.com/blog/)
+- [Samples of Archived Work](/2022/01/01/archive.html)
+- [Wordschooling Adventures](https://www.cheng2.com/blog/)
