@@ -2445,6 +2445,12 @@ tr:nth-child(even) { background-color: #f8f9fa; }
 
 .post-subtitle { font-size: 20px; }
 
+.md-content h1 { font-size: 1.7rem; }
+
+.md-content h2 { font-size: 1.6rem; }
+
+.md-content h3 { font-size: 1.5rem; }
+
 .btn { font-size: 14px; font-weight: 800; padding: 15px 25px; letter-spacing: 1px; text-transform: uppercase; border-radius: 0; font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .btn-primary { background-color: #0085A1; border-color: #0085A1; }

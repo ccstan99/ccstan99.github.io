@@ -13,9 +13,9 @@ Thanks to the incredible wealth of resources readily available on the internet, 
 - Coursera [Natural Language Processing](https://www.coursera.org/specializations/natural-language-processing) specialization
 - Stanford CS224n: [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 - [HuggingFace Course](https://huggingface.co/course)
-- Edx [Google AI for JavaScript developers with Tensorflow.js](https://www.edx.org/course/google-ai-for-javascript-developers-with-tensorflowjs)
 - [Hands-on Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
 - fast.ai [Practical Deep Learning for Coders](https://course.fast.ai/)
+- Edx [Google AI for JavaScript developers with Tensorflow.js](https://www.edx.org/course/google-ai-for-javascript-developers-with-tensorflowjs)
 - AGI Safety Fundamentals [Technical Alignment Curriculum](https://www.eacambridge.org/technical-alignment-curriculum)
 
 ## NLP General Overview
