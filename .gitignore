@@ -1,7 +1,7 @@
 _site
+.jekyll-cache
 .sass-cache
 node_modules
 Gemfile.lock
 *.gem
 .DS_store
-.jekyll-cache

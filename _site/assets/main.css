@@ -2443,8 +2443,6 @@ th { color: #fff; font-size: 12px; font-weight: 800; letter-spacing: 1px; text-t
 
 tr:nth-child(even) { background-color: #f8f9fa; }
 
-.post-subtitle { font-size: 20px; }
-
 .md-content h1 { font-size: 1.7rem; }
 
 .md-content h2 { font-size: 1.6rem; }

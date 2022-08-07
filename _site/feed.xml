@@ -1,23 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-04T08:45:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Find Duplicates with SBERT</title><link href="http://localhost:4000/2022/06/14/sbert.html" rel="alternate" type="text/html" title="Find Duplicates with SBERT" /><published>2022-06-14T00:00:00-07:00</published><updated>2022-06-14T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/14/sbert</id><content type="html" xml:base="http://localhost:4000/2022/06/14/sbert.html"><![CDATA[<h2 id="finding-duplicates">Finding Duplicates</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T18:20:24-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
 
-<p>I’ve been working on a AGI Safety FAQ project where the questions culled from multiple sources including YouTube video comments and a Discord server. Those that are marked as high interest are then answered and evaluated by community of volunteers. At some point, we realized there’s likely to be quite a number of duplicate or at least semantically very similar questions in the database. The concern is of course that this could be a potentially time-consuming and resource-heavy operation since we’d need to compare every question in the database with every other, resulting in the dreaded O(n<sup>2</sup>).</p>
+<p>I’ve been working on a website for community generated questions and answers about AGI Safety. At the moment, the database contains several hundred questions, but the goal is to eventually grow to be thousands or more.</p>
+
+<p>Since we had access to OpenAI’s very powerful GPT-3, the original plan was to use its semantic search capabilities. Instead of only matching keywords, semantic search allows users to ask questions and search for already answered questions that are semantically similar or essentially mean the same thing. In order accomplish that, questions are converted in sentence embeddings or vectors which can then be compared using cosine similarity. If the vectors are already normalized, cosine similarity is calculated by a quick matrix multiplication. Due to the cost concerns and the large files associated with embedding all of our questions, we realized we’d need to limit how often we made calls to OpenAI’s API and only submit requests once the user has completed typing their question.</p>
+
+<h2 id="tensorflowjs-in-the-browser">Tensorflow.js in the Browser</h2>
+
+<p>Having used features like Google search, we’re familiar with its ability to dynamically update the list of related search options as the user types. Since we’re not Google, I hadn’t dreamt that we could do then same. However, in my free time, I’m quite a tutorial junkie. I ran across a tutorial to create your own <a href="https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine#0">Teachable Machine</a> and a number of other demos with <a href="https://tensorflow.github.io/tfjs/">tensorflow.js (TFJS)</a> allowing models to make AI predictions in the browser. I suddenly realized that if it’s possible to train a model to identify objects from the desktop video camera on a browser in realtime, we must be able to run our semantic search in the browser, dynamically updating results as the user types in the search bar. To keep things simple, I started with a pre-trained model that was already optimized for web use. I found a promising model called the <a href="https://github.com/tensorflow/tfjs-models/tree/master/universal-sentence-encoder">Universal Sentence Encoder (USE)</a> which uses a 512-dimension vector to embed the sentences in contrast to GPT-3 which uses 12,288-dimensions. As a result the embeddings file for USE was only around 1.5MB compared to GPT-3’s embeddings which was over 150MB. We obviously sacrificed some accuracy but the responsiveness really enhanced the user experience. To use the TFJS and USE libraries, we first imported the following scripts within the HTML:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">/&gt;</span>
+    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder</span><span class="dl">"</span><span class="o">/&gt;</span>
+</code></pre></div></div>
+
+<p>Before using the models, make sure both libraries and the model have been loaded. Then, you’re ready to create sentence embeddings for your questions. USE stores embeddings as a 2D tensors with 512 dimensions or 512 separate values. Think of the embeddings as a numerical representation of a sentence or (in our case a question) where each dimension represents some feature or meaningful information about the sentence.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// load Tensorflow's universal sentence encoder model</span>
+<span class="kd">const</span> <span class="nx">langModel</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">use</span><span class="p">.</span><span class="nx">load</span><span class="p">()</span>
+<span class="c1">// embed list of all questions in database for later search</span>
+<span class="kd">const</span> <span class="nx">questions</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">What is your first question?</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Ask another question?</span><span class="dl">"</span><span class="p">]</span>
+<span class="kd">const</span> <span class="nx">allEncodings</span> <span class="o">=</span> <span class="p">(</span><span class="k">await</span> <span class="nx">model</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">questions</span><span class="p">)).</span><span class="nx">arraySync</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>We had a few hundred questions, so on my desktop, embeddings all the questions only took a few seconds. But on laptops and other machines, the initial embedding of all the questions took several minutes, which was intolerable. So I saved the embeddings so it was just a matter of loading them. Soon, things were working smoothly, even on mobile phones.</p>
+
+<p>Now we’re ready to process the query when a user ask a new question. First, we must create embeddings for that new question in order to compare it to find the nearest embedding from within our existing list of questions.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">runSemanticSearch</span> <span class="o">=</span> <span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+
+  <span class="nx">langModel</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">encoding</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// numerator of cosine similar is dot prod since vectors are normalized</span>
+    <span class="kd">const</span> <span class="nx">scores</span> <span class="o">=</span> <span class="nx">tf</span><span class="p">.</span><span class="nx">matMul</span><span class="p">(</span><span class="nx">encoding</span><span class="p">,</span> <span class="nx">allEncodings</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">).</span><span class="nx">dataSync</span><span class="p">()</span>
+
+    <span class="c1">// Tensorflow requires explicit memory management to avoid memory leaks</span>
+    <span class="nx">encoding</span><span class="p">.</span><span class="nx">dispose</span><span class="p">()</span>
+
+    <span class="kd">const</span> <span class="nx">questionsScored</span> <span class="o">=</span> <span class="nx">questions</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">title</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">({</span> <span class="nx">title</span><span class="p">,</span> <span class="nx">score</span> <span class="p">}))</span>
+    <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>  <span class="o">=&gt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">score</span> <span class="o">-</span> <span class="nx">a</span><span class="p">.</span><span class="nx">score</span><span class="p">)</span>
+    <span class="kd">const</span> <span class="nx">searchResults</span> <span class="o">=</span> <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">numResults</span><span class="p">)</span>
+  <span class="p">})</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>USE also has a QnA model for question-answering. I tried the embedding all of the database answers to see if it would help with the search. Unfortunately, I didn’t see a marked improvement, so I’ll need to play around with that a bit more.</p>
+
+<h2 id="worker-for-gui-blocking">Worker for GUI Blocking</h2>
+
+<p>As we were getting ready to launch the website, there were concerns about GUI blocking issues. The semantic search was constantly being called with each character being typed. That impacted the GUI rendering causing jitteriness or lag, obviously a yucky user experience.</p>
+
+<p>After a bit of research, I discovered this to be a known issue and a major concern within the tensorflow.js community. Although the Javascript calls are marked as asynchronous, it isn’t truly multi-threaded. Fortunately, the solution using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Web Workers</a> isn’t too complicated. Essentially, we put all of our computationally intensive Tensorflow code in a separate file which runs in another thread, independently of the main GUI rendering JavaScript thread. The main thread and the separate Tensorflow thread communicate by passing messages using the <code class="language-plaintext highlighter-rouge">postMessage</code> method and responding to messages via the <code class="language-plaintext highlighter-rouge">onmessage</code> handler.</p>
+
+<p>In the main thread, we first create a Worker. When user makes a search request, we’ll call <code class="language-plaintext highlighter-rouge">postMessage</code> to dispatch the Worker. Then, an event handler listens for <code class="language-plaintext highlighter-rouge">onmmesage</code> responses from the Worker to get the search results.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">// create a Web Worker and add event listener for search results</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nb">self</span><span class="p">.</span><span class="nx">Worker</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Worker</span><span class="p">(</span><span class="dl">'</span><span class="s1">/tfWorker.js</span><span class="dl">'</span><span class="p">)</span>
+    <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">message</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleWorker</span><span class="p">)</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">Sorry! No Web Worker support.</span><span class="dl">'</span><span class="p">)</span>
+  <span class="p">}</span>
+
+  <span class="c1">// postMessage to call semantic search in Worker thread passing user's search query</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">postMessage to tfWorker:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">searchQuery</span><span class="p">)</span>
+  <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">?.</span><span class="nx">postMessage</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span>
+
+  <span class="c1">// listen for onmessage response from Worker thread with search results</span>
+  <span class="kd">const</span> <span class="nx">handleWorker</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="o">=</span> <span class="nx">event</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">onmessage from tfWorker:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">searchResults</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">setSearchResults</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">searchResults</span><span class="p">)</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">tfWorker.js</code> file must be stored in a public folder and written in plain JavaScript, not TypeScript. It will likewise need an <code class="language-plaintext highlighter-rouge">onmessage</code> event handler to listen for event calls from the main thread, run semantic search then return the search results by calling <code class="language-plaintext highlighter-rouge">postMessage</code>.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// listening for message from main thread to call semantic search</span>
+<span class="nb">self</span><span class="p">.</span><span class="nx">onmessage</span> <span class="o">=</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">runSemanticSearch</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">runSemanticSearch</span> <span class="o">=</span> <span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="p">...</span>
+  <span class="c1">// instead of returning searchResults, send a postMessage back to main thread</span>
+  <span class="nb">self</span><span class="p">.</span><span class="nx">postMessage</span><span class="p">({</span><span class="nx">searchResults</span><span class="p">})</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>That’s the general setup. In the meantime, feel free to play around with the <a href="https://square-pine-garment.glitch.me/">prototype demo</a> or take a peak at the <a href="https://github.com/ccstan99/stampy-tfjs">code</a>. There’s some extra code to load and save the embeddings. You can also see the deployed <a href="http://ui.stampy.ai/">Stampy website</a> and its <a href="https://github.com/StampyAI/stampy-ui">full implementation</a> using TypeScript, React, Remix, and Cloudflare. Although we ended up not using GPT-3 for the website’s semantic search, the Stampy chatbot still uses impressive and entertaining generative text capabilities.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I’ve been studying machine learning for a while now, but it’s been mostly theory and isolated exercises. This was refreshing to finally get back to some hands on work, applying the technology in a practical setting. I was lucky to work on this project with smart people who set up the fundamental framework and gave me freedom to explore on my own. Eventually, I’d love to train my own model and tweak some other parameters to see if we can get better results. So many possibilities for continued tinkering and learning!</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1803.11175">Universal Sentence Encoder</a> (2018)</li>
+  <li><a href="https://www.edx.org/course/google-ai-for-javascript-developers-with-tensorflowjs">Google AI for JavaScript developers with Tensorflow.js</a></li>
+  <li><a href="https://www.tensorflow.org/hub/tutorials/semantic_similarity_with_tf_hub_universal_encoder">Semantic similarity tutorial</a></li>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Semantic Search]]></summary></entry><entry><title type="html">Technovation Challenge</title><link href="http://localhost:4000/2022/06/23/technovation.html" rel="alternate" type="text/html" title="Technovation Challenge" /><published>2022-06-23T00:00:00-07:00</published><updated>2022-06-23T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/23/technovation</id><content type="html" xml:base="http://localhost:4000/2022/06/23/technovation.html"><![CDATA[<h2 id="technovation">Technovation</h2>
+
+<p>Every year, <a href="https://www.technovation.org/">Technovation</a> challenges teams of girls around the world to learn and apply the skills needed to solve real-world problems for social good using technology. Adult judges and mentors aren’t required or expected to posses a technical background beyond possessing curiosity and keeping an open mind to learn along with the students. A comprehensive training is provided during the onboarding and an easy to follow <a href="https://technovationchallenge.org/curriculum-intro/registered/new/">curriculum</a> guides you through every step. The lessons are broken down into 12 weeks but you can progress at your own pace. It’s truly satisfying to watch students work through the entire process from brainstorming ideas, designing &amp; building a prototype, writing a business plan, all the way to pitching the product.</p>
+
+<p><img src="/img/posts/2022-06-23-technovation1.png" width="100%" /></p>
+
+<h2 id="team-mentoring">Team Mentoring</h2>
+
+<p>I was fortunate enough to mentor Team Code Work Ahead through the pandemic. Despite turbulent times, their enthusiasm and creativity was impressive. Initially, we met weekly, but during the onset &amp; confusion of the lockdown, the online meetings became daily while schools were still sorting themselves out. A detailed log of the entire <a href="https://sites.google.com/view/code-work-ahead/plan?authuser=0">planning processing</a> was kept. Ultimately, their hard work paid off as the <a href="https://sites.google.com/view/code-work-ahead/">Rooting for You</a> app was the North America Regional Winner in 2020!</p>
+
+<p><img src="/img/posts/2022-06-23-technovation2.png" width="100%" /></p>
+
+<h2 id="judging">Judging</h2>
+
+<p>For the last few years, I’ve served as judge advisor to help evaluate submissions following a clear set of <a href="https://technovationchallenge.org/curriculum/judging-rubric/">rubrics</a>. It’s also a chance to offer encouraging feedback to all those inspirational ideas and amazing projects coming from all corners of the world. The annual World Summit is always an exciting culmination to celebrate all the hard work and accomplishments. Check out the next <a href="https://hopin.com/events/technovation-s-world-summit/registration">Summit</a> on August 12!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Technovation]]></summary></entry><entry><title type="html">Find Duplicates with SBERT</title><link href="http://localhost:4000/2022/06/14/sbert.html" rel="alternate" type="text/html" title="Find Duplicates with SBERT" /><published>2022-06-14T00:00:00-07:00</published><updated>2022-06-14T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/14/sbert</id><content type="html" xml:base="http://localhost:4000/2022/06/14/sbert.html"><![CDATA[<h2 id="finding-duplicates">Finding Duplicates</h2>
+
+<p>A community of volunteers have been culling through questions about AGI Safety from multiple sources including YouTube video comments and a Discord server for the <a href="https://stampy.ai/wiki/Main_Page">Stampy</a> project. Questions marked as high interest are then answered and evaluated within the community. Due to the distributed origins, we realized there’s likely to be quite a number of duplicate or at least semantically very similar questions in the database. The concern is, of course, that this could be a potentially time-consuming and resource-heavy operation to compare every question in the database with every other, resulting in the dreaded O(n<sup>2</sup>).</p>
 
 <h2 id="sentence-bert">Sentence-BERT</h2>
 
-<p>After a bit of research, I found <a href="https://sbert.net/">Sentence-BERT (SBERT)</a> a modification of BERT, but is optimized for generating accurate and useful sentence embeddings. It uses Siamese and triplet network structure to derive embeddings that can be compared efficiently using cosine similarity. This reduces the time for finding the most similar pairs among 10,000 sentences from 65 hours with BERT or RoBERTa down to about 5 seconds, without sacrificing accuracy!</p>
+<p>After a bit of research, I found that <a href="https://sbert.net/">Sentence-BERT (SBERT)</a>, a modification of BERT, is optimized for generating accurate and useful <em>sentence</em> level embeddings. It uses a Siamese network with  triplet loss function to derive embeddings that can be compared efficiently using cosine similarity. This reduces the time for finding the most similar pairs among 10,000 sentences from 65 hours with BERT or RoBERTa down to about 5 seconds, without sacrificing accuracy!</p>
 
-<p>Here are the <a href="/docs/JournalClub%202022-07-27%20SBERT.pdf">slides</a> from the presentation I gave on the <a href="https://arxiv.org/abs/1908.10084">journal paper</a>, which goes into greater depth about the training architecture setup and various methods &amp; datasets for evaluation. It turns outs natural language inference (<a href="https://huggingface.co/datasets/SetFit/mnli">MNLI</a> &amp; SNLI) datasets which are fairly large and indicate entailment, serve as excellent training sets for fine-tuning semantic simiarity tasks. However, training on specific <a href="https://arxiv.org/abs/1708.00055v1">semantic textual similarity (STS-b)</a>] dataset, which are much smaller, boosted performance even further.</p>
+<p>Here are the <a href="/docs/JournalClub%202022-07-27%20SBERT.pdf">slides</a> from the presentation I gave on the original <a href="https://arxiv.org/abs/1908.10084">journal paper</a>, which goes into depth about the training architecture setup and various methods &amp; datasets for evaluation. It turns outs, natural language inference (<a href="https://huggingface.co/datasets/SetFit/mnli">MNLI</a> &amp; SNLI) datasets, which are fairly large and indicate entailment, serve as helpful training sets for fine-tuning semantic simiarity tasks. However, training on the smaller, specific <a href="https://arxiv.org/abs/1708.00055v1">semantic textual similarity (STS-b)</a> dataset, further improved accuracy.</p>
 
 <h2 id="pretrained-models">Pretrained Models</h2>
 
-<p>Now, there’s a evergrowing number of <a href="https://sbert.net/docs/pretrained_models.html">pretrained sentence-transformer model checkpoints</a> ranked by size, speed, and other performance metrics. A model can be initialized by passing it a checkpoint that indicates a combination of both the model architecture plus the specific trained weights. Since our goal was to identify pairs of more similar questions or sentences, we tried several models that performed best on semantic search leaderboards.</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">multi-qa-mpnet-base-dot-v1</code> trained on 315M StackExchange, Yahoo Answers, Google &amp; Bing questions. Scored highest on semantic similarity benchmarks.</li>
-  <li><code class="language-plaintext highlighter-rouge">distilbert-base-nli-stsb-quora-ranking</code> trained on 500K Quora duplicate questions.</li>
-  <li><code class="language-plaintext highlighter-rouge">all-MiniLM-L6-v2</code> general purpose model 1B+ training pairs. Considered generic fast and good not great quality.</li>
-  <li><code class="language-plaintext highlighter-rouge">paraphrases-multi-qa-mpn</code> gave us best results on our dataset ascertained by expert human evaluation.</li>
-</ul>
+<p>Within the <code class="language-plaintext highlighter-rouge">sentence-transformers</code> framework now, there’s an evergrowing number of <a href="https://sbert.net/docs/pretrained_models.html">pretrained model checkpoints</a> ranked by size, speed, and other performance metrics. A model can be initialized by passing it a checkpoint that indicates a combination of both the architecture plus the specific trained weights.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">sentence</span><span class="o">-</span><span class="n">transformers</span>
 <span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">SentenceTransformer</span>
@@ -26,20 +135,29 @@
 <span class="n">model</span> <span class="o">=</span> <span class="n">SentenceTransformer</span><span class="p">(</span><span class="n">checkpoint</span><span class="p">)</span>
 </code></pre></div></div>
 
+<p>Since our goal was to identify pairs of most similar questions or sentences, we tried some checkpoints below that performed best on semantic search leaderboards.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">multi-qa-mpnet-base-dot-v1</code> trained on 315M StackExchange, Yahoo Answers, Google &amp; Bing questions. Scored highest on semantic similarity benchmarks.</li>
+  <li><code class="language-plaintext highlighter-rouge">distilbert-base-nli-stsb-quora-ranking</code> trained on 500K Quora duplicate questions.</li>
+  <li><code class="language-plaintext highlighter-rouge">all-MiniLM-L6-v2</code> general purpose model 1B+ training pairs. Considered generically fast &amp; good but not great quality.</li>
+  <li><code class="language-plaintext highlighter-rouge">paraphrases-multi-qa-mpn</code> gave us best results on our dataset ascertained by expert human evaluation.</li>
+</ul>
+
 <h2 id="paraphrase-mining">Paraphrase Mining</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">sentence_tranformers</code> module provides a super-handy <a href="https://sbert.net/examples/applications/paraphrase-mining/README.html#paraphrase-mining"><code class="language-plaintext highlighter-rouge">paraphrase_mining</code></a> utility that returns a list of tuples sorted by descending similarity scores along with the indices of 2 sentences from the original list of input sentences. A score of 1.0 means the 2 sentences are semantically identical, while a score of 0.0 means they are semantically unrelated.</p>
+<p>The super-handy <a href="https://sbert.net/examples/applications/paraphrase-mining/README.html#paraphrase-mining"><code class="language-plaintext highlighter-rouge">paraphrase_mining</code></a> utility returns a list of tuples sorted by descending similarity scores along with the indices of 2 sentences from the original list of input sentences. A score of 1.0 means the 2 sentences are semantically identical, while a score of 0.0 means they are semantically unrelated.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sentence_transformers</span> <span class="kn">import</span> <span class="n">util</span>
 <span class="c1"># Single list of sentences - Possible +10,000 of sentences
-</span><span class="n">sentences</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">"fulltext"</span><span class="p">].</span><span class="n">values</span><span class="p">.</span><span class="n">tolist</span><span class="p">()</span>
+</span><span class="n">sentences</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">'text'</span><span class="p">].</span><span class="n">values</span><span class="p">.</span><span class="n">tolist</span><span class="p">()</span>
 <span class="n">paraphrases</span> <span class="o">=</span> <span class="n">util</span><span class="p">.</span><span class="n">paraphrase_mining</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">sentences</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">paraphrase</span> <span class="ow">in</span> <span class="n">paraphrases</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">100</span><span class="p">]:</span>
     <span class="n">score</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">paraphrase</span>
-    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="s">'fulltext'</span><span class="p">][</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="si">{</span><span class="n">df</span><span class="p">[</span><span class="s">'fulltext'</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s">score:</span><span class="si">{</span><span class="n">score</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>  
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">sentences</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="si">{</span><span class="n">sentences</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s">score:</span><span class="si">{</span><span class="n">score</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>  
 </code></pre></div></div>
 
-<p>The complete functional code in this <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/sbert-paraphrase-mining.ipynb">Colab notebook</a>. As you will see, the usage is straightforward for any list of sentences from your own dataset. Pick a model and try it out!</p>
+<p>The complete functional code in this <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/sbert-paraphrase-mining.ipynb">notebook</a>. As you will see, the usage is straightforward for any list of sentences from your own dataset. Pick a model and try it out!</p>
 
 <h2 id="references">References</h2>
 
@@ -48,12 +166,12 @@
   <li><a href="https://arxiv.org/abs/1810.04805">BERT: Bidirectional Encoder Representation for Transformers</a> (2018)</li>
   <li><a href="https://arxiv.org/abs/1907.11692">RoBERTa: Robustly Optimized BERT</a> (2019)</li>
   <li><a href="https://arxiv.org/abs/1708.00055v1">STS-b: Semantic Textual Similarity Benchmark</a> (2017)</li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Finding Duplicates]]></summary></entry><entry><title type="html">NLP Notes</title><link href="http://localhost:4000/2022/05/09/nlp-notes.html" rel="alternate" type="text/html" title="NLP Notes" /><published>2022-05-09T00:00:00-07:00</published><updated>2022-05-09T00:00:00-07:00</updated><id>http://localhost:4000/2022/05/09/nlp-notes</id><content type="html" xml:base="http://localhost:4000/2022/05/09/nlp-notes.html"><![CDATA[<p>I just completed the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera, went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.</p>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Finding Duplicates]]></summary></entry><entry><title type="html">Natural Language Processing Notes</title><link href="http://localhost:4000/2022/05/09/nlp-notes.html" rel="alternate" type="text/html" title="Natural Language Processing Notes" /><published>2022-05-09T00:00:00-07:00</published><updated>2022-05-09T00:00:00-07:00</updated><id>http://localhost:4000/2022/05/09/nlp-notes</id><content type="html" xml:base="http://localhost:4000/2022/05/09/nlp-notes.html"><![CDATA[<p>I just completed the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera, went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.</p>
 
 <h2 id="language-models">Language Models</h2>
 
-<p>Transformer specs indicate max values:
-L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
+<p>Transformer specs indicate maximum values for:
+L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
 
 <table>
   <thead>
@@ -123,7 +241,7 @@ L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
     <tr>
       <th style="text-align: left">dataset</th>
       <th style="text-align: left">full name</th>
-      <th style="text-align: left">description</th>
+      <th style="text-align: left">notes</th>
     </tr>
   </thead>
   <tbody>
@@ -297,7 +415,7 @@ L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
     <tr>
       <th style="text-align: left">term</th>
       <th style="text-align: left">expanded</th>
-      <th style="text-align: left">description</th>
+      <th style="text-align: left">notes</th>
     </tr>
   </thead>
   <tbody>
@@ -382,7 +500,9 @@ L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
       <td style="text-align: left">Reflects word importance for document in corpus</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry><entry><title type="html">Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<h2 id="interactive-projects">Interactive Projects</h2>
+</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry><entry><title type="html">Archived Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Archived Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<p>Here’s archived work from antiquity, circa early 2000s, when most interactive work was done using the now defunct Adobe Flash and ActionScript. (<a href="https://www.youtube.com/watch?v=h2rdDYZ_3bY">video demo</a>)</p>
+
+<h2 id="interactive-projects">Interactive Projects</h2>
 
 <ul>
   <li><strong>Nike Team Sports</strong> — Suite of uniform builders for basketball, baseball, football, camp series</li>
@@ -397,12 +517,10 @@ L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
 <p><img src="/img/2022-01-01-archive/refractec1.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec2.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec3.jpg" width="270" /></p>
 
 <ul>
-  <li><a href="ofivina.cd">Ofivina 01</a>: CD-ROM commemorating arts exhibit &amp; festival</li>
+  <li><strong>Ofivina 01</strong>: CD-ROM commemorating arts exhibit &amp; festival</li>
 </ul>
 
 <p><img src="/img/2022-01-01-archive/ofivina1.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina2.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina4.jpg" width="270" /></p>
-
-<p>(<a href="https://www.youtube.com/watch?v=h2rdDYZ_3bY">video demo</a>)</p>
 
 <h2 id="websites">Websites</h2>
 
@@ -425,4 +543,4 @@ L = # layers/blocks, A = # attention heads, H = # hidden dimensions.</p>
   <li>D. Byrd, E. Flemming, C. A. Mueller, &amp; C. C. Tan. (1995) <a href="/docs/1995%20jshr38%20-%20Using%20Regions%20and%20Indices%20in%20EPG%20Data%20Reduction.pdf">Using regions and indices in EPG data reduction</a>. Journal of Speech and Hearing Research, 38:821-827.</li>
   <li>D. Byrd &amp; C. C. Tan. (1996) <a href="/docs/1996%20JPhon%20-%20Saying%20consonant%20clusters%20quickly.pdf">Saying consonant clusters quickly</a>. Journal of Phonetics, 24(2):263-282.</li>
   <li><a href="/docs/resume-2002.pdf">Ancient Resumé</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Interactive Projects]]></summary></entry></feed>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Here’s archived work from antiquity, circa early 2000s, when most interactive work was done using the now defunct Adobe Flash and ActionScript. (video demo)]]></summary></entry></feed>
