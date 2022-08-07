@@ -43,3 +43,5 @@ A glimpse into my previous life:
 
 - [Samples of Archived Work](/2022/01/01/archive.html)
 - [Wordschooling Adventures](https://www.cheng2.com/blog/)
+
+This entire website is a work in progress. I'm always learning, so corrections & feedback are always welcomed!

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-07T09:18:12-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/07/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-07T00:00:00-07:00</published><updated>2022-08-07T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/07/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/07/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-07T10:47:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/07/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-07T00:00:00-07:00</published><updated>2022-08-07T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/07/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/07/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
 
 <p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
 
@@ -14,7 +14,7 @@
 
 <p>Students were divided into 3 areas of interest: numeric, text, and images then paired with mentors having relevant experience. My mentees worked on natural language processing tasks, using BERT to classify text. I created a couple videos below and also wrote a <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb">tutorial notebook</a> to help get them started.</p>
 
-<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" width="45%" /></a> 
+<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" width="45%" /></a>
 <a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"> <img src="/img/posts/2022-08-11-ai4all-video2.svg" width="45%" /></a></p>
 
 <p>Since AI4ALL has a rigorous applicant screening process, all the participants were very bright and motivated, which led to a very reward mentoring experience.</p>
@@ -186,6 +186,60 @@
     <span class="n">score</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="o">=</span> <span class="n">paraphrase</span>
     <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">sentences</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="si">{</span><span class="n">sentences</span><span class="p">[</span><span class="n">j</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s">score:</span><span class="si">{</span><span class="n">score</span><span class="si">:</span><span class="p">.</span><span class="mi">2</span><span class="n">f</span><span class="si">}</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>  
 </code></pre></div></div>
+
+<p>Here’s a sample output of the top scoring duplicates when we first ran paraphrase_mining through our list of questions. They mostly seem pretty reasonable. We still kept a human in the loop to decide which version to keep or whether questions should be reworded if they were indeed semantically dissimilar.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Question1</th>
+      <th style="text-align: left">Question2</th>
+      <th style="text-align: left">Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Who_helped_create_Stampy%3F">Who helped create Stampy?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Who_created_Stampy%3F">Who created Stampy?</a></td>
+      <td style="text-align: left">0.98</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Is_humanity_doomed%3F">Is humanity doomed?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/How_doomed_is_humanity%3F">How doomed is humanity?</a></td>
+      <td style="text-align: left">0.95</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/What_is_a_canonical_question_on_Stampy%27s_Wiki%3F">What is a canonical question on Stampy’s Wiki?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/What_is_a_canonical_version_of_a_question_on_Stampy%27s_Wiki%3F">What is a canonical version of a question on Stampy’s Wiki?</a></td>
+      <td style="text-align: left">0.93</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Why_can%E2%80%99t_we_just_%E2%80%9Cput_the_AI_in_a_box%E2%80%9D_so_it_can%E2%80%99t_influence_the_outside_world%3F">Why can’t we just “put the AI in a box” so it can’t influence the outside world?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Couldn%E2%80%99t_we_keep_the_AI_in_a_box_and_never_give_it_the_ability_to_manipulate_the_external_world%3F">Couldn’t we keep the AI in a box and never give it the ability to manipulate the external world?</a></td>
+      <td style="text-align: left">0.92</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/How_might_a_superintelligence_technologically_manipulate_humans%3F">How might a superintelligence technologically manipulate humans?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/How_might_a_superintelligence_socially_manipulate_humans%3F">How might a superintelligence socially manipulate humans?</a></td>
+      <td style="text-align: left">0.92</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Why_is_AI_Safety_important%3F">Why is AI Safety important?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Why_is_safety_important_for_smarter-than-human_AI%3F">Why is safety important for smarter-than-human AI?</a></td>
+      <td style="text-align: left">0.91</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Can_we_tell_an_AI_just_to_figure_out_what_we_want,_then_do_that%3F">Can we tell an AI just to figure out what we want, then do that?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Can_we_just_tell_an_AI_to_do_what_we_want%3F">Can we just tell an AI to do what we want?</a></td>
+      <td style="text-align: left">0.90</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/What_is_AI_Safety%3F">What is AI Safety?</a></td>
+      <td style="text-align: left"><a href="https://stampy.ai/wiki/Why_is_AI_Safety_important%3F">Why is AI Safety important?</a></td>
+      <td style="text-align: left">0.90</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>The complete functional code in this <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/sbert-paraphrase-mining.ipynb">notebook</a>. As you will see, the usage is straightforward for any list of sentences from your own dataset. Pick a model and try it out!</p>
 
