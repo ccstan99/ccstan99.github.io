@@ -34,8 +34,8 @@ The AGI Alignment ecosystem has interesting projects I've been helping with:
 
 For students interested in STEM, here's some wonderful organizations:
 
-- **[AI4ALL](https://ai-4-all.org/)** — As a mentor for summer portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning a BERT Transformer on their dataset.
-- **[Technovation Challenge](https://www.technovation.org/)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the North America Regional Winner in 2020!
+- **[AI4ALL](/2022/07/11/ai4all.html/)** — As a mentor for summer portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning a BERT Transformer on their dataset.
+- **[Technovation Challenge](/2022/06/23/technovation.html)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the 2020 North America Regional Winner!
 
 ## Archaeological Dig
 

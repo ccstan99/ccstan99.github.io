@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T18:20:24-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-06T22:45:13-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/07/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-07-11T00:00:00-07:00</published><updated>2022-07-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/07/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
+
+<p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
+
+<p><img src="/img/posts/2022-08-11-ai4all1.png" width="100%" /></p>
+
+<h2 id="summer-program">Summer Program</h2>
+
+<p>The AI4ALL summer programs first entered our radar for my daughter, who had a long-time interest in AI. She attended the 3-week camp at Princeton in 2019 and had a blast learning about different ML algorithms &amp; AI ethics, conducting a hands-on research project using genomic data, and touring Washington DC to meet AI policy makers. The alumni network was even more impressive, with frequent updates on opportunities for internships and continued education. Soon, I found myself following along, learning these new concepts through their <a href="https://ai-4-all.org/open-learning/">Open Learning</a> platform for educators, then eventually studying deep learning and NLP on my own.</p>
+
+<h2 id="portfolio-project">Portfolio Project</h2>
+
+<p>A few months ago, I received a volunteer request for their 8-week long summer portfolio project. Students who already completed the regular summer program are given the opportunity to apply and deepen their knowledge of AI by working on an extended personal project. They attend weekly workshops, learning to select and pre-process their dataset, train and evaluate a model, then deliver a poster presentation of their findings.</p>
+
+<p>Students were divided into 3 areas of interest: numeric, text, and images then paired with mentors having relevant experience. My mentees worked on natural language processing tasks, using BERT to classify text. I created a couple videos below and also wrote a <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb">tutorial notebook</a> to help get them started.</p>
+
+<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" width="45%" /></a> 
+<a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"> <img src="/img/posts/2022-08-11-ai4all-video2.svg" width="45%" /></a></p>
+
+<p>Since AI4ALL has a rigorous applicant screening process, all the participants were very bright and motivated, which led to a very reward mentoring experience.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids for over a decade, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically, knowing that I couldn’t get away with hand-waving explanations if I wanted my own kids to truly understand. As the kids are off continuing their education in more traditional settings now, it was a natural transition for me to return to my work in the technology sector but also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="http://localhost:4000/2022/06/23/technovation.html">Technovations</a>.</p>
+
+<p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
 
 <p>I’ve been working on a website for community generated questions and answers about AGI Safety. At the moment, the database contains several hundred questions, but the goal is to eventually grow to be thousands or more.</p>
 
@@ -6,13 +31,17 @@
 
 <h2 id="tensorflowjs-in-the-browser">Tensorflow.js in the Browser</h2>
 
-<p>Having used features like Google search, we’re familiar with its ability to dynamically update the list of related search options as the user types. Since we’re not Google, I hadn’t dreamt that we could do then same. However, in my free time, I’m quite a tutorial junkie. I ran across a tutorial to create your own <a href="https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine#0">Teachable Machine</a> and a number of other demos with <a href="https://tensorflow.github.io/tfjs/">tensorflow.js (TFJS)</a> allowing models to make AI predictions in the browser. I suddenly realized that if it’s possible to train a model to identify objects from the desktop video camera on a browser in realtime, we must be able to run our semantic search in the browser, dynamically updating results as the user types in the search bar. To keep things simple, I started with a pre-trained model that was already optimized for web use. I found a promising model called the <a href="https://github.com/tensorflow/tfjs-models/tree/master/universal-sentence-encoder">Universal Sentence Encoder (USE)</a> which uses a 512-dimension vector to embed the sentences in contrast to GPT-3 which uses 12,288-dimensions. As a result the embeddings file for USE was only around 1.5MB compared to GPT-3’s embeddings which was over 150MB. We obviously sacrificed some accuracy but the responsiveness really enhanced the user experience. To use the TFJS and USE libraries, we first imported the following scripts within the HTML:</p>
+<p>Having used features like Google search, we’re familiar with its ability to dynamically update the list of related search options as the user types. Since we’re not Google, I hadn’t dreamt that we could do then same. However, in my free time, I’m quite a tutorial junkie. I ran across a tutorial to create your own <a href="https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine#0">Teachable Machine</a> and a number of other demos with <a href="https://tensorflow.github.io/tfjs/">tensorflow.js (TFJS)</a> allowing models to make AI predictions in the browser. I suddenly realized that if it’s possible to train a model to identify objects from the desktop video camera on a browser in realtime, we must be able to run our semantic search in the browser, dynamically updating results as the user types in the search bar.</p>
+
+<h2 id="universal-sentence-encoder">Universal Sentence Encoder</h2>
+
+<p>To keep things simple, I started with a pre-trained model that was already optimized for web use. I found a promising model called the <a href="https://github.com/tensorflow/tfjs-models/tree/master/universal-sentence-encoder">Universal Sentence Encoder (USE)</a> which uses a 512-dimension vector to embed the sentences in contrast to GPT-3 which uses 12,288-dimensions. As a result the embeddings file for USE was only around 1.5MB compared to GPT-3’s embeddings which was over 150MB. We obviously sacrificed some accuracy but the responsiveness really enhanced the user experience. To use the TFJS and USE libraries, we first imported the following scripts within the HTML:</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">/&gt;</span>
     <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder</span><span class="dl">"</span><span class="o">/&gt;</span>
 </code></pre></div></div>
 
-<p>Before using the models, make sure both libraries and the model have been loaded. Then, you’re ready to create sentence embeddings for your questions. USE stores embeddings as a 2D tensors with 512 dimensions or 512 separate values. Think of the embeddings as a numerical representation of a sentence or (in our case a question) where each dimension represents some feature or meaningful information about the sentence.</p>
+<p>To begin, make sure both libraries and the model have been loaded. Then, you’re ready to create sentence embeddings for your questions. The USE stores embeddings as a 2D tensors with 512 dimensions or 512 separate values. Think of the embeddings as a numerical representation of a sentence or (in our case a question) where each dimension represents some feature or meaningful information about the sentence.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// load Tensorflow's universal sentence encoder model</span>
 <span class="kd">const</span> <span class="nx">langModel</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">use</span><span class="p">.</span><span class="nx">load</span><span class="p">()</span>
@@ -23,26 +52,27 @@
 
 <p>We had a few hundred questions, so on my desktop, embeddings all the questions only took a few seconds. But on laptops and other machines, the initial embedding of all the questions took several minutes, which was intolerable. So I saved the embeddings so it was just a matter of loading them. Soon, things were working smoothly, even on mobile phones.</p>
 
-<p>Now we’re ready to process the query when a user ask a new question. First, we must create embeddings for that new question in order to compare it to find the nearest embedding from within our existing list of questions.</p>
+<p>Now we’re ready to process the query when a user ask a new question. First, we must create embeddings for that new question in order to find the nearest embedding from within our existing list of all questions.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">runSemanticSearch</span> <span class="o">=</span> <span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
 
-  <span class="nx">langModel</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">encoding</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="c1">// numerator of cosine similar is dot prod since vectors are normalized</span>
-    <span class="kd">const</span> <span class="nx">scores</span> <span class="o">=</span> <span class="nx">tf</span><span class="p">.</span><span class="nx">matMul</span><span class="p">(</span><span class="nx">encoding</span><span class="p">,</span> <span class="nx">allEncodings</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">).</span><span class="nx">dataSync</span><span class="p">()</span>
+  <span class="nx">encoding</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">langModel</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span>
 
-    <span class="c1">// Tensorflow requires explicit memory management to avoid memory leaks</span>
-    <span class="nx">encoding</span><span class="p">.</span><span class="nx">dispose</span><span class="p">()</span>
+  <span class="c1">// numerator of cosine similar is dot prod since vectors are normalized</span>
+  <span class="kd">const</span> <span class="nx">scores</span> <span class="o">=</span> <span class="nx">tf</span><span class="p">.</span><span class="nx">matMul</span><span class="p">(</span><span class="nx">encoding</span><span class="p">,</span> <span class="nx">allEncodings</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">).</span><span class="nx">dataSync</span><span class="p">()</span>
 
-    <span class="kd">const</span> <span class="nx">questionsScored</span> <span class="o">=</span> <span class="nx">questions</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">title</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">({</span> <span class="nx">title</span><span class="p">,</span> <span class="nx">score</span> <span class="p">}))</span>
-    <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>  <span class="o">=&gt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">score</span> <span class="o">-</span> <span class="nx">a</span><span class="p">.</span><span class="nx">score</span><span class="p">)</span>
-    <span class="kd">const</span> <span class="nx">searchResults</span> <span class="o">=</span> <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">numResults</span><span class="p">)</span>
-  <span class="p">})</span>
+  <span class="c1">// Tensorflow requires explicit memory management to avoid memory leaks</span>
+  <span class="nx">encoding</span><span class="p">.</span><span class="nx">dispose</span><span class="p">()</span>
+
+  <span class="c1">// sort by scores then return top 5 results</span>
+  <span class="kd">const</span> <span class="nx">questionsScored</span> <span class="o">=</span> <span class="nx">questions</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">question</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">({</span> <span class="nx">question</span><span class="p">,</span> <span class="nx">score</span> <span class="p">}))</span>
+  <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>  <span class="o">=&gt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">score</span> <span class="o">-</span> <span class="nx">a</span><span class="p">.</span><span class="nx">score</span><span class="p">)</span>
+  <span class="kd">const</span> <span class="nx">searchResults</span> <span class="o">=</span> <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>USE also has a QnA model for question-answering. I tried the embedding all of the database answers to see if it would help with the search. Unfortunately, I didn’t see a marked improvement, so I’ll need to play around with that a bit more.</p>
+<p>The USE also has a QnA model for question-answering. I tried the embedding all of the database answers to see if it would help with the search. Unfortunately, I didn’t see a marked improvement, so I’ll need to play around with that a bit more.</p>
 
 <h2 id="worker-for-gui-blocking">Worker for GUI Blocking</h2>
 
@@ -508,25 +538,31 @@ L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
   <li><strong>Nike Team Sports</strong> — Suite of uniform builders for basketball, baseball, football, camp series</li>
 </ul>
 
-<p><img src="/img/2022-01-01-archive/nike1.jpg" width="270" /> <img src="/img/2022-01-01-archive/nike3.jpg" width="270" /> <img src="/img/2022-01-01-archive/nike4.jpg" width="270" /></p>
+<p><img src="/img/2022-01-01-archive/nike1.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/nike3.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/nike4.jpg" width="30%" /></p>
 
 <ul>
-  <li><strong>Refractec</strong> — Eye surgery equipment tutorial for Ignite Health</li>
+  <li><strong>Refractec</strong> — Eye surgery equipment tutorial for Ignite Health, visual design + implementation</li>
 </ul>
 
-<p><img src="/img/2022-01-01-archive/refractec1.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec2.jpg" width="270" /> <img src="/img/2022-01-01-archive/refractec3.jpg" width="270" /></p>
+<p><img src="/img/2022-01-01-archive/refractec1.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/refractec2.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/refractec3.jpg" width="30%" /></p>
 
 <ul>
-  <li><strong>Ofivina 01</strong>: CD-ROM commemorating arts exhibit &amp; festival</li>
+  <li><strong>Ofivina 01</strong>: CD-ROM commemorating arts exhibit &amp; festival, visual design + implementation</li>
 </ul>
 
-<p><img src="/img/2022-01-01-archive/ofivina1.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina2.jpg" width="270" /> <img src="/img/2022-01-01-archive/ofivina4.jpg" width="270" /></p>
+<p><img src="/img/2022-01-01-archive/ofivina1.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/ofivina2.jpg" width="30%" /> 
+<img src="/img/2022-01-01-archive/ofivina4.jpg" width="30%" /></p>
 
 <h2 id="websites">Websites</h2>
 
-<p><img src="/img/2022-01-01-archive/cheng2-web.png" width="270" /> <img src="/img/2022-01-01-archive/freearts-web.png" width="270" />
-<img src="/img/2022-01-01-archive/lutzky-web.png" width="270" />
-<img src="/img/2022-01-01-archive/sawmeetsaw-web.png" width="270" /> <img src="/img/2022-01-01-archive/otto-web.png" width="270" /> <img src="/img/2022-01-01-archive/emily-web.png" width="270" /></p>
+<p><img src="/img/2022-01-01-archive/cheng2-web.png" width="30%" /> <img src="/img/2022-01-01-archive/freearts-web.png" width="30%" />
+<img src="/img/2022-01-01-archive/lutzky-web.png" width="30%" />
+<img src="/img/2022-01-01-archive/sawmeetsaw-web.png" width="30%" /> <img src="/img/2022-01-01-archive/otto-web.png" width="30%" /> <img src="/img/2022-01-01-archive/emily-web.png" width="30%" /></p>
 
 <h2 id="logos">Logos</h2>
 
@@ -534,7 +570,10 @@ L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
 
 <h2 id="print">Print</h2>
 
-<p><img src="/img/2022-01-01-archive/shh-fotos-cartridge.jpg" width="200" /> <img src="/img/2022-01-01-archive/shh-fotos-mailers.jpg" width="200" /> <img src="/img/2022-01-01-archive/zing-fotos-choco.jpg" width="200" /> <img src="/img/2022-01-01-archive/zing-fotos-spice.jpg" width="200" /></p>
+<p><img src="/img/2022-01-01-archive/shh-fotos-cartridge.jpg" width="20%" /> 
+<img src="/img/2022-01-01-archive/shh-fotos-mailers.jpg" width="20%" /> 
+<img src="/img/2022-01-01-archive/zing-fotos-choco.jpg" width="20%" /> 
+<img src="/img/2022-01-01-archive/zing-fotos-spice.jpg" width="20%" /></p>
 
 <h2 id="publications">Publications</h2>
 
