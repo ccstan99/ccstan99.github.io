@@ -28,13 +28,13 @@ The lovely people at [DataCircles](https://datacircles.org/) have provided a sup
 
 The AGI Alignment ecosystem has interesting projects I've been helping with:
 
-- **[stampy.ai](http://ui.stampy.ai)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented [in-browser semantic search](/2022/07/05/use.html) & identified [duplicate questions](/2022/06/14/sbert.html) using NLP, created web workers to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
+- **[stampy.ai](http://ui.stampy.ai)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented [in-browser semantic search](/2022/07/05/use.html) & identified [duplicate questions](/2022/06/14/sbert.html) using NLP, created Web Worker to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
 
 ## Mentoring
 
 For students interested in STEM, here's some wonderful organizations:
 
-- **[AI4ALL](/2022/07/11/ai4all.html/)** — As a mentor for summer portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning a BERT Transformer on their dataset.
+- **[AI4ALL](/2022/07/11/ai4all.html/)** — As a mentor for summer portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning BERT on their dataset.
 - **[Technovation Challenge](/2022/06/23/technovation.html)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the 2020 North America Regional Winner!
 
 ## Archaeological Dig
