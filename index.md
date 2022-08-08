@@ -28,7 +28,7 @@ The lovely people at [DataCircles](https://datacircles.org/) have provided a sup
 
 The AGI Alignment ecosystem has interesting projects I've been helping with:
 
-- **[stampy.ai](http://ui.stampy.ai)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented [in-browser semantic search](/2022/07/05/use.html) & identified [duplicate questions](/2022/06/14/sbert.html) using NLP, created Web Worker to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
+- **[stampy.ai](/2022/03/15/stampy.html)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented [in-browser semantic search](/2022/07/05/use.html) & identified [duplicate questions](/2022/06/14/sbert.html) using NLP, created Web Worker to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
 
 ## Mentoring
 
