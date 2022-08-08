@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-07T10:47:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/07/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-07T00:00:00-07:00</published><updated>2022-08-07T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/07/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/07/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-07T17:18:55-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/07/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-07T00:00:00-07:00</published><updated>2022-08-07T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/07/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/07/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
 
 <p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
 
-<p><img src="/img/posts/2022-08-11-ai4all1.png" width="100%" /></p>
+<p><img src="/img/posts/2022-08-11-ai4all1.png" width="100%" style="border:1px solid #eee" /></p>
 
 <h2 id="summer-program">Summer Program</h2>
 
@@ -25,7 +25,7 @@
 
 <p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
 
-<p>I’ve been working on a website for community generated questions and answers about AGI Safety. At the moment, the database contains several hundred questions, but the goal is to eventually grow to be thousands or more.</p>
+<p>I’ve been working on a website for <a href="https://stampy.ai/wiki/Stampy">stampy.ai</a>, the community generated questions and answers about AGI Safety. At the moment, the database contains several hundred questions, but the goal is to eventually grow to be thousands or more.</p>
 
 <p>Since we had access to OpenAI’s very powerful GPT-3, the original plan was to use its semantic search capabilities. Instead of only matching keywords, semantic search allows users to ask questions and search for already answered questions that are semantically similar or essentially mean the same thing. In order accomplish that, questions are converted in sentence embeddings or vectors which can then be compared using cosine similarity. If the vectors are already normalized, cosine similarity is calculated by a quick matrix multiplication. Due to the cost concerns and the large files associated with embedding all of our questions, we realized we’d need to limit how often we made calls to OpenAI’s API and only submit requests once the user has completed typing their question.</p>
 
@@ -146,7 +146,7 @@
 
 <p>For the last few years, I’ve served as judge advisor to help evaluate submissions following a clear set of <a href="https://technovationchallenge.org/curriculum/judging-rubric/">rubrics</a>. It’s also a chance to offer encouraging feedback to all those inspirational ideas and amazing projects coming from all corners of the world. The annual World Summit is always an exciting culmination to celebrate all the hard work and accomplishments. Check out the next <a href="https://hopin.com/events/technovation-s-world-summit/registration">Summit</a> on August 12!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Technovation]]></summary></entry><entry><title type="html">Find Duplicates with SBERT</title><link href="http://localhost:4000/2022/06/14/sbert.html" rel="alternate" type="text/html" title="Find Duplicates with SBERT" /><published>2022-06-14T00:00:00-07:00</published><updated>2022-06-14T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/14/sbert</id><content type="html" xml:base="http://localhost:4000/2022/06/14/sbert.html"><![CDATA[<h2 id="finding-duplicates">Finding Duplicates</h2>
 
-<p>A community of volunteers have been culling through questions about AGI Safety from multiple sources including YouTube video comments and a Discord server for the <a href="https://stampy.ai/wiki/Main_Page">Stampy</a> project. Questions marked as high interest are then answered and evaluated within the community. Due to the distributed origins, we realized there’s likely to be quite a number of duplicate or at least semantically very similar questions in the database. The concern is, of course, that this could be a potentially time-consuming and resource-heavy operation to compare every question in the database with every other, resulting in the dreaded O(n<sup>2</sup>).</p>
+<p>A community of volunteers have been culling through questions about AGI Safety from multiple sources including YouTube video comments and a Discord server for the <a href="https://stampy.ai/wiki/Stampy">stampy.ai</a> project. Questions marked as high interest are then answered and evaluated within the community. Due to the distributed origins, we realized there’s likely to be quite a number of duplicate or at least semantically very similar questions in the database. The concern is, of course, that this could be a potentially time-consuming and resource-heavy operation to compare every question in the database with every other, resulting in the dreaded O(n<sup>2</sup>).</p>
 
 <h2 id="sentence-bert">Sentence-BERT</h2>
 
@@ -263,7 +263,7 @@ L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
       <th style="text-align: center">year</th>
       <th style="text-align: left">model</th>
       <th style="text-align: left">description</th>
-      <th>specs</th>
+      <th style="text-align: left">specs</th>
     </tr>
   </thead>
   <tbody>
@@ -271,49 +271,49 @@ L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
       <td style="text-align: center">2013</td>
       <td style="text-align: left"><a href="https://www.tensorflow.org/tutorials/text/word2vec">word2vec</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/1301.3781">Word Representations in Vectors</a></td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: center">2014</td>
       <td style="text-align: left"><a href="https://nlp.stanford.edu/projects/glove/">GloVe</a></td>
       <td style="text-align: left"><a href="https://www.semanticscholar.org/paper/GloVe%3A-Global-Vectors-for-Word-Representation-Pennington-Socher/f37e1b62a767a307c046404ca96bc140b3e68cb5">Global Vectors</a></td>
-      <td> </td>
+      <td style="text-align: left"> </td>
     </tr>
     <tr>
       <td style="text-align: center">2018</td>
       <td style="text-align: left"><a href="https://huggingface.co/openai-gpt">GPT</a></td>
       <td style="text-align: left"><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Generative Pre-trained Transformer</a></td>
-      <td>L=12, A=12, H=768</td>
+      <td style="text-align: left">L=12, A=12, H=768</td>
     </tr>
     <tr>
       <td style="text-align: center">2019</td>
       <td style="text-align: left"><a href="https://huggingface.co/gpt2">GPT-2</a></td>
       <td style="text-align: left"><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Unsupervised Multitask Learning</a></td>
-      <td>L=48, A=48, H=1600</td>
+      <td style="text-align: left">L=48, A=48, H=1600</td>
     </tr>
     <tr>
       <td style="text-align: center">2020</td>
       <td style="text-align: left"><a href="https://beta.openai.com/docs/models/gpt-3">GPT-3</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/2005.14165">Few-Shot Learners</a></td>
-      <td>L=96, A=96, H=12288</td>
+      <td style="text-align: left">L=96, A=96, H=12288</td>
     </tr>
     <tr>
       <td style="text-align: center">2018</td>
       <td style="text-align: left"><a href="https://huggingface.co/bert-large-cased">BERT</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/1810.04805">Bidirectional Encoder Representation for Transformers</a></td>
-      <td>L=24, A=16, H=1024</td>
+      <td style="text-align: left">L=24, A=16, H=1024</td>
     </tr>
     <tr>
       <td style="text-align: center">2019</td>
       <td style="text-align: left"><a href="https://huggingface.co/roberta-large">RoBERTa</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/1907.11692">Robustly Optimized BERT</a></td>
-      <td>L=24, A=16, H=1024</td>
+      <td style="text-align: left">L=24, A=16, H=1024</td>
     </tr>
     <tr>
       <td style="text-align: center">2019</td>
       <td style="text-align: left"><a href="https://huggingface.co/t5-11b">T5</a></td>
       <td style="text-align: left"><a href="https://arxiv.org/abs/1910.10683">Transfer Learning with Text-to-Text Transformer</a></td>
-      <td>L=24, A=128, H=768</td>
+      <td style="text-align: left">L=24, A=128, H=768</td>
     </tr>
   </tbody>
 </table>
@@ -584,7 +584,48 @@ L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
       <td style="text-align: left">Reflects word importance for document in corpus</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry><entry><title type="html">Archived Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Archived Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<p>Here’s archived work from antiquity, circa early 2000s, when most interactive work was done using the now defunct Adobe Flash and ActionScript. (<a href="https://www.youtube.com/watch?v=h2rdDYZ_3bY">video demo</a>)</p>
+</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry><entry><title type="html">Stampy UI</title><link href="http://localhost:4000/2022/03/15/stampy.html" rel="alternate" type="text/html" title="Stampy UI" /><published>2022-03-15T00:00:00-07:00</published><updated>2022-03-15T00:00:00-07:00</updated><id>http://localhost:4000/2022/03/15/stampy</id><content type="html" xml:base="http://localhost:4000/2022/03/15/stampy.html"><![CDATA[<h2 id="stampy-ui">Stampy UI</h2>
+
+<p>I was recently asked to work on the Stampy project, an FAQ about AGI Safety &amp; Alignment. But what do stamps have to do with this? And what’s alignment about? I’ll let <a href="https://www.youtube.com/c/robertmilesai">Rob Miles</a> explain his vision behind <a href="https://stampy.ai/wiki/Stampy">stampy.ai</a>.</p>
+
+<p>In any case, I was thrilled to work on something related to AI. Coincidentally, I just took a detour into reading quite a bit about AGI Safety and Alignment lately. To start, I was given the <a href="https://excalidraw.com/">Excalidraw sketch</a> below with all the features and the general idea of what they wanted for their website.</p>
+
+<blockquote>
+  <p><img src="/img/posts/2022-03-15-stampy-sketch.png" width="70%" style="border:1px solid #ccc; display: block; margin: 0 auto;" /></p>
+</blockquote>
+
+<h2 id="prototype">Prototype</h2>
+
+<p>It’s been quite some time since I did any UI/UX work, so I’m rather rusty. However, I had the fundamentals &amp; intuition from years of conducting user research studies and designing interactions in my previous life. Just from casually keeping tabs on trends, I knew that Figma was now a market leader for rapid prototyping, so I first went through their <a href="https://www.youtube.com/watch?v=Cx2dkpBxst8&amp;list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4">“Getting Started with Figma”</a> playlist of tutorials, which were actually very well done. Soon, I felt comfortable enough to put together this <a href="https://www.figma.com/proto/gm06d1l5stMlnKxeElWBEc/Stampy-AI-Alignment-FAQ?node-id=116%3A415">Figma design</a>, wireframe, then prototype the basic interactions.</p>
+
+<h2 id="logo-redesign">Logo Redesign</h2>
+
+<p>The existing logo was much beloved within the community. However, I wanted to clean it up a bit, to hopefully simplify things for later marketing and animation purposes. There were a few key elements they wanted retained: the backdrop for the face is the valuable <a href="https://en.wikipedia.org/wiki/Inverted_Jenny">inverted Jenny stamp</a> and the eyes of the friendly <a href="https://en.wikipedia.org/wiki/Office_Assistant">Microsoft Clippy office assistant</a>, with a nod to the paperclip maximizing conundrum presented in Nick Bostrom’s <a href="https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies">Superintelligence</a>. The <a href="https://github.com/StampyAI/ StampyAIAssets">new logo</a> (left) is mostly a modernized rendition of the original (right) but has more geometric shapes for whimsy and softer, gentler eyes.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">redesigned logo</th>
+      <th style="text-align: center">original logo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/img/posts/2022-03-15-stampy-logo2.png" width="200" /></td>
+      <td style="text-align: center"><img src="/img/posts/2022-03-15-stampy-logo1.png" width="200" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="wrapup">Wrapup</h2>
+
+<p>Overall, I tried to keep the design clean and minimalistic, allowing users to focus on the content. To add a bit of fun, the icons switch from black &amp; white into full color on hover. The banner is decorated with colorful geometric figures which actually form a secret message. Here’s final mockup with the new logo.</p>
+
+<p><a href="https://ui.stampy.ai/"><img src="/img/posts/2022-03-15-stampy-preview.png" width="70%" style="border:1px solid #ccc; display: block; margin: 0 auto;" /></a></p>
+
+<p>Edited to add: We had a soft launch for the <a href="http://www.ui.stampy.ai">alpha version</a> in July. I also wrote about working on their <a href="http://localhost:4000/2022/07/05/use.html">semantic search</a> and identifying <a href="http://localhost:4000/2022/06/14/sbert.html">duplicate questions</a>.</p>
+
+<p>It’s been refreshing to take a little break from all the reading &amp; studying and actually building something. Learning comes in so many shapes!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Figma Prototype & Identity Design]]></summary></entry><entry><title type="html">Archived Samples</title><link href="http://localhost:4000/2022/01/01/archive.html" rel="alternate" type="text/html" title="Archived Samples" /><published>2022-01-01T00:00:00-08:00</published><updated>2022-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/01/01/archive</id><content type="html" xml:base="http://localhost:4000/2022/01/01/archive.html"><![CDATA[<p>Here’s archived work from antiquity, circa early 2000s, when most interactive work was done using the now defunct Adobe Flash and ActionScript. (<a href="https://www.youtube.com/watch?v=h2rdDYZ_3bY">video demo</a>)</p>
 
 <h2 id="interactive-projects">Interactive Projects</h2>
 
