@@ -18,6 +18,7 @@ The lovely people at [DataCircles](https://datacircles.org/) have provided a sup
 - [AI Gridworlds](/docs/JournalClub%202022-03-30%20AI%20Gridworlds.pdf)
 - [Winograd Schema Challenge](/docs/JournalClub%202022-05-25%20NLP.pdf)
 - [Sentence-BERT](/docs/JournalClub%202022-07-27%20SBERT.pdf)
+- [OpenAI's Codex](/docs/JournalClub%202022-09-14%20Codex.pdf)
 - [Classification Metrics](/docs/HOML%20Ch3.pdf)
 - [Training Models](/docs/HOML%20Ch4.pdf)
 - [Dimensionality Reduction](/docs/HOML%20Ch8.pdf)
