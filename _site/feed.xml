@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-16T22:32:17-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-11T00:00:00-07:00</published><updated>2022-08-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-01T16:16:15-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
+
+<p>Getting backing into web development for the Stampy UI and working on the semantic search have been rewarding. Since we functioned well together as a team, a number of software engineers have decided to turn full-time on AGI Safety &amp; Alignment to form the <a href="https://alignment.dev/">Alignment Ecosystem Development</a> group. I’m really excited to start on a new project with them, taking the <a href="https://github.com/moirage/alignment-research-dataset">Alignment Research Dataset</a> developed by Jan Kirchner, Logan Smith, and Jaques Thibodeau to be searchable for AI alignment researchers. In the meantime, I’ve also been attending a weekly to biweekly <a href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum">AGI Safety Fundamentals</a> reading group.</p>
+
+<p>Between the reading group and researching for the next project, I’m rapidly drowning in my random piles of handwritten notes. For now, I’ll be using various parts of this site and specificially this page to organize meandering thoughts and track progress, which will likely remain in a state of flux for some time.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2206.02841">Understanding AI Alignment Research: A Systematic Analysis</a> <a href="https://github.com/moirage/alignment-research-dataset">[GitHub]</a> (2022)</li>
+  <li><a href="https://arxiv.org/abs/2004.07180">SPECTER: Document-level Representation Learning using Citation-informed Transformers</a> <a href="https://github.com/allenai/specter">[GitHub]</a> (2020)</li>
+  <li><a href="https://arxiv.org/abs/2004.15011">TLDR: Extreme Summarization of Scientific Documents</a> (2020)</li>
+  <li><a href="https://arxiv.org/abs/1903.10676v3">SCIBERT: A Pretrained Language Model for Scientific Text</a> <a href="https://github.com/allenai/scibert">[GitHub]</a> (2019)</li>
+  <li><a href="https://arxiv.org/abs/1903.10676v3">S2ORC: The Semantic Scholar Open Research Corpus</a> <a href="https://github.com/allenai/s2orc">(GitHub)</a> (2019)</li>
+  <li><a href="https://arxiv.org/abs/1805.02262">Construction of the Literature Graph in Semantic Scholar</a> (2018)</li>
+  <li><a href="https://aclanthology.org/2020.acl-tutorials.8/">ACL2020 Tutorial: Open-Domain Question Answering</a> <a href="https://github.com/danqi/acl2020-openqa-tutorial">[GitHub]</a> (2020)</li>
+  <li><a href="https://milvus.io/">Milvus: Vector Database Built for Scalable Similarity Search</a> <a href="https://github.com/milvus-io/milvus">[GitHub]</a></li>
+  <li><a href="https://www.pinecone.io/learn/">Pinecone: Vector Database for ML Applications</a> <a href="https://github.com/pinecone-io">[GitHub]</a></li>
+</ul>
+
+<h2 id="extras">Extras</h2>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2209.10063">Generate rather than Retrieve: Large Language Models are Strong Context Generators</a></li>
+  <li><a href="https://arxiv.org/abs/2009.08553">Generation-Augmented Retrieval for Open-domain Question Answering</a></li>
+  <li><a href="https://arxiv.org/abs/2004.04906">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
+  <li><a href="https://arxiv.org/abs/1704.00051">Reading Wikipedia to Answer Open-Domain Questions</a></li>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Alignment Literature Search]]></summary></entry><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-11T00:00:00-07:00</published><updated>2022-08-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
 
 <p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
 
@@ -21,7 +48,7 @@
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically. As the kids are off in more traditional educational settings now, it’s been a natural transition for me to return to my work in the technology sector and also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="http://localhost:4000/2022/06/23/technovation.html">Technovations</a>.</p>
+<p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically. As the kids are off in more traditional educational settings now, it’s been a natural transition for me to return to my work in the technology sector and also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="/2022/06/23/technovation.html">Technovations</a>.</p>
 
 <p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
 

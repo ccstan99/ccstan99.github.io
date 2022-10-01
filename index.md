@@ -33,9 +33,9 @@ The AGI Alignment ecosystem has interesting projects I've been helping with:
 
 ## Mentoring
 
-For students interested in STEM, here's some wonderful organizations:
+For those interested in exploring STEM, here's some wonderful organizations:
 
-- **[AI4ALL](/2022/08/11/ai4all.html)** — As a mentor for summer portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning BERT on their dataset.
+- **[AI4ALL](/2022/08/11/ai4all.html)** — As a mentor for portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning BERT on their dataset.
 - **[Technovation Challenge](/2022/06/23/technovation.html)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the 2020 North America Regional Winner!
 
 ## Archaeological Dig
