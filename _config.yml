@@ -10,11 +10,11 @@ github_username:    ccstan99
 linkedin_username:  cheng2-tan
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-3YWP38XYVC # out your google-analytics code
+google_analytics:   G-D2PE2V9SD7 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
-paginate:           5
+paginate:           20
 paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
