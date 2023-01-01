@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-02T18:28:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-31T16:30:01-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Optimal Behavior Prior</title><link href="http://localhost:4000/2022/11/30/obp-poster.html" rel="alternate" type="text/html" title="Optimal Behavior Prior" /><published>2022-11-30T00:00:00-08:00</published><updated>2022-11-30T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/30/obp-poster</id><content type="html" xml:base="http://localhost:4000/2022/11/30/obp-poster.html"><![CDATA[<h2 id="effective-use-of-human-data">Effective Use of Human Data</h2>
+<p>Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cleaning up afterwards? On the road to creating collaborative AI agents that can better understand and assist humans, <a href="https://arxiv.org/abs/2211.01602">Optimal Behavior Prior</a> presents an efficient way to use data collected from humans using the <a href="https://github.com/HumanCompatibleAI/overcooked_ai">Overcooked-AI</a> benchmark environment.</p>
+
+<h2 id="figure-rework">Figure Rework</h2>
+<p>Through <a href="http://www.AlignmentFund.org">FAR (Fund for Alignment Research)</a>, I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.</p>
+
+<p><img src="/img/posts/2022-11-30-obp-1a.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<p><img src="/img/posts/2022-11-30-obp-algorithm.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<p>While the original figure was already well-done, we explored other ways to strengthen the ideas by:</p>
+
+<ul>
+  <li>Stacking the environments to show a given environment with agents in greater detail.</li>
+  <li>Combining the policy, agent, and neural network model images together into a single image emphasized the color &amp; labels more clearly.</li>
+  <li>Simplifying the human-data image.</li>
+  <li>Adding a narrative storyline with bold keywords to highlight the discrete steps.</li>
+  <li>Incorporating subtext from the algorithm underneath keywords added to the explanation.</li>
+</ul>
+
+<p><img src="/img/posts/2022-11-30-obp-1b.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<h2 id="poster-design">Poster Design</h2>
+<p>After some additional back &amp; forth to finalize text description and LaTex labels, the newly redesigned figure and other key elements from the paper were extracted to create the resulting poster. Normally, I use Adobe Illustrator or InDesign for layout projects. However, in this case, figures were formatted in Figma then printed on a 2’x3’ poster.</p>
+
+<p><img src="/img/posts/2022-11-30-obp-poster.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<p>Check out the full paper, <a href="https://arxiv.org/abs/2211.01602">“Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration”</a> presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Effective Use of Human Data Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cleaning up afterwards? On the road to creating collaborative AI agents that can better understand and assist humans, Optimal Behavior Prior presents an efficient way to use data collected from humans using the Overcooked-AI benchmark environment.]]></summary></entry><entry><title type="html">Minimalist Logo</title><link href="http://localhost:4000/2022/11/20/stampy-min-logo.html" rel="alternate" type="text/html" title="Minimalist Logo" /><published>2022-11-20T00:00:00-08:00</published><updated>2022-11-20T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/20/stampy-min-logo</id><content type="html" xml:base="http://localhost:4000/2022/11/20/stampy-min-logo.html"><![CDATA[<h2 id="fun-vs-minimal">Fun vs Minimal</h2>
+<p>While some people loved the new Stampy logo, others felt it was a bit too “cutesy” and inappropriate to represent a serious topic as AGI safety and existential risk to humanity. So, an alternate website was launched with the same informational text content as stampy.ai but without the imagery. Between the various sites, the analytics indicated a healthy average of a few thousand visitors each week. We began exploring a more minimalistic logo for these alternate sites.</p>
+
+<h2 id="generated-alignment">Generated Alignment</h2>
+<p>With the idea of “alignment” and “seriousness” in mind, we first used namecheap’s <a href="https://www.namecheap.com/logo-maker/app/">Logo Maker</a> to generate some basic ideas. After answering a few questions on our preferences for font and logo styles &amp; colors, we gravitated towards indigo-bluish colors, some gradients, and parallel lines to indicate alignment.
+<img src="/img/posts/2022-11-20-stampy-min-ideas1.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+
+<h2 id="puzzling-challenges">Puzzling Challenges</h2>
+<p>For the next iteration, we brought in some additional ideas of mazes or puzzles, hinting at the idea of solving challenging problems. Someone suggested using concentric circles or colors from branding within the <a href="https://www.centreforeffectivealtruism.org/">Effective Altruism</a> movement.</p>
+
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas2.jpg" width="50%" style="display: block; margin: 0 auto;" /></p>
+
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas3.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+
+<h2 id="easter-eggs">Easter Eggs</h2>
+<p>In our final rounds, we experimented with some Easter eggs, incorporating aspects of the original Stampy colors including elements of a face and stamp.</p>
+
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas4.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+
+<p>Finally, introducing our new alternate, minimalistic, sorta-serious logo… It’s a puzzle. It’s a maze. It’s a stamp. It’s face. It’s anything it wants to be! Do you see all the possibilities?</p>
+
+<p><img src="/img/posts/2022-11-20-stampy-min-logo.svg" width="30%" style="display: block; margin: 0 auto;" /></p>
+
+<p>Take a look at <a href="http://alignment.wiki">alignment.wiki</a> and <a href="https://aisafety.info/">aisafety.info</a> with the new, minimalistic design.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Fun vs Minimal While some people loved the new Stampy logo, others felt it was a bit too “cutesy” and inappropriate to represent a serious topic as AGI safety and existential risk to humanity. So, an alternate website was launched with the same informational text content as stampy.ai but without the imagery. Between the various sites, the analytics indicated a healthy average of a few thousand visitors each week. We began exploring a more minimalistic logo for these alternate sites.]]></summary></entry><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
 
 <p>The field of AI Safety &amp; Alignment is a new and very fluid field of study. There’s been an influx of recent research which makes it a daunting task for those interested in entering the field to get a good overview of the landscape and directions.</p>
 
@@ -15,18 +65,25 @@
   <li><a href="https://arxiv.org/abs/1903.10676v3">SCIBERT: A Pretrained Language Model for Scientific Text</a> <a href="https://github.com/allenai/scibert">[GitHub]</a> (2019)</li>
   <li><a href="https://arxiv.org/abs/1903.10676v3">S2ORC: The Semantic Scholar Open Research Corpus</a> <a href="https://github.com/allenai/s2orc">(GitHub)</a> (2019)</li>
   <li><a href="https://arxiv.org/abs/1805.02262">Construction of the Literature Graph in Semantic Scholar</a> (2018)</li>
-  <li><a href="https://aclanthology.org/2020.acl-tutorials.8/">ACL2020 Tutorial: Open-Domain Question Answering</a> <a href="https://github.com/danqi/acl2020-openqa-tutorial">[GitHub]</a> (2020)</li>
-  <li><a href="https://milvus.io/">Milvus: Vector Database Built for Scalable Similarity Search</a> <a href="https://github.com/milvus-io/milvus">[GitHub]</a></li>
-  <li><a href="https://www.pinecone.io/learn/">Pinecone: Vector Database for ML Applications</a> <a href="https://github.com/pinecone-io">[GitHub]</a></li>
 </ul>
 
 <h2 id="open-domain-qa">Open Domain Q&amp;A</h2>
 
 <ul>
+  <li><a href="https://aclanthology.org/2020.acl-tutorials.8/">ACL2020 Tutorial: Open-Domain Question Answering</a> <a href="https://github.com/danqi/acl2020-openqa-tutorial">[GitHub]</a> (2020)</li>
   <li><a href="https://arxiv.org/abs/2209.10063">Generate rather than Retrieve: Large Language Models are Strong Context Generators</a></li>
   <li><a href="https://arxiv.org/abs/2009.08553">Generation-Augmented Retrieval for Open-domain Question Answering</a></li>
   <li><a href="https://arxiv.org/abs/2004.04906">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
   <li><a href="https://arxiv.org/abs/1704.00051">Reading Wikipedia to Answer Open-Domain Questions</a></li>
+</ul>
+
+<h2 id="vector-databases-and-building-ml-apps">Vector Databases and Building ML Apps</h2>
+
+<ul>
+  <li><a href="https://milvus.io/">milvus</a> <a href="https://github.com/milvus-io/bootcamp">[GitHub]</a></li>
+  <li><a href="https://www.pinecone.io/learn/">pinecone</a> <a href="https://github.com/pinecone-io">[GitHub]</a></li>
+  <li><a href="https://www.gradio.app/getting_started/">gradio</a> <a href="https://github.com/gradio-app">[GitHub]</a></li>
+  <li><a href="https://docs.streamlit.io/library/get-started">streamlit</a> <a href="https://github.com/streamlit">[GitHub]</a></li>
 </ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Alignment Literature Search]]></summary></entry><entry><title type="html">AI4ALL</title><link href="http://localhost:4000/2022/08/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL" /><published>2022-08-11T00:00:00-07:00</published><updated>2022-08-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
 
 <p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
