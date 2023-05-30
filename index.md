@@ -29,13 +29,13 @@ The lovely people at [DataCircles](https://datacircles.org/) have provided a sup
 
 The AGI Alignment ecosystem has interesting projects I've been helping with:
 
-- **[stampy.ai](/2022/03/15/stampy.html)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI) and part of [Alignment Ecosystem Development](https://alignment.dev/). I worked on the front-end UI/UX, [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some [light coding](https://github.com/StampyAI/stampy-ui): implemented [in-browser semantic search](/2022/07/05/use.html) & identified [duplicate questions](/2022/06/14/sbert.html) using NLP, created Web Worker to avoid GUI blocking issues, and used GitHub Actions to automate embeddings generation & website deployment.
+- **[stampy.ai](/2022/03/15/stampy.html)** — AGI Safety & Alignment FAQ headed by [Rob Miles](https://www.youtube.com/c/RobertMilesAI) and part of [Alignment Ecosystem Development](https://alignment.dev/). I worked on the [logo redesign](https://github.com/StampyAI/StampyAIAssets), and did some light coding with the [website](http://aisafety.info) implementing [browser-based semantic search](/2022/07/05/use.html) and am helping with project management for the AI alignment [Q&A conversational chatbot](http://chat.stampy.ai).
 
 ## Mentoring
 
-For those interested in exploring STEM, here's some wonderful organizations:
+For those interested in exploring STEM, here's some excellent organizations:
 
-- **[AI4ALL](/2022/08/11/ai4all.html)** — As a mentor for portfolio projects, I created some quick [overview videos](https://www.youtube.com/watch?v=Q3N7zoIcjtw&list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&index=1) and a [tutorial notebook](https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb) so students could perform NLP classification by fine-tuning BERT on their dataset.
+- **[AI4ALL](/2022/08/11/ai4all.html)** — As a mentor for portfolio projects, I created some tutorials to guide students to perform NLP classification by fine-tuning BERT on their dataset and also develop LLMs apps with LangChain.
 - **[Technovation Challenge](/2022/06/23/technovation.html)** — Last few years, I've served as judge advisor, but I began by mentoring a team to create a mobile app social good. The [Rooting for You](https://sites.google.com/view/code-work-ahead/) app was the 2020 North America Regional Winner!
 - **[Effective Altruism](https://www.effectivealtruism.org/)** - If you're early in your career or considering a transition with hopes to make a positive impact in the world, look into the [EA forum](https://forum.effectivealtruism.org/handbook) or [80,000 Hours](https://80000hours.org/) to learn about promising career paths.
 

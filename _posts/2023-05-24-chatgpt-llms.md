@@ -47,13 +47,13 @@ GPT was created by OpenAI. The original, GPT-1, was introduced in 2018, jumping 
 
 Then along came ChatGPT. Frankly, many working in the field were baffled, "Why is this going viral now? It's just GPT-3.5, with minor tweaks to the base model released three years ago!"
 
-The secret sauce was reinforcement learning from human feedback. Remember, GPT was trained to predict the next word given the start of a sentence. That's great for learning the language, but really, that's not as helpful for the typical end user. When you talk to people, you don't begin a sentence and then expect them to complete it. Instead, you're gonna tell them to do something or maybe ask a question.
+The secret sauce was reinforcement learning from human feedback. Remember, GPT was trained to predict the next word given the start of a sentence. That's great for learning the language, but really, that's not as helpful for the typical end user. When you talk to people, you rarely begin a sentence and then expect them to complete it. Instead, you're more likely to tell them to do something or maybe ask a question.
 
-So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what's expected. If you see, "Prepare a report," the output should look like this report. For "Give me a summary," the output should look like this summary.
+So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what's expected. If you see "Prepare a report," the output should indicate what a report looks like. For "Give me a summary," the output should indicate what a summary looks like.
 
 <img src="/img/posts/2023-05-24-llms-instruct.jpg" width="80%" style="display: block; margin: 0 auto;" />
 
-Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it super helpful and eerily "human."
+Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily "human."
 
 ## On the Horizon
 
@@ -66,7 +66,7 @@ Open-Source
 : Just a few weeks ago, Meta released an open-sourced large language model that can run on personal computers. That led to a flurry of activity. Researchers are now creating much smaller and cheaper models that are still powerful.
 
 Agents
-: Language models can generate text for a plan. Now, they can also call agents, which are programs to execute that plan. "Plan a trip to Tokyo." It goes to compare prices, book flights, find lodging. You just show up and enjoy. But if AI automatically connects to agents that can change things in the real world with consequences, you gotta stop and think, "What could possibly go wrong?!"
+: Language models can generate text for a plan. Now, they can also call agents, which are programs to execute that plan. "Plan a trip to Tokyo." It goes to compare prices, book flights, find lodging. You just show up and enjoy. But if AI automatically connects to agents that can change things in the real world with consequences, we must stop and think, "What could possibly go wrong?!"
 
 ## Hype or Reality?
 
@@ -76,7 +76,7 @@ Personally, I use large language models every day. They're great for mundane tas
 
 You must understand the limitations. Hallucinations are a big problem. That's a technical term when the output is just flat out wrong but sounds really convincing and confident. A dangerous combination. Essentially, AI is a master B.S.er, but plenty of humans are too. It's just regurgitating what's learned from its training data, which includes lots of toxic and biased stuff too. So what's the key takeaway?
 
-## Embrace Responsibly
+## Conclusion
 
 We're standing at the dawn of this new era shaped by AI. In order to survive, you'll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we're blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it's far from perfect or even safe. As the saying goes, "Trust but verify." We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.
 
