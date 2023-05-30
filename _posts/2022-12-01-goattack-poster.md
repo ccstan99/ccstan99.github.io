@@ -15,7 +15,7 @@ What's even more surprising is that the adversaries did not win by playing Go be
 
 ## Reworked Figures
 
-To better communicate the research findings, I reworked images from previous presentations and figures, particularly focusing on clarifying the **threat model** and the concept of **non-transitivity** with the unexpected result: If play were transitive, Human players would not beat Adversary! Other visual cues such as changing the clothing color and adjusting the direction of the cap helped avoid the characters resemblence to a cop and thug. Finally, I incorporated images generated from different Go board configurations to showcase various strategies we employed during testing.
+To better communicate the research findings, I reworked images from previous presentations and figures, particularly focusing on clarifying the **threat model** and the concept of **non-transitivity** with the unexpected result: If play were transitive, Human players would not beat Adversary! Finally, I incorporated images generated from different Go board configurations to showcase various strategies we employed during testing.
 
 | after | before |
 | :---: | :----: |
@@ -30,4 +30,4 @@ The various figures were crafted into narrative summaring the research journey, 
 
 ## Conclusion
 
-It was an honor to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
+It was an honor to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Special thansks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
