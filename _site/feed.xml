@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-29T19:07:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-29T19:30:38-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
 
@@ -73,7 +73,29 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-embrace.png" width="80%" style="display: block; margin: 0 auto;" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
+<p><img src="/img/posts/2023-05-24-llms-embrace.png" width="80%" style="display: block; margin: 0 auto;" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/io.html"><![CDATA[<p>I had a memorable experience at <a href="https://io.google/2023/">Google I/O 2023</a>!</p>
+
+<h2 id="pre-reception-in-santa-clara">Pre-Reception in Santa Clara</h2>
+
+<p>The event kicked off with the Women Techmakers Ambassadors at the pre-reception on Tuesday evening. It was such an exciting moment to finally meet and connect with Creatives in Tech in person. We were buzzing with anticipation, eager to learn from each other and soak up all the knowledge and inspiration that awaited us.</p>
+
+<p><img src="/img/posts/2023-05-10-io-reception.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<h2 id="keynote-at-shoreline">Keynote at Shoreline</h2>
+
+<p>One of the highlights of the event was undoubtedly the I/O keynote addresses. It was wonderful to witness Google’s announcements firsthand and watch the impressive AI/ML demos. The entire event was incredibly well-organized, right from the convenient shuttle services to the delicious breakfast and lunch options. And to our surprise, we were even provided with caps, sweatshirts, sunscreen, rain ponchos, and hand warmers - they truly had us covered for any unexpected weather or situation.</p>
+
+<p><img src="/img/posts/2023-05-10-io-keynote.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<h2 id="breakouts-at-bay-view">Breakouts at Bay View</h2>
+
+<p>After the keynote, we had the chance to attend breakout sessions at Google’s new Bayview campus. It was an opportunity to delve deeper into topics like women in leadership and AI/ML. The sessions were informative, engaging, and filled with valuable insights. We couldn’t resist exploring the beautiful campus and taking advantage of the bike trails. It was a refreshing way to unwind and enjoy the surroundings.</p>
+
+<p><img src="/img/posts/2023-05-10-io-bayview.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+
+<p>I had such a fantastic time at Google I/O 2023 and highly recommend attending the event in the future. The atmosphere was fun-filled, the knowledge-sharing was inspiring, and the connections made were invaluable. Can’t wait for next time!</p>
+
+<p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I had a memorable experience at Google I/O 2023!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
 
 <p><img src="/img/posts/2023-03-22-iwd-promo.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
 
@@ -453,338 +475,4 @@
   <li><a href="https://arxiv.org/abs/1810.04805">BERT: Bidirectional Encoder Representation for Transformers</a> (2018)</li>
   <li><a href="https://arxiv.org/abs/1907.11692">RoBERTa: Robustly Optimized BERT</a> (2019)</li>
   <li><a href="https://arxiv.org/abs/1708.00055v1">STS-b: Semantic Textual Similarity Benchmark</a> (2017)</li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Finding Duplicates]]></summary></entry><entry><title type="html">Natural Language Processing Notes</title><link href="http://localhost:4000/2022/05/09/nlp-notes.html" rel="alternate" type="text/html" title="Natural Language Processing Notes" /><published>2022-05-09T00:00:00-07:00</published><updated>2022-05-09T00:00:00-07:00</updated><id>http://localhost:4000/2022/05/09/nlp-notes</id><content type="html" xml:base="http://localhost:4000/2022/05/09/nlp-notes.html"><![CDATA[<p>I just completed the <a href="https://www.coursera.org/specializations/natural-language-processing">DeepLearning.ai’s NLP specialization</a> on Coursera, went through the <a href="http://web.stanford.edu/class/cs224n/">Stanford CS224n course in NLP</a> and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.</p>
-
-<h2 id="language-models">Language Models</h2>
-
-<p>Transformer specs indicate maximum values for:
-L = # layers/blocks, A = # attention heads, D = # dimensions, P = # params.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">year</th>
-      <th style="text-align: left">model</th>
-      <th style="text-align: left">description</th>
-      <th style="text-align: left">specs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">2013</td>
-      <td style="text-align: left"><a href="https://www.tensorflow.org/tutorials/text/word2vec">word2vec</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1301.3781">Word Representations in Vectors</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2014</td>
-      <td style="text-align: left"><a href="https://nlp.stanford.edu/projects/glove/">GloVe</a></td>
-      <td style="text-align: left"><a href="https://www.semanticscholar.org/paper/GloVe%3A-Global-Vectors-for-Word-Representation-Pennington-Socher/f37e1b62a767a307c046404ca96bc140b3e68cb5">Global Vectors</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2018</td>
-      <td style="text-align: left"><a href="https://huggingface.co/openai-gpt">GPT</a></td>
-      <td style="text-align: left"><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Generative Pre-trained Transformer</a></td>
-      <td style="text-align: left">L=12, A=12, H=768</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2019</td>
-      <td style="text-align: left"><a href="https://huggingface.co/gpt2">GPT-2</a></td>
-      <td style="text-align: left"><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Unsupervised Multitask Learning</a></td>
-      <td style="text-align: left">L=48, A=48, H=1600</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2020</td>
-      <td style="text-align: left"><a href="https://beta.openai.com/docs/models/gpt-3">GPT-3</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/2005.14165">Few-Shot Learners</a></td>
-      <td style="text-align: left">L=96, A=96, H=12288</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2018</td>
-      <td style="text-align: left"><a href="https://huggingface.co/bert-large-cased">BERT</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1810.04805">Bidirectional Encoder Representation for Transformers</a></td>
-      <td style="text-align: left">L=24, A=16, H=1024</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2019</td>
-      <td style="text-align: left"><a href="https://huggingface.co/roberta-large">RoBERTa</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1907.11692">Robustly Optimized BERT</a></td>
-      <td style="text-align: left">L=24, A=16, H=1024</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">2019</td>
-      <td style="text-align: left"><a href="https://huggingface.co/t5-11b">T5</a></td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1910.10683">Transfer Learning with Text-to-Text Transformer</a></td>
-      <td style="text-align: left">L=24, A=128, H=768</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="datasets">Datasets</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">dataset</th>
-      <th style="text-align: left">full name</th>
-      <th style="text-align: left">notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left"><a href="https://gluebenchmark.com/"><strong>GLUE</strong></a></td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue">General Language Understanding Evaluation</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CoLA</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/cola/train">Corpus of Linguistic Acceptability</a></td>
-      <td style="text-align: left">Sentence grammatically correct?</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">SST</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/sst2/train">Stanford Sentiment Treebank</a></td>
-      <td style="text-align: left">Movie review sentiment analysis</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MRPC</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/mrpc/train">Microsoft Research Paraphrase Corpus</a></td>
-      <td style="text-align: left">Sentences semantically equivalent?</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">QQP</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/qqp/train">Quora Question Pairs</a></td>
-      <td style="text-align: left">Sentences semantically equivalent?</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">STS-b</td>
-      <td style="text-align: left"><a href="https://arxiv.org/abs/1708.00055v1">Semantic Textual Similarity Benchmark</a></td>
-      <td style="text-align: left">Sentences semantically equivalent?</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">QNLI</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/qnli/train">Question-answering NLI</a></td>
-      <td style="text-align: left">Sentence contains answer to question?</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">RTE</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/rte/train">Recognizing Textual Entailment</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WNLI</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/glue/viewer/wnli/train">Winograd NLI</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MNLI</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/SetFit/mnli">Multi-Genre NLI Corpus</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"><a href="https://super.gluebenchmark.com/"><strong>SuperGLUE</strong></a></td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/super_glue">Stickier Benchmark for NLU</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BoolQ</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/boolq">Boolean Questions</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CB</td>
-      <td style="text-align: left">CommitmentBank</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CoPA</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/pietrolesci/copa_nli">Choice of Plausible Alternatives</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WSD</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/task/word-sense-disambiguation">Word Sense Disambiguation</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WiC</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/wic">Word in Context</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MultiRC</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/multirc">Multi-Sentence Reading Comprehension</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ReCoRD</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/record">Reading Comprehension with Commonsense Reasoning Dataset</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">FraCaS</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/pietrolesci/fracas">Framework for Computational Semantics</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">SQuAD</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/squad">Stanford Question Answering Dataset</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">RACE</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/race">ReAding Comprehension from Examinations</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">LAMBADA</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/lambada">LAnguage Modeling Broadened to Account for Discourse Aspects</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CBT</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/cbt">Children’s Book Test</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CoQA</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/coqa">Conversation Question Answering</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">SWAG</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/swag">Situations with Adversarial Generation</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">C4</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/c4">Colossal Clean Crawled Corpus</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/bookcorpus">BookCorpus</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/wikitext">WikiText</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/openwebtext">WebText</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">PTB</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/dataset/penn-treebank">Penn Treebank</a></td>
-      <td style="text-align: left">Parts-of-speech tags</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WSC</td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/winograd_wsc">Winograd Schema Challenge</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left"> </td>
-      <td style="text-align: left"><a href="https://huggingface.co/datasets/winogrande">WinoGrande</a></td>
-      <td style="text-align: left">Crowd-sourced WSC</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="acronyms">Acronyms</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">term</th>
-      <th style="text-align: left">expanded</th>
-      <th style="text-align: left">notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">NLP</td>
-      <td style="text-align: left">Natural Language Processing</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">NLU</td>
-      <td style="text-align: left">Natural Language Understanding</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">NLI</td>
-      <td style="text-align: left">Natural Language Inference</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">DPR</td>
-      <td style="text-align: left">Definite Pronoun Resolution</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">AFS</td>
-      <td style="text-align: left">Argument Facet Similarity</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BiDAF</td>
-      <td style="text-align: left">Bidirection Attention Flow</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">CoVe</td>
-      <td style="text-align: left">Contextualized Word Vectors</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">HSIC</td>
-      <td style="text-align: left">Hilbert-Schmidt Independence Criterion</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">PMI</td>
-      <td style="text-align: left">Pointwise Mutual Information</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">UDA</td>
-      <td style="text-align: left">Unsupervised Data Augmentation</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">RL2</td>
-      <td style="text-align: left">Reinforcement Learning Fast &amp; Slow</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">MAML</td>
-      <td style="text-align: left">Model-Agnostic Meta-Learning</td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">WMT</td>
-      <td style="text-align: left"><a href="https://aclanthology.org/venues/wmt/">Workshop in Machine Translation</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">SemEval</td>
-      <td style="text-align: left"><a href="https://semeval.github.io/">Workshop on Semantic Evaluatio</a></td>
-      <td style="text-align: left"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: left">BPE</td>
-      <td style="text-align: left"><a href="https://paperswithcode.com/method/bpe">Byte-Pair Encoding</a></td>
-      <td style="text-align: left">Used to tokenize &amp; build vocabulary lists</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">TF-IDF</td>
-      <td style="text-align: left">Term Frequency–Inverse Document Frequency</td>
-      <td style="text-align: left">Reflects word importance for document in corpus</td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I just completed the DeepLearning.ai’s NLP specialization on Coursera, went through the Stanford CS224n course in NLP and read a bunch of journal articles. Sorting through the alphabet soup was an undertaking in itself. Since I kept referring to my notes to compare features between the different language models and looking up benchmark datasets &amp; sources, I figured I’d pop the charts in here in case they’re helpful to others.]]></summary></entry></feed>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Finding Duplicates]]></summary></entry></feed>
