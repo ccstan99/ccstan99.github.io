@@ -5,7 +5,7 @@ subtitle: "Adversarial Policies Beat Superhuman Go AIs"
 background: '/img/posts/2022-12-01-goattack.jpg'
 ---
 
-I am thrilled to share my recent experience helping FAR.AI creating the NeurIPS poster the paper ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)
+I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)
 
 ## Research Overview
 
@@ -15,7 +15,7 @@ What's even more surprising is that the adversaries did not win by playing Go be
 
 ## Reworked Figures
 
-To better communicate the research findings, I reworked images from previous presentations and figures, particularly focusing on clarifying the **threat model** and the concept of **non-transitivity** where even amateurs players could beat a super-human adversary. Unexpected Result: If play were transitive, Human players would not beat Adversary! I added other visual cues by changing the clothing color and adjusting the direction of the cap, in response to a comment that characters looked like a cop and thug. Furthermore, I incorporated images generated from different Go board configurations to showcase various strategies we employed during testing.
+To better communicate the research findings, I reworked images from previous presentations and figures, particularly focusing on clarifying the **threat model** and the concept of **non-transitivity** with the unexpected result: If play were transitive, Human players would not beat Adversary! Other visual cues such as changing the clothing color and adjusting the direction of the cap helped avoid the characters resemblence to a cop and thug. Finally, I incorporated images generated from different Go board configurations to showcase various strategies we employed during testing.
 
 | after | before |
 | :---: | :----: |
@@ -24,10 +24,10 @@ To better communicate the research findings, I reworked images from previous pre
 
 ## NeurIPS Poster
 
-The figures were crafted into narrative that summarized the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
+The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
 
 <img src="/img/posts/2022-12-01-goattack.png" width="100%" style="border:1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Conclusion
 
-Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop! It was an honor to make a small contribution to the field of AI safety. Learn more about the project from the resources by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack).
+It was an honor to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
