@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-30T01:17:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<h2 id="introduction">Introduction</h2>
-
-<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-30T18:25:37-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
 
 <h2 id="background-in-natural-language-processing-nlp">Background in Natural Language Processing (NLP)</h2>
 
 <p>Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create “expert” systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-stats.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-24-llms-stats.png" width="100%" /></p>
 
 <p>Towards the late 90s, statistical methods were used. There’s a famous quote, “You shall know a word by the company it keeps.” That simple idea was profound. If you start counting words and looking at what other words tend to occur with it, you’ll end up learning a lot about the language itself. All those relationships make up the language model. Think back to when you were first learning your native language. As a child, you were immersed with sounds, words, and sentences of your language. Now, you have intuition of what sounds right or what’s off, even if you don’t know why. You’ve internalized all the statistics for your own language model.</p>
 
@@ -16,7 +14,7 @@
 
 <p>Before that, language models were painfully slow and forgetful. Imagine a sweet old granny struggling to understand words one by one and getting confused by long sentences. So, if you had tried to make models bigger, trained on more data, it didn’t matter.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-superhero.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-24-llms-superhero.png" width="100%" /></p>
 
 <p>Things didn’t really improve much until Transformers came along with attention superpowers. Now, models could look at everything, all at once. Long-term memory? No problem. Now, we can train on all of Wikipedia and piles and piles of books. The models kept learning and improving. Turns out, neural networks are extremely data hungry. They need tons of it to learn. So people went out and scraped everything they could find on the web: blogs, tweets, code, whatever was out there.</p>
 
@@ -30,7 +28,7 @@
 
 <p>They are trained for next word prediction. It’s like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it’s wrong, let’s update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with “Twinkle Twinkle Little…” the next word is most likely “Star.” Maybe feels like a sophisticated auto-complete. Think about when you’re talking with someone and you “complete each other’s sentences.” It’s often a sign of deep mutual understanding. Imagine a computer doing the same.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-training.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-24-llms-training.jpg" width="100%" /></p>
 
 <p>When it comes to P in Pre-training we need to look to the past. A variety of different models would be trained as specialists: one for answering questions, another for classifying things, or for translation. But GPT is a generalist, pre-trained to understand human languages in general, which can be quickly fine-tuned on top of the pre-trained base.</p>
 
@@ -44,7 +42,7 @@
 
 <p>So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what’s expected. If you see “Prepare a report,” the output should indicate what a report looks like. For “Give me a summary,” the output should indicate what a summary looks like.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-instruct.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-24-llms-instruct.jpg" width="100%" /></p>
 
 <p>Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily “human.”</p>
 
@@ -73,31 +71,31 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-embrace.png" width="80%" style="display: block; margin: 0 auto;" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/io.html"><![CDATA[<p>I had a memorable experience at <a href="https://io.google/2023/">Google I/O 2023</a>!</p>
+<p><img src="/img/posts/2023-05-24-llms-embrace.png" width="100%" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
 
 <h2 id="pre-reception-in-santa-clara">Pre-Reception in Santa Clara</h2>
 
 <p>The event kicked off with the Women Techmakers Ambassadors at the pre-reception on Tuesday evening. It was such an exciting moment to finally meet and connect with Creatives in Tech in person. We were buzzing with anticipation, eager to learn from each other and soak up all the knowledge and inspiration that awaited us.</p>
 
-<p><img src="/img/posts/2023-05-10-io-reception.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-10-io-reception.jpg" width="100%" /></p>
 
 <h2 id="keynote-at-shoreline">Keynote at Shoreline</h2>
 
 <p>One of the highlights of the event was undoubtedly the I/O keynote addresses. It was wonderful to witness Google’s announcements firsthand and watch the impressive AI/ML demos. The entire event was incredibly well-organized, right from the convenient shuttle services to the delicious breakfast and lunch options. And to our surprise, we were even provided with caps, sweatshirts, sunscreen, rain ponchos, and hand warmers - they truly had us covered for any unexpected weather or situation.</p>
 
-<p><img src="/img/posts/2023-05-10-io-keynote.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-10-io-keynote.jpg" width="100%" /></p>
 
 <h2 id="breakouts-at-bay-view">Breakouts at Bay View</h2>
 
 <p>After the keynote, we had the chance to attend breakout sessions at Google’s new Bayview campus. It was an opportunity to delve deeper into topics like women in leadership and AI/ML. The sessions were informative, engaging, and filled with valuable insights. We couldn’t resist exploring the beautiful campus and taking advantage of the bike trails. It was a refreshing way to unwind and enjoy the surroundings.</p>
 
-<p><img src="/img/posts/2023-05-10-io-bayview.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-05-10-io-bayview.jpg" width="100%" /></p>
 
 <p>I had such a fantastic time at Google I/O 2023 and highly recommend attending the event in the future. The atmosphere was fun-filled, the knowledge-sharing was inspiring, and the connections made were invaluable. Can’t wait for next time!</p>
 
-<p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I had a memorable experience at Google I/O 2023!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
+<p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Google I/O 2023 proved to be a memorable experience in so many ways!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-promo.jpg" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-03-22-iwd-promo.jpg" width="100%" /></p>
 
 <h2 id="our-event">Our Event</h2>
 
@@ -131,13 +129,27 @@
 
 <p>It was an immense honor to befriend so many smart and talented Women Techmaker Ambassadors. Our team of 12 volunteers and 9 speakers worked together to create a comprehensive plan that included a general run of show and weekly meetings starting in mid-January. Kaylyn spearheaded the event, guided us withe her vision, and provided extensive planning documents to keep everything on track. Michelle, our wonderful head of marketing, put together a social media toolkit and recruited backend volunteers. I offered input from the early stages and became more active as an organizer towards the end of February, taking time off work to ensure that everything went smoothly. All the volunteers and speakers actively contributed ideas and ultimately formed a sisterly bond.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-photobooth.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2023-03-22-iwd-photobooth.png" width="100%" /></p>
 
 <h2 id="join-our-community">Join Our Community</h2>
 
 <p>Overall, it was an incredibly experience and we hope to continue building our community of talented women in tech. If you’re interested in joining us or attending future events, be sure to follow us on <a href="https://www.linkedin.com/company/creatives-in-tech/">LinkedIn</a> and keep an eye out for our next event announcement. We hope to see you there! ⚡️</p>
 
-<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
+<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">Women Techmakers Ambassador</title><link href="http://localhost:4000/2022/12/07/wtm-ambassador.html" rel="alternate" type="text/html" title="Women Techmakers Ambassador" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/07/wtm-ambassador</id><content type="html" xml:base="http://localhost:4000/2022/12/07/wtm-ambassador.html"><![CDATA[<p>I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.</p>
+
+<p><img src="/img/posts/2022-12-07-wtm-ambassador.gif" width="100%" /></p>
+
+<p>After working in tech for many years now, I’ve gotten to the “sea of dudes”. Until recently, I’d never been involved with any movements geared towards women in tech. I’ve worked with great guys but I’ve realized that working with other women in tech has such a refreshingly nurturing vibe. Now, I’m wondering: Why didn’t I start sooner?!</p>
+
+<h2 id="notification--onboarding">Notification &amp; Onboarding</h2>
+
+<p>In mid-November, I received a notification that I had been selected as a WTM Ambassador. The application process evaluated past leadership experience, so it was humbling to be recognized as part of this global community of change-makers. The global onboarding was held in early December, then followed by the North American onboarding the next week. During these sessions, the WTM team highlighted the diverse ways in which we can contribute to the community’s growth. From speaking at events and organizing meet-ups to mentoring aspiring individuals and creating valuable resources such as blogs or podcasts, the ambassador role is truly multi-faceted. Google also provides continuing development for technical and applied skills. Together, these set the stage for collaboration and global networking.</p>
+
+<h2 id="international-womens-day">International Women’s Day</h2>
+
+<p>The International Women’s Day (IWD) events from March through April are a highlight for WTM. These annual events serve as a powerful platform to celebrate the achievements of women in tech and inspire future generations. Google offers incentives and support to WTM Ambassadors helping contribute to the success of IWD by organizing events, spreading awareness, while making a meaningful impact.</p>
+
+<p>As I embark on this incredible journey as a Women Techmakers Ambassador, I’m filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
 
 <h2 id="research-overview">Research Overview</h2>
 
@@ -176,10 +188,12 @@
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>It was an honor to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thansks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry><entry><title type="html">Optimal Behavior Prior</title><link href="http://localhost:4000/2022/11/30/obp-poster.html" rel="alternate" type="text/html" title="Optimal Behavior Prior" /><published>2022-11-30T00:00:00-08:00</published><updated>2022-11-30T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/30/obp-poster</id><content type="html" xml:base="http://localhost:4000/2022/11/30/obp-poster.html"><![CDATA[<h2 id="effective-use-of-human-data">Effective Use of Human Data</h2>
+<p>It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry><entry><title type="html">Optimal Behavior Prior</title><link href="http://localhost:4000/2022/11/30/obp-poster.html" rel="alternate" type="text/html" title="Optimal Behavior Prior" /><published>2022-11-30T00:00:00-08:00</published><updated>2022-11-30T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/30/obp-poster</id><content type="html" xml:base="http://localhost:4000/2022/11/30/obp-poster.html"><![CDATA[<h2 id="effective-use-of-human-data">Effective Use of Human Data</h2>
+
 <p>Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cleaning up afterwards? On the road to creating collaborative AI agents that can better understand and assist humans, <a href="https://arxiv.org/abs/2211.01602">Optimal Behavior Prior</a> presents an efficient way to use data collected from humans using the <a href="https://github.com/HumanCompatibleAI/overcooked_ai">Overcooked-AI</a> benchmark environment.</p>
 
 <h2 id="figure-rework">Figure Rework</h2>
+
 <p>Through <a href="http://www.AlignmentFund.org">FAR (Fund for Alignment Research)</a>, I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.</p>
 
 <p><img src="/img/posts/2022-11-30-obp-1a.png" width="80%" style="display: block; margin: 0 auto;" /></p>
@@ -199,18 +213,22 @@
 <p><img src="/img/posts/2022-11-30-obp-1b.png" width="80%" style="display: block; margin: 0 auto;" /></p>
 
 <h2 id="poster-design">Poster Design</h2>
+
 <p>After some additional back &amp; forth to finalize text description and LaTex labels, the newly redesigned figure and other key elements from the paper were extracted to create the resulting poster. Normally, I use Adobe Illustrator or InDesign for layout projects. However, in this case, figures were formatted in Figma then printed on a 2’x3’ poster.</p>
 
 <p><img src="/img/posts/2022-11-30-obp-poster.png" width="80%" style="display: block; margin: 0 auto;" /></p>
 
-<p>Check out the full paper, <a href="https://arxiv.org/abs/2211.01602">“Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration”</a> presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Effective Use of Human Data Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cleaning up afterwards? On the road to creating collaborative AI agents that can better understand and assist humans, Optimal Behavior Prior presents an efficient way to use data collected from humans using the Overcooked-AI benchmark environment.]]></summary></entry><entry><title type="html">Minimalist Logo</title><link href="http://localhost:4000/2022/11/20/stampy-min-logo.html" rel="alternate" type="text/html" title="Minimalist Logo" /><published>2022-11-20T00:00:00-08:00</published><updated>2022-11-20T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/20/stampy-min-logo</id><content type="html" xml:base="http://localhost:4000/2022/11/20/stampy-min-logo.html"><![CDATA[<h2 id="fun-vs-minimal">Fun vs Minimal</h2>
+<p>Check out the full paper, <a href="https://arxiv.org/abs/2211.01602">“Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration”</a> presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Effective Use of Human Data]]></summary></entry><entry><title type="html">Minimalist Logo</title><link href="http://localhost:4000/2022/11/20/stampy-min-logo.html" rel="alternate" type="text/html" title="Minimalist Logo" /><published>2022-11-20T00:00:00-08:00</published><updated>2022-11-20T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/20/stampy-min-logo</id><content type="html" xml:base="http://localhost:4000/2022/11/20/stampy-min-logo.html"><![CDATA[<h2 id="fun-vs-minimal">Fun vs Minimal</h2>
+
 <p>While some people loved the new Stampy logo, others felt it was a bit too “cutesy” and inappropriate to represent a serious topic as AGI safety and existential risk to humanity. So, an alternate website was launched with the same informational text content as stampy.ai but without the imagery. Between the various sites, the analytics indicated a healthy average of a few thousand visitors each week. We began exploring a more minimalistic logo for these alternate sites.</p>
 
 <h2 id="generated-alignment">Generated Alignment</h2>
+
 <p>With the idea of “alignment” and “seriousness” in mind, we first used namecheap’s <a href="https://www.namecheap.com/logo-maker/app/">Logo Maker</a> to generate some basic ideas. After answering a few questions on our preferences for font and logo styles &amp; colors, we gravitated towards indigo-bluish colors, some gradients, and parallel lines to indicate alignment.
 <img src="/img/posts/2022-11-20-stampy-min-ideas1.png" width="50%" style="display: block; margin: 0 auto;" /></p>
 
 <h2 id="puzzling-challenges">Puzzling Challenges</h2>
+
 <p>For the next iteration, we brought in some additional ideas of mazes or puzzles, hinting at the idea of solving challenging problems. Someone suggested using concentric circles or colors from branding within the <a href="https://www.centreforeffectivealtruism.org/">Effective Altruism</a> movement.</p>
 
 <p><img src="/img/posts/2022-11-20-stampy-min-ideas2.jpg" width="50%" style="display: block; margin: 0 auto;" /></p>
@@ -218,6 +236,7 @@
 <p><img src="/img/posts/2022-11-20-stampy-min-ideas3.png" width="50%" style="display: block; margin: 0 auto;" /></p>
 
 <h2 id="easter-eggs">Easter Eggs</h2>
+
 <p>In our final rounds, we experimented with some Easter eggs, incorporating aspects of the original Stampy colors including elements of a face and stamp.</p>
 
 <p><img src="/img/posts/2022-11-20-stampy-min-ideas4.png" width="50%" style="display: block; margin: 0 auto;" /></p>
@@ -226,7 +245,7 @@
 
 <p><img src="/img/posts/2022-11-20-stampy-min-logo.svg" width="30%" style="display: block; margin: 0 auto;" /></p>
 
-<p>Take a look at <a href="http://alignment.wiki">alignment.wiki</a> and <a href="https://aisafety.info/">aisafety.info</a> with the new, minimalistic design.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Fun vs Minimal While some people loved the new Stampy logo, others felt it was a bit too “cutesy” and inappropriate to represent a serious topic as AGI safety and existential risk to humanity. So, an alternate website was launched with the same informational text content as stampy.ai but without the imagery. Between the various sites, the analytics indicated a healthy average of a few thousand visitors each week. We began exploring a more minimalistic logo for these alternate sites.]]></summary></entry><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
+<p>Take a look at <a href="http://alignment.wiki">alignment.wiki</a> and <a href="https://aisafety.info/">aisafety.info</a> with the new, minimalistic design.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Fun vs Minimal]]></summary></entry><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
 
 <p>The field of AI Safety &amp; Alignment is a new and very fluid field of study. There’s been an influx of recent research which makes it a daunting task for those interested in entering the field to get a good overview of the landscape and directions.</p>
 
@@ -234,7 +253,7 @@
 
 <p>Between the reading group and researching for the next project, I’m rapidly drowning in my random piles of handwritten notes. For now, I’ll be using various parts of this site and specificially this page to organize meandering thoughts and track progress, which will likely remain in a state of flux for some time.</p>
 
-<h2 id="references">References</h2>
+<h2 id="resources">Resources</h2>
 
 <ul>
   <li><a href="https://arxiv.org/abs/2206.02841">Understanding AI Alignment Research: A Systematic Analysis</a> <a href="https://github.com/moirage/alignment-research-dataset">[GitHub]</a> (2022)</li>
@@ -388,24 +407,10 @@
 
 <p>I’ve been studying machine learning for a while now, but it’s been mostly theory and isolated exercises. This was refreshing to finally get back to some hands on work, applying the technology in a practical setting. I was lucky to work on this project with smart people who set up the fundamental framework and gave me freedom to explore on my own. Eventually, I’d love to train my own model and tweak some other parameters to see if we can get better results. So many possibilities for continued tinkering and learning!</p>
 
-<h2 id="references">References</h2>
+<h2 id="resources">Resources</h2>
 
 <ul>
   <li><a href="https://arxiv.org/abs/1803.11175">Universal Sentence Encoder</a> (2018)</li>
   <li><a href="https://www.edx.org/course/google-ai-for-javascript-developers-with-tensorflowjs">Google AI for JavaScript developers with Tensorflow.js</a></li>
   <li><a href="https://www.tensorflow.org/hub/tutorials/semantic_similarity_with_tf_hub_universal_encoder">Semantic similarity tutorial</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Semantic Search]]></summary></entry><entry><title type="html">Technovation Challenge</title><link href="http://localhost:4000/2022/06/23/technovation.html" rel="alternate" type="text/html" title="Technovation Challenge" /><published>2022-06-23T00:00:00-07:00</published><updated>2022-06-23T00:00:00-07:00</updated><id>http://localhost:4000/2022/06/23/technovation</id><content type="html" xml:base="http://localhost:4000/2022/06/23/technovation.html"><![CDATA[<h2 id="technovation">Technovation</h2>
-
-<p>Every year, <a href="https://www.technovation.org/">Technovation</a> challenges teams of girls around the world to learn and apply the skills needed to solve real-world problems for social good using technology. Adult judges and mentors aren’t required or expected to have a technical background beyond possessing curiosity and keeping an open mind to learn along with the students. A comprehensive training is provided during the onboarding and an easy to follow <a href="https://technovationchallenge.org/curriculum-intro/registered/new/">curriculum</a> guides you through every step. The lessons are broken down into 12 weeks but you can progress at your own pace. It’s truly satisfying to watch students work through the entire process from brainstorming ideas, designing &amp; building a prototype, writing a business plan, all the way to pitching the product.</p>
-
-<p><img src="/img/posts/2022-06-23-technovation1.png" width="100%" /></p>
-
-<h2 id="team-mentoring">Team Mentoring</h2>
-
-<p>I was fortunate enough to mentor Team Code Work Ahead through the pandemic. Despite turbulent times, their enthusiasm and creativity was impressive. Initially, we met weekly, but during the onset &amp; confusion of the lockdown, the online meetings became daily while schools were still sorting themselves out. A detailed log of the entire <a href="https://sites.google.com/view/code-work-ahead/plan?authuser=0">planning processing</a> was kept. Ultimately, their hard work paid off as the <a href="https://sites.google.com/view/code-work-ahead/">Rooting for You</a> app was the North America Regional Winner in 2020!</p>
-
-<p><img src="/img/posts/2022-06-23-technovation2.png" width="100%" /></p>
-
-<h2 id="judging">Judging</h2>
-
-<p>For the last few years, I’ve served as judge advisor to help evaluate submissions following a clear set of <a href="https://technovationchallenge.org/curriculum/judging-rubric/">rubrics</a>. It’s also a chance to offer encouraging feedback to all those inspirational ideas and amazing projects coming from all corners of the world. The annual World Summit is always an exciting culmination to celebrate all the hard work and accomplishments. Check out the next <a href="https://hopin.com/events/technovation-s-world-summit/registration">Summit</a> on August 12!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Technovation]]></summary></entry></feed>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Semantic Search]]></summary></entry></feed>
