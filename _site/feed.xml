@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-30T23:33:57-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-31T03:32:45-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
 
 <h2 id="background-in-natural-language-processing-nlp">Background in Natural Language Processing (NLP)</h2>
 
 <p>Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create “expert” systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-stats.png" width="100%" /></p>
+<p><img src="/img/posts/2023-05-24-llms-stats.png" alt="Statistics in LLMs" /></p>
 
 <p>Towards the late 90s, statistical methods were used. There’s a famous quote, “You shall know a word by the company it keeps.” That simple idea was profound. If you start counting words and looking at what other words tend to occur with it, you’ll end up learning a lot about the language itself. All those relationships make up the language model. Think back to when you were first learning your native language. As a child, you were immersed with sounds, words, and sentences of your language. Now, you have intuition of what sounds right or what’s off, even if you don’t know why. You’ve internalized all the statistics for your own language model.</p>
 
@@ -14,7 +14,7 @@
 
 <p>Before that, language models were painfully slow and forgetful. Imagine a sweet old granny struggling to understand words one by one and getting confused by long sentences. So, if you had tried to make models bigger, trained on more data, it didn’t matter.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-superhero.png" width="100%" /></p>
+<p><img src="/img/posts/2023-05-24-llms-superhero.png" alt="Transformers are Superheroes" /></p>
 
 <p>Things didn’t really improve much until Transformers came along with attention superpowers. Now, models could look at everything, all at once. Long-term memory? No problem. Now, we can train on all of Wikipedia and piles and piles of books. The models kept learning and improving. Turns out, neural networks are extremely data hungry. They need tons of it to learn. So people went out and scraped everything they could find on the web: blogs, tweets, code, whatever was out there.</p>
 
@@ -28,7 +28,7 @@
 
 <p>They are trained for next word prediction. It’s like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it’s wrong, let’s update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with “Twinkle Twinkle Little…” the next word is most likely “Star.” Maybe feels like a sophisticated auto-complete. Think about when you’re talking with someone and you “complete each other’s sentences.” It’s often a sign of deep mutual understanding. Imagine a computer doing the same.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-training.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-05-24-llms-training.jpg" alt="Pre-Training LLMs" /></p>
 
 <p>When it comes to P in Pre-training we need to look to the past. A variety of different models would be trained as specialists: one for answering questions, another for classifying things, or for translation. But GPT is a generalist, pre-trained to understand human languages in general, which can be quickly fine-tuned on top of the pre-trained base.</p>
 
@@ -42,7 +42,7 @@
 
 <p>So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what’s expected. If you see “Prepare a report,” the output should indicate what a report looks like. For “Give me a summary,” the output should indicate what a summary looks like.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-instruct.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-05-24-llms-instruct.jpg" alt="ChatGPT was Fine-tuned on Instructions" /></p>
 
 <p>Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily “human.”</p>
 
@@ -71,31 +71,31 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-embrace.png" width="100%" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
+<p><img src="/img/posts/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
 
 <h2 id="pre-reception">Pre-Reception</h2>
 
 <p>The event kicked off with the Women Techmakers Ambassadors at the pre-reception on Tuesday evening. It was such an exciting moment to finally meet and connect with Creatives in Tech in person. We were buzzing with anticipation, eager to learn from each other and soak up all the knowledge and inspiration that awaited us.</p>
 
-<p><img src="/img/posts/2023-05-10-io-reception.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-05-10-io-reception.jpg" alt="evening reception" /></p>
 
 <h2 id="keynote-at-shoreline">Keynote at Shoreline</h2>
 
 <p>One of the highlights of the event was undoubtedly the I/O keynote addresses. It was wonderful to witness Google’s announcements firsthand and watch the impressive AI/ML demos. The entire event was incredibly well-organized, right from the convenient shuttle services to the delicious breakfast and lunch options. And to our surprise, we were even provided with caps, sweatshirts, sunscreen, rain ponchos, and hand warmers - they truly had us covered for any unexpected weather or situation.</p>
 
-<p><img src="/img/posts/2023-05-10-io-keynote.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-05-10-io-keynote.jpg" alt="morning keynotes" /></p>
 
 <h2 id="breakouts-at-bay-view">Breakouts at Bay View</h2>
 
 <p>After the keynote, we had the chance to attend breakout sessions at Google’s new Bayview campus. It was an opportunity to delve deeper into topics like women in leadership and AI/ML. The sessions were informative, engaging, and filled with valuable insights. We couldn’t resist exploring the beautiful campus and taking advantage of the bike trails. It was a refreshing way to unwind and enjoy the surroundings.</p>
 
-<p><img src="/img/posts/2023-05-10-io-bayview.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-05-10-io-bayview.jpg" alt="afternoon breakouts" /></p>
 
 <p>I had such a fantastic time at Google I/O 2023 and highly recommend attending the event in the future. The atmosphere was fun-filled, the knowledge-sharing was inspiring, and the connections made were invaluable. Can’t wait for next time!</p>
 
 <p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Google I/O 2023 proved to be a memorable experience in so many ways!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-promo.jpg" width="100%" /></p>
+<p><img src="/img/posts/2023-03-22-iwd-promo.jpg" alt="promo" /></p>
 
 <h2 id="our-event">Our Event</h2>
 
@@ -129,15 +129,71 @@
 
 <p>It was an immense honor to befriend so many smart and talented Women Techmaker Ambassadors. Our team of 12 volunteers and 9 speakers worked together to create a comprehensive plan that included a general run of show and weekly meetings starting in mid-January. Kaylyn spearheaded the event, guided us withe her vision, and provided extensive planning documents to keep everything on track. Michelle, our wonderful head of marketing, put together a social media toolkit and recruited backend volunteers. I offered input from the early stages and became more active as an organizer towards the end of February, taking time off work to ensure that everything went smoothly. All the volunteers and speakers actively contributed ideas and ultimately formed a sisterly bond.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-photobooth.png" width="100%" /></p>
+<p><img src="/img/posts/2023-03-22-iwd-photobooth.png" alt="photobooth" /></p>
 
 <h2 id="join-our-community">Join Our Community</h2>
 
 <p>Overall, it was an incredibly experience and we hope to continue building our community of talented women in tech. If you’re interested in joining us or attending future events, be sure to follow us on <a href="https://www.linkedin.com/company/creatives-in-tech/">LinkedIn</a> and keep an eye out for our next event announcement. We hope to see you there! ⚡️</p>
 
-<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">Women Techmakers Ambassador</title><link href="http://localhost:4000/2022/12/07/wtm-ambassador.html" rel="alternate" type="text/html" title="Women Techmakers Ambassador" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/07/wtm-ambassador</id><content type="html" xml:base="http://localhost:4000/2022/12/07/wtm-ambassador.html"><![CDATA[<p>I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.</p>
+<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
 
-<p><img src="/img/posts/2022-12-07-wtm-ambassador.gif" width="100%" /></p>
+<p><a href="https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx"><img src="/img/posts/2023-02-13-tensorflow-cert.png" alt="TensorFlow Developer Certificate" /></a></p>
+
+<p>For starters, review the candidate handbook very carefully. The DeepLearning.AI on Coursera lays a strong foundation but you’ll need additional hands on practice as well. Be sure you’re comfortable with these topics:</p>
+
+<h2 id="1-introduction-to-tensorflow">1. Introduction to TensorFlow</h2>
+
+<ul>
+  <li>Learn best practices for using TensorFlow, a popular open-source machine learning framework</li>
+  <li>Build a basic neural network in TensorFlow</li>
+  <li>Train a neural network for a computer vision application</li>
+  <li>Understand how to use convolutions to improve your neural network</li>
+</ul>
+
+<h2 id="2-convolutional-neural-networks-in-tensorflow">2. Convolutional Neural Networks in TensorFlow</h2>
+
+<ul>
+  <li>Handle real-world image data</li>
+  <li>Plot loss and accuracy</li>
+  <li>Explore strategies to prevent overfitting, including augmentation and dropout</li>
+  <li>Learn transfer learning and how learned features can be extracted from models</li>
+</ul>
+
+<h2 id="3-natural-language-processing-in-tensorflow">3. Natural Language Processing in TensorFlow</h2>
+
+<ul>
+  <li>Build natural language processing systems using TensorFlow</li>
+  <li>Process text, including tokenization and representing sentences as vectors</li>
+  <li>Apply RNNs, GRUs, and LSTMs in TensorFlow</li>
+  <li>Train LSTMs on existing text to create original poetry and more</li>
+</ul>
+
+<h2 id="4-sequences-time-series-and-prediction">4. Sequences, Time Series and Prediction</h2>
+
+<ul>
+  <li>Solve time series and forecasting problems in TensorFlow</li>
+  <li>Prepare data for time series learning using best practices</li>
+  <li>Explore how RNNs and ConvNets can be used for predictions</li>
+  <li>Build a sunspot prediction model using real-world data</li>
+</ul>
+
+<h2 id="miscellaneous-tips">Miscellaneous Tips</h2>
+
+<ul>
+  <li>Studied additional topics…</li>
+  <li>Used both local GPU + Google colabs</li>
+  <li>Kept handy code snippets for TensorBoard, early stopping, checkpoints, etc</li>
+</ul>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://www.tensorflow.org/certificate">Review Candidate Handbook</a></li>
+  <li><a href="https://www.coursera.org/professional-certificates/tensorflow-in-practice">DeepLearning.AI on Coursera</a></li>
+  <li><a href="https://github.com/ageron/handson-ml3">Hands-On ML with Scikit-Learn, Keras, and TensorFlow</a></li>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.]]></summary></entry><entry><title type="html">Women Techmakers Ambassador</title><link href="http://localhost:4000/2022/12/07/wtm-ambassador.html" rel="alternate" type="text/html" title="Women Techmakers Ambassador" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/07/wtm-ambassador</id><content type="html" xml:base="http://localhost:4000/2022/12/07/wtm-ambassador.html"><![CDATA[<p>I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.</p>
+
+<p><img src="/img/posts/2022-12-07-wtm-ambassador.gif" alt="I'm a WTM Ambassador!" /></p>
 
 <p>After working in tech for many years now, I’ve gotten to the “sea of dudes”. Until recently, I’d never been involved with any movements geared towards women in tech. I’ve worked with great guys but I’ve realized that working with other women in tech has such a refreshingly nurturing vibe. Now, I’m wondering: Why didn’t I start sooner?!</p>
 
@@ -170,12 +226,12 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model.svg" width="400px" /><br />Threat Model</td>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model-before.png" width="400px" /></td>
+      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model.svg" class="cols-2" /><br />Threat Model</td>
+      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model-before.png" class="cols-2" /></td>
     </tr>
     <tr>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" width="400px" /><br />Non-Transitivity</td>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" width="400px" /></td>
+      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" class="cols-2" /><br />Non-Transitivity</td>
+      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" class="cols-2" /></td>
     </tr>
   </tbody>
 </table>
@@ -184,7 +240,7 @@
 
 <p>The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.</p>
 
-<p><img src="/img/posts/2022-12-01-goattack.png" width="100%" style="border:1px solid #eee; display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-12-01-goattack.png" alt="GoAttack Poster" /></p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -196,9 +252,9 @@
 
 <p>Through <a href="http://www.AlignmentFund.org">FAR (Fund for Alignment Research)</a>, I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.</p>
 
-<p><img src="/img/posts/2022-11-30-obp-1a.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-30-obp-1a.png" class="border-0" /></p>
 
-<p><img src="/img/posts/2022-11-30-obp-algorithm.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-30-obp-algorithm.png" class="border-0" /></p>
 
 <p>While the original figure was already well-done, we explored other ways to strengthen the ideas by:</p>
 
@@ -210,13 +266,13 @@
   <li>Incorporating subtext from the algorithm underneath keywords added to the explanation.</li>
 </ul>
 
-<p><img src="/img/posts/2022-11-30-obp-1b.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-30-obp-1b.pn" class="border-0" /></p>
 
 <h2 id="poster-design">Poster Design</h2>
 
 <p>After some additional back &amp; forth to finalize text description and LaTex labels, the newly redesigned figure and other key elements from the paper were extracted to create the resulting poster. Normally, I use Adobe Illustrator or InDesign for layout projects. However, in this case, figures were formatted in Figma then printed on a 2’x3’ poster.</p>
 
-<p><img src="/img/posts/2022-11-30-obp-poster.png" width="80%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-30-obp-poster.png" alt="NeurIPS Poster" /></p>
 
 <p>Check out the full paper, <a href="https://arxiv.org/abs/2211.01602">“Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration”</a> presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Effective Use of Human Data]]></summary></entry><entry><title type="html">Minimalist Logo</title><link href="http://localhost:4000/2022/11/20/stampy-min-logo.html" rel="alternate" type="text/html" title="Minimalist Logo" /><published>2022-11-20T00:00:00-08:00</published><updated>2022-11-20T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/20/stampy-min-logo</id><content type="html" xml:base="http://localhost:4000/2022/11/20/stampy-min-logo.html"><![CDATA[<h2 id="fun-vs-minimal">Fun vs Minimal</h2>
 
@@ -225,25 +281,25 @@
 <h2 id="generated-alignment">Generated Alignment</h2>
 
 <p>With the idea of “alignment” and “seriousness” in mind, we first used namecheap’s <a href="https://www.namecheap.com/logo-maker/app/">Logo Maker</a> to generate some basic ideas. After answering a few questions on our preferences for font and logo styles &amp; colors, we gravitated towards indigo-bluish colors, some gradients, and parallel lines to indicate alignment.
-<img src="/img/posts/2022-11-20-stampy-min-ideas1.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+<img src="/img/posts/2022-11-20-stampy-min-ideas1.png" class="width-50" /></p>
 
 <h2 id="puzzling-challenges">Puzzling Challenges</h2>
 
 <p>For the next iteration, we brought in some additional ideas of mazes or puzzles, hinting at the idea of solving challenging problems. Someone suggested using concentric circles or colors from branding within the <a href="https://www.centreforeffectivealtruism.org/">Effective Altruism</a> movement.</p>
 
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas2.jpg" width="50%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas2.jpg" class="width-50" /></p>
 
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas3.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas3.png" class="width-50" /></p>
 
 <h2 id="easter-eggs">Easter Eggs</h2>
 
 <p>In our final rounds, we experimented with some Easter eggs, incorporating aspects of the original Stampy colors including elements of a face and stamp.</p>
 
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas4.png" width="50%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-20-stampy-min-ideas4.png" class="width-50" /></p>
 
 <p>Finally, introducing our new alternate, minimalistic, sorta-serious logo… It’s a puzzle. It’s a maze. It’s a stamp. It’s face. It’s anything it wants to be! Do you see all the possibilities?</p>
 
-<p><img src="/img/posts/2022-11-20-stampy-min-logo.svg" width="30%" style="display: block; margin: 0 auto;" /></p>
+<p><img src="/img/posts/2022-11-20-stampy-min-logo.svg" class="width-50" /></p>
 
 <p>Take a look at <a href="https://aisafety.info/">aisafety.info</a> with the new, minimalistic design.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Fun vs Minimal]]></summary></entry><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
 
@@ -285,7 +341,7 @@
 
 <p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
 
-<p><img src="/img/posts/2022-08-11-ai4all1.png" width="100%" style="border:1px solid #eee" /></p>
+<p><img src="/img/posts/2022-08-11-ai4all1.png" alt="AI4ALL" /></p>
 
 <h2 id="summer-program">Summer Program</h2>
 
@@ -297,8 +353,9 @@
 
 <p>Students were divided into 3 areas of interest: numeric, text, and images then paired with mentors having relevant experience. My mentees worked on natural language processing tasks, using BERT to classify text. I created a couple videos below and also wrote a <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb">tutorial notebook</a> to help get them started.</p>
 
-<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" width="45%" /></a>
-<a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"><img src="/img/posts/2022-08-11-ai4all-video2.svg" width="45%" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" alt="What is NLP?" /></a></p>
+
+<p><a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"><img src="/img/posts/2022-08-11-ai4all-video2.svg" alt="What are Transformers?" /></a></p>
 
 <p>Since AI4ALL has a rigorous applicant screening process, all the participants were very bright and motivated, which led to a very reward mentoring experience.</p>
 
@@ -306,111 +363,4 @@
 
 <p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically. As the kids are off in more traditional educational settings now, it’s been a natural transition for me to return to my work in the technology sector and also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="/2022/06/23/technovation.html">Technovations</a>.</p>
 
-<p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry><entry><title type="html">Semantic Search in Browser</title><link href="http://localhost:4000/2022/07/05/use.html" rel="alternate" type="text/html" title="Semantic Search in Browser" /><published>2022-07-05T00:00:00-07:00</published><updated>2022-07-05T00:00:00-07:00</updated><id>http://localhost:4000/2022/07/05/use</id><content type="html" xml:base="http://localhost:4000/2022/07/05/use.html"><![CDATA[<h2 id="semantic-search">Semantic Search</h2>
-
-<p>I’ve been working on a website for <a href="https://stampy.ai/wiki/Stampy">stampy.ai</a>, the community generated questions and answers about AGI Safety. At the moment, the database contains several hundred questions, but the goal is to eventually grow to be thousands or more.</p>
-
-<p>Since we had access to OpenAI’s very powerful GPT-3, the original plan was to use its semantic search capabilities. Instead of only matching keywords, semantic search allows users to ask questions and search for already answered questions that are semantically similar or essentially mean the same thing. In order accomplish that, questions are converted in sentence embeddings or vectors which can then be compared using cosine similarity. If the vectors are already normalized, cosine similarity is calculated by a quick matrix multiplication. Due to the cost and the large files associated with embedding all of our questions, we realized we’d need to limit how often we made calls to OpenAI’s API and only submit requests once the user has completed typing their question.</p>
-
-<h2 id="tensorflowjs-in-the-browser">Tensorflow.js in the Browser</h2>
-
-<p>Having used features like Google search, we’re familiar with its ability to dynamically update the list of related search options as the user types. Since we’re not Google, I hadn’t dreamt that we could do then same. However, in my free time, I’m quite a tutorial junkie. I ran across a tutorial to create your own <a href="https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine#0">Teachable Machine</a> and a number of other demos with <a href="https://tensorflow.github.io/tfjs/">tensorflow.js (TFJS)</a> allowing models to make AI predictions in the browser. I suddenly realized that if it’s possible to train a model to identify objects from the desktop video camera on a browser in realtime, we must be able to run our semantic search in the browser, dynamically updating results as the user types in the search bar.</p>
-
-<h2 id="universal-sentence-encoder">Universal Sentence Encoder</h2>
-
-<p>To keep things simple, I started with a pre-trained model that was already optimized for web use. I found a promising model called the <a href="https://github.com/tensorflow/tfjs-models/tree/master/universal-sentence-encoder">Universal Sentence Encoder (USE)</a> which uses a 512-dimension vector to embed the sentences in contrast to GPT-3 which uses 12,288-dimensions. As a result the embeddings file for USE was only around 1.5MB compared to GPT-3’s embeddings which was over 150MB. That was for OpenAI’s largest Davinci model; going with a lighter model would lessen the gap but we’d still have expense issues. We obviously sacrificed some accuracy but the responsiveness really enhanced the user experience. To use the TFJS and USE libraries, we first imported the following scripts within the HTML:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">/&gt;</span>
-    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder</span><span class="dl">"</span><span class="o">/&gt;</span>
-</code></pre></div></div>
-
-<p>To begin, make sure both libraries and the model have been loaded. Then, you’re ready to create sentence embeddings for your questions. The USE stores embeddings as a 2D tensors with 512 dimensions or 512 separate values. Think of the embeddings as a numerical representation of a sentence or (in our case a question) where each dimension represents some feature or meaningful information about the sentence.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// load Tensorflow's universal sentence encoder model</span>
-<span class="kd">const</span> <span class="nx">langModel</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">use</span><span class="p">.</span><span class="nx">load</span><span class="p">()</span>
-<span class="c1">// embed list of all questions in database for later search</span>
-<span class="kd">const</span> <span class="nx">questions</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">What is your first question?</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Ask another question?</span><span class="dl">"</span><span class="p">]</span>
-<span class="kd">const</span> <span class="nx">allEncodings</span> <span class="o">=</span> <span class="p">(</span><span class="k">await</span> <span class="nx">model</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">questions</span><span class="p">)).</span><span class="nx">arraySync</span><span class="p">()</span>
-</code></pre></div></div>
-
-<p>We had a few hundred questions, so on my desktop, embeddings all the questions only took a few seconds. But on laptops and other machines, the initial embedding of all the questions took several minutes, which was intolerable. So I saved the embeddings so it was just a matter of loading them. Soon, things were working smoothly, even on mobile phones.</p>
-
-<p>Now we’re ready to process the query when a user ask a new question. First, we must create embeddings for that new question in order to find the nearest embedding from within our existing list of all questions.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">runSemanticSearch</span> <span class="o">=</span> <span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-
-  <span class="nx">encoding</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">langModel</span><span class="p">.</span><span class="nx">embed</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span>
-
-  <span class="c1">// numerator of cosine similar is dot prod since vectors are normalized</span>
-  <span class="kd">const</span> <span class="nx">scores</span> <span class="o">=</span> <span class="nx">tf</span><span class="p">.</span><span class="nx">matMul</span><span class="p">(</span><span class="nx">encoding</span><span class="p">,</span> <span class="nx">allEncodings</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="kc">true</span><span class="p">).</span><span class="nx">dataSync</span><span class="p">()</span>
-
-  <span class="c1">// Tensorflow requires explicit memory management to avoid memory leaks</span>
-  <span class="nx">encoding</span><span class="p">.</span><span class="nx">dispose</span><span class="p">()</span>
-
-  <span class="c1">// sort by scores then return top 5 results</span>
-  <span class="kd">const</span> <span class="nx">questionsScored</span> <span class="o">=</span> <span class="nx">questions</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">question</span><span class="p">,</span> <span class="nx">index</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">({</span> <span class="nx">question</span><span class="p">,</span> <span class="nx">score</span> <span class="p">}))</span>
-  <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>  <span class="o">=&gt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">score</span> <span class="o">-</span> <span class="nx">a</span><span class="p">.</span><span class="nx">score</span><span class="p">)</span>
-  <span class="kd">const</span> <span class="nx">searchResults</span> <span class="o">=</span> <span class="nx">questionsScored</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
-
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>The USE also has a QnA model for question-answering. I tried the embedding all of the database answers to see if it would help with the search. Unfortunately, I didn’t see a marked improvement, so I’ll need to play around with that a bit more.</p>
-
-<h2 id="worker-for-gui-blocking">Worker for GUI Blocking</h2>
-
-<p>As we were getting ready to launch the website, there were concerns about GUI blocking issues. The semantic search was constantly being called with each character being typed. That impacted the GUI rendering causing jitteriness or lag, obviously a yucky user experience.</p>
-
-<p>After a bit of research, I discovered this to be a known issue and a major concern within the tensorflow.js community. Although the Javascript calls are marked as asynchronous, it isn’t truly multi-threaded. Fortunately, the solution using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Web Workers</a> isn’t too complicated. Essentially, we put all of our computationally intensive Tensorflow code in a separate file which runs in another thread, independently of the main GUI rendering JavaScript thread. The main thread and the separate Tensorflow thread communicate by passing messages using the <code class="language-plaintext highlighter-rouge">postMessage</code> method and responding to messages via the <code class="language-plaintext highlighter-rouge">onmessage</code> handler.</p>
-
-<p>In the main thread, we first create a Worker. When user makes a search request, we’ll call <code class="language-plaintext highlighter-rouge">postMessage</code> to dispatch the Worker. Then, an event handler listens for <code class="language-plaintext highlighter-rouge">onmmesage</code> responses from the Worker to get the search results.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c1">// create a Web Worker and add event listener for search results</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nb">self</span><span class="p">.</span><span class="nx">Worker</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Worker</span><span class="p">(</span><span class="dl">'</span><span class="s1">/tfWorker.js</span><span class="dl">'</span><span class="p">)</span>
-    <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">message</span><span class="dl">'</span><span class="p">,</span> <span class="nx">handleWorker</span><span class="p">)</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">Sorry! No Web Worker support.</span><span class="dl">'</span><span class="p">)</span>
-  <span class="p">}</span>
-
-  <span class="c1">// postMessage to call semantic search in Worker thread passing user's search query</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">postMessage to tfWorker:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">searchQuery</span><span class="p">)</span>
-  <span class="nx">tfWorkerRef</span><span class="p">.</span><span class="nx">current</span><span class="p">?.</span><span class="nx">postMessage</span><span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span>
-
-  <span class="c1">// listen for onmessage response from Worker thread with search results</span>
-  <span class="kd">const</span> <span class="nx">handleWorker</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="kd">const</span> <span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="o">=</span> <span class="nx">event</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">'</span><span class="s1">onmessage from tfWorker:</span><span class="dl">'</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">searchResults</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">setSearchResults</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">searchResults</span><span class="p">)</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-</code></pre></div></div>
-
-<p>The <code class="language-plaintext highlighter-rouge">tfWorker.js</code> file must be stored in a public folder and written in plain JavaScript, not TypeScript. It will likewise need an <code class="language-plaintext highlighter-rouge">onmessage</code> event handler to listen for event calls from the main thread, run semantic search then return the search results by calling <code class="language-plaintext highlighter-rouge">postMessage</code>.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// listening for message from main thread to call semantic search</span>
-<span class="nb">self</span><span class="p">.</span><span class="nx">onmessage</span> <span class="o">=</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="nx">runSemanticSearch</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kd">const</span> <span class="nx">runSemanticSearch</span> <span class="o">=</span> <span class="p">(</span><span class="nx">searchQuery</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-  <span class="p">...</span>
-  <span class="c1">// instead of returning searchResults, send a postMessage back to main thread</span>
-  <span class="nb">self</span><span class="p">.</span><span class="nx">postMessage</span><span class="p">({</span><span class="nx">searchResults</span><span class="p">})</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>That’s the general setup. In the meantime, feel free to play around with the <a href="https://square-pine-garment.glitch.me/">prototype demo</a> or take a peak at the <a href="https://github.com/ccstan99/stampy-tfjs">code</a>. There’s some extra code to load and save the embeddings. You can also see the deployed <a href="http://ui.stampy.ai/">Stampy website</a> and its <a href="https://github.com/StampyAI/stampy-ui">full implementation</a> using TypeScript, React, Remix, and Cloudflare. Although we ended up not using GPT-3 for the website’s semantic search, the Stampy chatbot still uses impressive and entertaining generative text capabilities.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>I’ve been studying machine learning for a while now, but it’s been mostly theory and isolated exercises. This was refreshing to finally get back to some hands on work, applying the technology in a practical setting. I was lucky to work on this project with smart people who set up the fundamental framework and gave me freedom to explore on my own. Eventually, I’d love to train my own model and tweak some other parameters to see if we can get better results. So many possibilities for continued tinkering and learning!</p>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li><a href="https://arxiv.org/abs/1803.11175">Universal Sentence Encoder</a> (2018)</li>
-  <li><a href="https://www.edx.org/course/google-ai-for-javascript-developers-with-tensorflowjs">Google AI for JavaScript developers with Tensorflow.js</a></li>
-  <li><a href="https://www.tensorflow.org/hub/tutorials/semantic_similarity_with_tf_hub_universal_encoder">Semantic similarity tutorial</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Semantic Search]]></summary></entry></feed>
+<p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry></feed>

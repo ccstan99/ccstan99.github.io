@@ -13,9 +13,9 @@ Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cl
 
 Through [FAR (Fund for Alignment Research)](http://www.AlignmentFund.org), I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.
 
-<img src="/img/posts/2022-11-30-obp-1a.png" width="80%" style="display: block; margin: 0 auto;" />
+<img src="/img/posts/2022-11-30-obp-1a.png" class="border-0" />
 
-<img src="/img/posts/2022-11-30-obp-algorithm.png" width="80%" style="display: block; margin: 0 auto;" />
+<img src="/img/posts/2022-11-30-obp-algorithm.png" class="border-0" />
 
 While the original figure was already well-done, we explored other ways to strengthen the ideas by:
 
@@ -25,12 +25,12 @@ While the original figure was already well-done, we explored other ways to stren
 - Adding a narrative storyline with bold keywords to highlight the discrete steps.
 - Incorporating subtext from the algorithm underneath keywords added to the explanation.
 
-<img src="/img/posts/2022-11-30-obp-1b.png" width="80%" style="display: block; margin: 0 auto;" />
+<img src="/img/posts/2022-11-30-obp-1b.pn" class="border-0" />
 
 ## Poster Design
 
 After some additional back & forth to finalize text description and LaTex labels, the newly redesigned figure and other key elements from the paper were extracted to create the resulting poster. Normally, I use Adobe Illustrator or InDesign for layout projects. However, in this case, figures were formatted in Figma then printed on a 2'x3' poster.
 
-<img src="/img/posts/2022-11-30-obp-poster.png" width="80%" style="display: block; margin: 0 auto;" />
+![NeurIPS Poster](/img/posts/2022-11-30-obp-poster.png)
 
 Check out the full paper, ["Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration"](https://arxiv.org/abs/2211.01602) presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.

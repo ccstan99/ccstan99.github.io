@@ -78,6 +78,44 @@ blockquote {
     text-shadow: none;
 }
 
+img {
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+img.book-cover {
+    border-width: 0px;
+    width: 100px;
+    margin: 10px;
+}
+
+img.cols-2 {
+    width: 400px;
+    border-width: 0px;
+    display: block; 
+    margin: 0 auto;
+}
+
+img.width-30 {
+    width: 32%;
+}
+
+img.width-20 {
+    width: 20%;
+}
+
+img.width-50 {
+    width: 50%;
+    border-width: 0px;
+    display: block; 
+    margin: 0 auto;
+}
+
+img.border-0 {
+    border-width: 0px;
+}
+
 img::selection {
     color: $white;
     background: transparent;
@@ -128,4 +166,8 @@ tr:nth-child(even){background-color: $gray-100;}
     h3 {
         font-size: $font-size-base * 1.5;
     }
+}
+
+h3.post-subtitle {
+    font-size: $font-size-base * 1.3;
 }

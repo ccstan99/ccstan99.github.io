@@ -19,14 +19,14 @@ To better communicate the research findings, I reworked images from previous pre
 
 | after | before |
 | :---: | :----: |
-| <img src="/img/posts/2022-12-01-goattack-model.svg" width="400px" /><br>Threat Model | <img src="/img/posts/2022-12-01-goattack-model-before.png" width="400px" /> |
-| <img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" width="400px" /><br>Non-Transitivity | <img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" width="400px" /> |
+| <img src="/img/posts/2022-12-01-goattack-model.svg" class="cols-2" /><br>Threat Model | <img src="/img/posts/2022-12-01-goattack-model-before.png" class="cols-2" /> |
+| <img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" class="cols-2" /><br>Non-Transitivity | <img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" class="cols-2" /> |
 
 ## NeurIPS Poster
 
 The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
 
-<img src="/img/posts/2022-12-01-goattack.png" width="100%" style="border:1px solid #eee; display: block; margin: 0 auto;" />
+![GoAttack Poster](/img/posts/2022-12-01-goattack.png)
 
 ## Conclusion
 
