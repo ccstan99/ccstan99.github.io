@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Minimalist Logo"
-subtitle: "Stampy's Alternate Logo Redesign"
+subtitle: "AI Safety Info Logo Redesign"
 background: '/img/posts/2022-11-20-stampy-min-logo.jpg'
 ---
 
@@ -32,4 +32,4 @@ Finally, introducing our new alternate, minimalistic, sorta-serious logo... It's
 
 <img src="/img/posts/2022-11-20-stampy-min-logo.svg" width="30%" style="display: block; margin: 0 auto;" />
 
-Take a look at [alignment.wiki](http://alignment.wiki) and [aisafety.info](https://aisafety.info/) with the new, minimalistic design.
+Take a look at [aisafety.info](https://aisafety.info/) with the new, minimalistic design.
