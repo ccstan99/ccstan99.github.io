@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T00:26:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T01:15:26-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
 
 <h2 id="background-in-natural-language-processing-nlp">Background in Natural Language Processing (NLP)</h2>
 
@@ -93,93 +93,7 @@
 
 <p>I had such a fantastic time at Google I/O 2023 and highly recommend attending the event in the future. The atmosphere was fun-filled, the knowledge-sharing was inspiring, and the connections made were invaluable. Can’t wait for next time!</p>
 
-<p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Google I/O 2023 proved to be a memorable experience in so many ways!]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/03/31/chatgpt.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-03-31T00:00:00-07:00</published><updated>2023-03-31T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/31/chatgpt</id><content type="html" xml:base="http://localhost:4000/2023/03/31/chatgpt.html"><![CDATA[<ul>
-  <li>How do you use LLMs to create chatbots to answer questions for your domain?</li>
-  <li>How do you keep the knowledge up-to-date after the model has already been trained?</li>
-  <li>How do you ensure generated answers are accurate and avoid hallucinations?</li>
-</ul>
-
-<p>Those are some common questions I’ve seen floating around. Unless you’ve been living under a rock, you’re probably aware that ChatGPT, the large language model (LLM) from OpenAI released last November, has taken the world by storm. It’s created excitement but also raised alarm as powerful AIs on the horizon no longer seems as far-fetched science fiction. As such, the group that I’ve been working with to curate quality answers to AI Safety and Alignment questions has been getting an influx of attention and volunteers. In fact, the entire fields has seen a flurry of activity.</p>
-
-<h2 id="ai-safety--alignment-chatbot">AI Safety &amp; Alignment Chatbot</h2>
-
-<p>A <a href="https://www.lesswrong.com/posts/SLRLuiuDykfTdmesK/speed-running-everyone-through-the-bad-alignement-bingo">bounty was placed on LessWrong</a> for a conversational agent educating people on the different approaches to AI Safety and Alignment. Since I’ve been swamped with other work, I only had a couple days to put together a quick prototype. Fortunately, many of the components needed for the project are related to previous work I’ve already done with extractive question answering:</p>
-
-<ol>
-  <li>Processing, chunking, and embedding the alignment research dataset</li>
-  <li>Using semantic search to retrieve relevant chunks</li>
-  <li>Answering the questions based on the chunk</li>
-</ol>
-
-<h2 id="chatbot-with-chatgpt">Chatbot with ChatGPT</h2>
-
-<p>Extracting an answer from a chunk of text is slow and the short few-word answer always felt unsatisfying. On March 1, OpenAI made ChatGPT available to programmers using the <code class="language-plaintext highlighter-rouge">gpt-3.5-turbo</code> model through their <a href="https://platform.openai.com/docs/guides/chat">cloud based API</a>.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># TODO code for chat completion, model, temperature, context, chat history messages
-</span><span class="kn">import</span> <span class="nn">openai</span>
-
-<span class="n">openai</span><span class="p">.</span><span class="n">ChatCompletion</span><span class="p">.</span><span class="n">create</span><span class="p">(</span>
-  <span class="n">model</span><span class="o">=</span><span class="s">"gpt-3.5-turbo"</span><span class="p">,</span>
-  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-        <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"system"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="s">"You are a helpful assistant."</span><span class="p">},</span>
-        <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"user"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="s">"What is AI Safety?"</span><span class="p">},</span>
-    <span class="p">]</span>
-<span class="p">)</span>
-</code></pre></div></div>
-
-<h2 id="collaborating">Collaborating</h2>
-
-<p>I’m excited to collaborate with other teams who also submitted prototypes and are dedicated to scaling AI safety and alignment education. It’s been great learning from each other and leveraging the best aspects from each project. Some of the notable features from other projects include:</p>
-
-<ul>
-  <li>Detailed citations of sources with a streaming GUI</li>
-  <li>Using langchain to rephrase standalone improving conversational capabilities</li>
-  <li>Suggesting followup questions to keep the conversation flowing</li>
-</ul>
-
-<p>There are definitely other areas of improvement we all need to explore in terms of:</p>
-
-<ul>
-  <li>Cleaning up the underlying dataset</li>
-  <li>Prompt engineering to ensure accuracy and appropriate tone</li>
-  <li>More thorough benchmarked testing, UX research, UI design</li>
-  <li>Customizing answer generation options based on user’s level and needs</li>
-  <li>Experimenting with other document splitting, vector DBs, embeddings &amp; retrieval, LLMs</li>
-</ul>
-
-<p>Together look forward to building a better product that can help answer questions based on the rapidly growing body of alignment research literature. If you’re interested in helping, please join us on <a href="https://discord.gg/cSVG2FdX">Rob Mile’s Discord</a>. Feel free to see our current progress on GitHub for the <a href="https://github.com/stampyAI/stampy-chat">chatbot</a> and the <a href="https://github.com/stampyAI/alignment-research-dataset">dataset</a>.</p>
-
-<p>As I’ve been conducting additional research, I’ll continue adding more resources on LangChain, prompt engineering, and fine-tuning a SBERT model below.</p>
-
-<h2 id="prompt-engineering">Prompt Engineering</h2>
-
-<p>As LLMs are getting better at understanding language and generalizing knowledge, the need to train or fine-tune models may be replaced with a need to understand how to interact or prompt LLMs to yield the best results. Below are some resources and guidelines for doing so:</p>
-
-<ul>
-  <li><a href="https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md#how-to-improve-reliability-on-complex-tasks">OpenAI Cookbook</a> along with <a href="https://learn.deeplearning.ai/chatgpt-prompt-eng/">DeepLearning.AI on Coursera</a> 1-hour introduction</li>
-  <li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">DAIR.AI</a> has good references to research literature</li>
-  <li><a href="https://learnprompting.org/docs/additional">LearnPrompting.org</a> provides basic introduction</li>
-  <li><a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/">Lilian Weng’s Blog</a></li>
-</ul>
-
-<h2 id="langchain">LangChain</h2>
-
-<p>LangChain is a valuable library that makes it easier to work with LLM from ingesting data by splitting up text and offering abstractions for different vectorstores, embedding models, prompt templates and text generation LLMs. It also handles conversational memory and chaining multiple calls to the LLMs, treating them like agents:</p>
-
-<ul>
-  <li><a href="https://python.langchain.com/en/latest/">LangChain Documentation</a></li>
-  <li><a href="https://github.com/hwchase17/langchain">LangChain GitHub Repo</a> includes examples</li>
-  <li><a href="https://learn.deeplearning.ai/langchain/">DeepLearning.AI on Coursera</a> for 1-hour introduction</li>
-</ul>
-
-<h2 id="general-resources">General Resources</h2>
-
-<ul>
-  <li><a href="https://arxiv.org/abs/2005.11401">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</a></li>
-  <li><a href="https://platform.openai.com/docs/guides/chat">ChatGPT</a></li>
-  <li><a href="https://github.com/hwchase17/langchain">LangChain</a></li>
-  <li><a href="https://www.lesswrong.com/posts/SLRLuiuDykfTdmesK/speed-running-everyone-through-the-bad-alignement-bingo">LessWrong Bounty</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[How do you use LLMs to create chatbots to answer questions for your domain? How do you keep the knowledge up-to-date after the model has already been trained? How do you ensure generated answers are accurate and avoid hallucinations?]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
+<p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Google I/O 2023 proved to be a memorable experience in so many ways!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
 
 <p><img src="/img/posts/2023-03-22-iwd-promo.jpg" alt="promo" /></p>
 
@@ -435,4 +349,30 @@
   <li><a href="https://www.pinecone.io/learn/">pinecone</a> <a href="https://github.com/pinecone-io">[GitHub]</a></li>
   <li><a href="https://www.gradio.app/getting_started/">gradio</a> <a href="https://github.com/gradio-app">[GitHub]</a></li>
   <li><a href="https://docs.streamlit.io/library/get-started">streamlit</a> <a href="https://github.com/streamlit">[GitHub]</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Alignment Literature Search]]></summary></entry></feed>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Alignment Literature Search]]></summary></entry><entry><title type="html">AI4ALL Mentoring</title><link href="http://localhost:4000/2022/08/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL Mentoring" /><published>2022-08-11T00:00:00-07:00</published><updated>2022-08-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
+
+<p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
+
+<p><img src="/img/posts/2022-08-11-ai4all1.png" alt="AI4ALL" /></p>
+
+<h2 id="summer-program">Summer Program</h2>
+
+<p>The AI4ALL summer programs first entered our radar for my daughter, who had a long-time interest in AI. She attended the 3-week camp at Princeton in 2019 and had a blast learning about different ML algorithms &amp; AI ethics, conducting a hands-on research project using genomic data, and touring Washington DC to meet AI policy makers. The alumni network was even more impressive, with frequent updates on opportunities for internships and continued education.</p>
+
+<h2 id="portfolio-project">Portfolio Project</h2>
+
+<p>Soon, I found myself following along, learning these new concepts through their <a href="https://ai-4-all.org/open-learning/">Open Learning</a> platform for educators, then eventually studying deep learning and NLP on my own. A few months ago, I received a volunteer request for their 8-week long summer portfolio project. Students who already completed the regular summer program are given the opportunity to apply and deepen their knowledge of AI by working on an extended personal project. They attend weekly workshops, learning to select and pre-process their dataset, train and evaluate a model, then deliver a poster presentation of their findings.</p>
+
+<p>Students were divided into 3 areas of interest: numeric, text, and images then paired with mentors having relevant experience. My mentees worked on natural language processing tasks, using BERT to classify text. I created a couple videos below and also wrote a <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb">tutorial notebook</a> to help get them started.</p>
+
+<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" alt="What is NLP?" /></a></p>
+
+<p><a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"><img src="/img/posts/2022-08-11-ai4all-video2.svg" alt="What are Transformers?" /></a></p>
+
+<p>Since AI4ALL has a rigorous applicant screening process, all the participants were very bright and motivated, which led to a very reward mentoring experience.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically. As the kids are off in more traditional educational settings now, it’s been a natural transition for me to return to my work in the technology sector and also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="/2022/06/23/technovation.html">Technovations</a>.</p>
+
+<p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry></feed>
