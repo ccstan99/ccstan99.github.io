@@ -5,7 +5,7 @@ subtitle: "Adversarial Policies Beat Superhuman Go AIs"
 background: '/img/posts/2022-12-01-goattack.jpg'
 ---
 
-I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)
+I am thrilled to share my recent helping [FAR.AI](http://far.ai), an AI Alignment research organization, creating the NeurIPS poster for the project ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)
 
 ## Research Overview
 

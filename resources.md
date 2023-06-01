@@ -5,9 +5,21 @@ description: learning AI & NLP
 background: '/img/bg-about.jpg'
 ---
 
-Thanks to the incredible wealth of resources readily available on the internet, I've been catching up on the latest in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). My hope is to focus on educational outreach, bringing STEM to underrepresented populations. Here's some that were particularly helpful in my own learning.
+Thanks to the incredible wealth of resources readily available on the internet, I've been catching up on the latest in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). My hope is to focus on educational outreach, bringing STEM to underrepresented populations.
 
-## Courses
+Since Large Language Models (LLMs) are all the rage now, I often get asked where to start. Here are a few good starting points to learn the basics. The first 3 from DeepLearning.AI on Coursera are each 1-hour overviews. I haven't personally used the last 2, LLMU or the Bootcamp, but they came as recommendations with more in-depth coverage.
+
+## Large Language Models
+
+- [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng/)
+- [Building Systems with the ChatGPT API](https://learn.deeplearning.ai/chatgpt-building-system/)
+- [LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/)
+- [Cohere's LLM University](https://docs.cohere.com/docs/llmu)
+- [LLM Bootcamp](https://fullstackdeeplearning.com/llm-bootcamp/)
+
+Otherwise, below are some resources that were particularly helpful in my own AI/ML learning.
+
+## Deep Learning
 
 - Coursera [DeepLearning](https://www.coursera.org/specializations/deep-learning) specialization
 - Coursera [Natural Language Processing](https://www.coursera.org/specializations/natural-language-processing) specialization

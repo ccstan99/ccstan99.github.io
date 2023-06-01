@@ -11,7 +11,7 @@ Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cl
 
 ## Figure Rework
 
-Through [FAR (Fund for Alignment Research)](http://www.AlignmentFund.org), I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.
+Through [FAR.AI](http://far.ai), I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.
 
 <img src="/img/posts/2022-11-30-obp-1a.png" class="border-0" />
 
