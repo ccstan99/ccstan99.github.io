@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TensorFlow Developer Certification"
-subtitle: "Professional Development in ML"
+subtitle: "Google's ML Professional Development"
 background: '/img/posts/2023-02-13-tensorflow-cert.jpg'
 ---
 

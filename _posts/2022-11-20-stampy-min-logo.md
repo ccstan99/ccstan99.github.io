@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Minimalist Logo"
-subtitle: "AI Safety Info Logo Redesign"
+subtitle: "AI Safety Info Logo"
 background: '/img/posts/2022-11-20-stampy-min-logo.jpg'
 ---
 

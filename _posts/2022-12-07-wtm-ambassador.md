@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Women Techmakers Ambassador"
-subtitle: "Host, Speak, Mentor, Create"
+subtitle: "Host. Speak. Mentor. Create."
 background: '/img/posts/2022-12-07-wtm-ambassador.jpg'
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Demystifying ChatGPT + LLMs"
-subtitle: "Brief Overview of Language Models"
+subtitle: "Overview of Language Models"
 background: '/img/posts/2023-05-24-llms.jpg'
 ---
 
