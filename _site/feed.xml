@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-14T23:26:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-14T23:47:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
 
 <h2 id="understanding-ai-safety">Understanding AI Safety</h2>
 
@@ -16,10 +16,8 @@
 
 <p>Defining intelligence for AGI, like <strong>human-level intelligence</strong>, can be challenging to define. Alan Turing, often regarded as the father of artificial intelligence, introduced the Turing test in 1950, a benchmark where a computer and a human engage in conversation, and an interrogator tries to determine which is which. The goal is to create an intelligent thinking machine that is indistinguishable from a human.However, defining what constitutes average human intelligence is not straightforward. Nevertheless, recent advancements in AI, such as GPT-4’s performance on standardized tests, suggest that human-level intelligence may be closer than we think.</p>
 
-<figure>
 <p><img src="/img/posts/2023-10-14-super-yulia-matvienko-kgz9vsP5JCU-unsplash.jpg" alt="Superintelligence" /></p>
-  <figcaption>Photo by Yulia Matvienko on Unsplash</figcaption>
-</figure>
+<figcaption>Photo by Yulia Matvienko on Unsplash</figcaption>
 
 <p><strong>Superintelligence</strong> represents the next level of AGI, surpassing human capabilities in all tasks. It may involve exponential self-improvement, leading to uncontrollable and irreversible technological growth. While the idea of superintelligence may seem like a significant leap forward, its implications and potential risks are complex and require careful consideration.</p>
 
@@ -43,10 +41,8 @@
 
 <p>The “Gorilla Problem” highlights the unintended consequences of technological advancement. Just as humans unintentionally endangered gorillas while pursuing their goals, superintelligent AI might not harbor malice toward humans but still pose a threat due to misalignment of interests.</p>
 
-<figure>
 <p><img src="/img/posts/2023-10-14-gorilla-rob-schreckhise-8zdEgWg5JAA-unsplash.jpg" alt="Gorilla" /></p>
-  <figcaption>Photo by Rob Schreckhise on Unsplash</figcaption>
-</figure>
+<figcaption>Photo by Rob Schreckhise on Unsplash</figcaption>
 
 <p>Open source AI models, while democratizing access to AI capabilities, also raise security concerns. Without adequate safeguards, powerful LLMs can be exploited by bad actors for malicious purposes, such as planning terrorist attacks or establishing oppressive regimes.</p>
 
@@ -99,10 +95,7 @@
 
 <p>We need to stay informed and engaged in decisions that will impact all of us. My hope is that as we navigate this complex landscape, we can do so with humility, open-mindedness, and a firm commitment to harnessing the power of AI safely and responsibly. This future is in our hands, and by working together, we can ensure that AI continues to benefit society while minimizing potential risks.</p>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Marko Horvat on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.]]></summary></entry><entry><title type="html">Women Developers Academy</title><link href="http://localhost:4000/2023/10/05/wda.html" rel="alternate" type="text/html" title="Women Developers Academy" /><published>2023-10-05T00:00:00-07:00</published><updated>2023-10-05T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/05/wda</id><content type="html" xml:base="http://localhost:4000/2023/10/05/wda.html"><![CDATA[<p>Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.</p>
+<figcaption>Cover Photo by Marko Horvat on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.]]></summary></entry><entry><title type="html">Women Developers Academy</title><link href="http://localhost:4000/2023/10/05/wda.html" rel="alternate" type="text/html" title="Women Developers Academy" /><published>2023-10-05T00:00:00-07:00</published><updated>2023-10-05T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/05/wda</id><content type="html" xml:base="http://localhost:4000/2023/10/05/wda.html"><![CDATA[<p>Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.</p>
 
 <h2 id="nailing-technical-presentations">Nailing Technical Presentations</h2>
 
@@ -134,10 +127,7 @@
 
 <p>In summary, the North America Women Developer’s Academy has been an enriching experience that offered more than just technical know-how. I had the chance to connect with remarkable women in the field, each contributing invaluable perspectives and insights. This empowering environment has fine-tuned my public speaking abilities and provided me with actionable tools to share knowledge effectively. I’m excited to put these skills to use at upcoming DevFest events hosted by Google Developer Groups (GDG) in Sacramento and Vancouver. This journey has not only equipped me with essential skills but also expanded my professional network, and I eagerly look forward to contributing to the tech community in meaningful ways.</p>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Farsai Chaikulngamdee on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/07/15/chatbot.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-07-15T00:00:00-07:00</published><updated>2023-07-15T00:00:00-07:00</updated><id>http://localhost:4000/2023/07/15/chatbot</id><content type="html" xml:base="http://localhost:4000/2023/07/15/chatbot.html"><![CDATA[<ul>
+<figcaption>Cover Photo by Farsai Chaikulngamdee on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/07/15/chatbot.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-07-15T00:00:00-07:00</published><updated>2023-07-15T00:00:00-07:00</updated><id>http://localhost:4000/2023/07/15/chatbot</id><content type="html" xml:base="http://localhost:4000/2023/07/15/chatbot.html"><![CDATA[<ul>
   <li>How do you use LLMs to create chatbots to answer questions for your domain?</li>
   <li>How do you keep the knowledge up-to-date after the model has already been trained?</li>
   <li>How do you ensure generated answers are accurate and avoid hallucinations?</li>
@@ -225,10 +215,7 @@
   <li><a href="https://www.lesswrong.com/posts/SLRLuiuDykfTdmesK/speed-running-everyone-through-the-bad-alignement-bingo">LessWrong Bounty</a></li>
 </ul>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Mike Lewis HeadSmart Media on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[How do you use LLMs to create chatbots to answer questions for your domain? How do you keep the knowledge up-to-date after the model has already been trained? How do you ensure generated answers are accurate and avoid hallucinations?]]></summary></entry><entry><title type="html">LLM Mechanistic Interpretability</title><link href="http://localhost:4000/2023/06/30/mech-interpret.html" rel="alternate" type="text/html" title="LLM Mechanistic Interpretability" /><published>2023-06-30T00:00:00-07:00</published><updated>2023-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/06/30/mech-interpret</id><content type="html" xml:base="http://localhost:4000/2023/06/30/mech-interpret.html"><![CDATA[<p>Mechanistic interpretability of large language models (LLMs) is a detailed exploration of the inner workings of Transformer-based model. It dissects and reverse engineers individual components like attention heads, layers, and neurons to understand their specific roles in model decisions. This is a new and exciting field that sits at the intersection of my life experiences. As an undergrad, I studied linguistics and computer science, particularly Natural Language Processing (NLP) and human languages in general. Homeschooling brought me into the education space. This gave me the opportunity to explore language acquisition through immersion and delve into effective pedagogical methods. I initially stumbled into the field while reviewing two papers for a work project:</p>
+<figcaption>Cover Photo by Mike Lewis HeadSmart Media on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[How do you use LLMs to create chatbots to answer questions for your domain? How do you keep the knowledge up-to-date after the model has already been trained? How do you ensure generated answers are accurate and avoid hallucinations?]]></summary></entry><entry><title type="html">LLM Mechanistic Interpretability</title><link href="http://localhost:4000/2023/06/30/mech-interpret.html" rel="alternate" type="text/html" title="LLM Mechanistic Interpretability" /><published>2023-06-30T00:00:00-07:00</published><updated>2023-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/06/30/mech-interpret</id><content type="html" xml:base="http://localhost:4000/2023/06/30/mech-interpret.html"><![CDATA[<p>Mechanistic interpretability of large language models (LLMs) is a detailed exploration of the inner workings of Transformer-based model. It dissects and reverse engineers individual components like attention heads, layers, and neurons to understand their specific roles in model decisions. This is a new and exciting field that sits at the intersection of my life experiences. As an undergrad, I studied linguistics and computer science, particularly Natural Language Processing (NLP) and human languages in general. Homeschooling brought me into the education space. This gave me the opportunity to explore language acquisition through immersion and delve into effective pedagogical methods. I initially stumbled into the field while reviewing two papers for a work project:</p>
 
 <ul>
   <li><a href="https://arxiv.org/abs/2301.05217">Progress measures for grokking via mechanistic interpretability</a></li>
@@ -274,10 +261,8 @@
 
 <p>Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create “expert” systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.</p>
 
-<figure>
 <p><img src="/img/posts/2023-05-24-llms-stats.png" alt="Statistics in LLMs" /></p>
-  <figcaption>Photo by Towfiqu Barbhuiya on Unsplash</figcaption>
-</figure>
+<figcaption>Photo by Towfiqu Barbhuiya on Unsplash</figcaption>
 
 <p>Towards the late 90s, statistical methods were used. There’s a famous quote, “You shall know a word by the company it keeps.” That simple idea was profound. If you start counting words and looking at what other words tend to occur with it, you’ll end up learning a lot about the language itself. All those relationships make up the language model. Think back to when you were first learning your native language. As a child, you were immersed with sounds, words, and sentences of your language. Now, you have intuition of what sounds right or what’s off, even if you don’t know why. You’ve internalized all the statistics for your own language model.</p>
 
@@ -287,10 +272,8 @@
 
 <p>Before that, language models were painfully slow and forgetful. Imagine a sweet old granny struggling to understand words one by one and getting confused by long sentences. So, if you had tried to make models bigger, trained on more data, it didn’t matter.</p>
 
-<figure>
 <p><img src="/img/posts/2023-05-24-llms-superhero.png" alt="Transformers are Superheroes" /></p>
-  <figcaption>Photo from Everything Everywhere All at Once (2022)</figcaption>
-</figure>
+<figcaption>Photo from Everything Everywhere All at Once (2022)</figcaption>
 
 <p>Things didn’t really improve much until Transformers came along with attention superpowers. Now, models could look at everything, all at once. Long-term memory? No problem. Now, we can train on all of Wikipedia and piles and piles of books. The models kept learning and improving. Turns out, neural networks are extremely data hungry. They need tons of it to learn. So people went out and scraped everything they could find on the web: blogs, tweets, code, whatever was out there.</p>
 
@@ -304,10 +287,7 @@
 
 <p>They are trained for next word prediction. It’s like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it’s wrong, let’s update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with “Twinkle Twinkle Little…” the next word is most likely “Star.” Maybe feels like a sophisticated auto-complete. Think about when you’re talking with someone and you “complete each other’s sentences.” It’s often a sign of deep mutual understanding. Imagine a computer doing the same.</p>
 
-<figure>
 <p><img src="/img/posts/2023-05-24-llms-training.jpg" alt="Pre-Training LLMs" /></p>
-  <figcaption>Photo on Unsplash</figcaption>
-</figure>
 
 <p>When it comes to P in Pre-training we need to look to the past. A variety of different models would be trained as specialists: one for answering questions, another for classifying things, or for translation. But GPT is a generalist, pre-trained to understand human languages in general, which can be quickly fine-tuned on top of the pre-trained base.</p>
 
@@ -321,10 +301,7 @@
 
 <p>So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what’s expected. If you see “Prepare a report,” the output should indicate what a report looks like. For “Give me a summary,” the output should indicate what a summary looks like.</p>
 
-<figure>
 <p><img src="/img/posts/2023-05-24-llms-instruct.jpg" alt="ChatGPT was Fine-tuned on Instructions" /></p>
-  <figcaption>Photo on Unsplash</figcaption>
-</figure>
 
 <p>Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily “human.”</p>
 
@@ -353,10 +330,8 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<figure>
 <p><img src="/img/posts/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>
-  <figcaption>Photo by Diego PH, Cover by Towfiqu barbhuiya on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
+<figcaption>Photo by Diego PH, Cover by Towfiqu barbhuiya on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
 
 <h2 id="pre-reception">Pre-Reception</h2>
 
@@ -422,10 +397,7 @@
 
 <p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Hannah Busing on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
+<figcaption>Cover Photo by Hannah Busing on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
 
 <p><a href="https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx"><img src="/img/posts/2023-02-13-tensorflow-cert.png" alt="TensorFlow Developer Certificate" /></a></p>
 
@@ -497,10 +469,7 @@
 
 <p>As I embark on this incredible journey as a Women Techmakers Ambassador, I’m filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.</p>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping <a href="http://far.ai">FAR.AI</a>, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
+<figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping <a href="http://far.ai">FAR.AI</a>, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
 
 <h2 id="research-overview">Research Overview</h2>
 
@@ -541,7 +510,4 @@
 
 <p>It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>
 
-<figure>
-<p> </p>
-  <figcaption>Cover Photo by Elena Popova on Unsplash</figcaption>
-</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry></feed>
+<figcaption>Cover Photo by Elena Popova on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry></feed>

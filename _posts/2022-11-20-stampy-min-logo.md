@@ -34,6 +34,4 @@ Finally, introducing our new alternate, minimalistic, sorta-serious logo... It's
 
 Take a look at [aisafety.info](https://aisafety.info/) with the new, minimalistic design.
 
-{% figure caption:"Cover Photo by Fabrice Villard on Unsplash" %}
-&nbsp;
-{% endfigure %}
+<figcaption>Cover Photo by Fabrice Villard on Unsplash</figcaption>

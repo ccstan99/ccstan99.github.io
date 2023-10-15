@@ -2455,7 +2455,7 @@ td { font-size: 18px; vertical-align: top; border: 1px solid #ced4da; padding: 6
 
 th { color: #fff; font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; border: 1px solid #ced4da; background-color: #0085A1; padding: 6px; }
 
-figcaption { font-size: 0.8rem; text-align: right; }
+figcaption { font-size: 0.8rem; text-align: right; margin-bottom: 12px; }
 
 tr:nth-child(even) { background-color: #f8f9fa; }
 

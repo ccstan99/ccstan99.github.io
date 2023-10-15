@@ -21,6 +21,4 @@ The International Women's Day (IWD) events from March through April are a highli
 
 As I embark on this incredible journey as a Women Techmakers Ambassador, I'm filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.
 
-{% figure caption:"Cover Photo by Toa Heftiba on Unsplash" %}
-&nbsp;
-{% endfigure %}
+<figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>
