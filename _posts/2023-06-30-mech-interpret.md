@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mechanistic Interpretability of LLMs"
+title: "LLM Mechanistic Interpretability"
 subtitle: "Reverse Engineering Transformers"
 background: '/img/posts/2023-06-30-mech-interpret.jpg'
 ---

@@ -25,7 +25,7 @@ While the original figure was already well-done, we explored other ways to stren
 - Adding a narrative storyline with bold keywords to highlight the discrete steps.
 - Incorporating subtext from the algorithm underneath keywords added to the explanation.
 
-<img src="/img/posts/2022-11-30-obp-1b.pn" class="border-0" />
+<img src="/img/posts/2022-11-30-obp-1b.png" class="border-0" />
 
 ## Poster Design
 

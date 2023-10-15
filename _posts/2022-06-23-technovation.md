@@ -20,3 +20,7 @@ I was fortunate enough to mentor Team Code Work Ahead through the pandemic. Desp
 ## Judging
 
 For the last few years, I've served as judge advisor to help evaluate submissions following a clear set of [rubrics](https://technovationchallenge.org/curriculum/judging-rubric/). It's also a chance to offer encouraging feedback to all those inspirational ideas and amazing projects coming from all corners of the world. The annual World Summit is always an exciting culmination to celebrate all the hard work and accomplishments. Check out the next [Summit](https://hopin.com/events/technovation-s-world-summit/registration) on August 12!
+
+{% figure caption:"Cover Photo by Alexander Sinn on Unsplash" %}
+&nbsp;
+{% endfigure %}

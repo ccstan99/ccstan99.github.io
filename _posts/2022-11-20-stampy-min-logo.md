@@ -33,3 +33,7 @@ Finally, introducing our new alternate, minimalistic, sorta-serious logo... It's
 <img src="/img/posts/2022-11-20-stampy-min-logo.svg" class="width-50" />
 
 Take a look at [aisafety.info](https://aisafety.info/) with the new, minimalistic design.
+
+{% figure caption:"Cover Photo by Fabrice Villard on Unsplash" %}
+&nbsp;
+{% endfigure %}

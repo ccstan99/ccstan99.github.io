@@ -1,10 +1,283 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-01T01:44:27-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-14T23:26:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
+
+<h2 id="understanding-ai-safety">Understanding AI Safety</h2>
+
+<p>When we hear the term “AI Safety,” it often conjures up thoughts of ethics, bias, hallucinations, deepfakes, and job displacement. These concerns are indeed crucial and receive substantial media attention because they are already affecting our society. However, as AI becomes more powerful and exponentially faster, it is essential to look ahead and consider future challenges, much like fire prevention.</p>
+
+<p>To underscore the seriousness of AI safety, consider this statement: “Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.” This <a href="https://www.safe.ai/statement-on-ai-risk">Statement of Risk</a>, signed by leaders from top AI labs, including Google’s DeepMind, highlights the gravity of the concerns raised by those actively involved in AI technology development.</p>
+
+<p>Before delving deeper into AI safety, it’s essential to understand some key terms that are often used in the field. While these terms may sound like science fiction, they are becoming increasingly relevant in our rapidly evolving technological landscape.</p>
+
+<h3 id="agi-general-vs-narrow-ai">AGI: General vs. Narrow AI</h3>
+
+<p>AI has been present in our lives for years, powering recommendations on platforms like Netflix and Amazon, facial recognition on phones, spam filters, and fraud detection. However, these are examples of Narrow Intelligence or Weak AI—specialized systems that excel at specific tasks but lack the broader capabilities of human-like Artificial General Intelligence (AGI). AGI represents a new level of AI—a jack-of-all-trades that can learn and perform a wide range of tasks, potentially surpassing human capabilities.</p>
+
+<h3 id="intelligence-human-level-vs-superintelligence">Intelligence: Human-level vs. Superintelligence</h3>
+
+<p>Defining intelligence for AGI, like <strong>human-level intelligence</strong>, can be challenging to define. Alan Turing, often regarded as the father of artificial intelligence, introduced the Turing test in 1950, a benchmark where a computer and a human engage in conversation, and an interrogator tries to determine which is which. The goal is to create an intelligent thinking machine that is indistinguishable from a human.However, defining what constitutes average human intelligence is not straightforward. Nevertheless, recent advancements in AI, such as GPT-4’s performance on standardized tests, suggest that human-level intelligence may be closer than we think.</p>
+
+<figure>
+<p><img src="/img/posts/2023-10-14-super-yulia-matvienko-kgz9vsP5JCU-unsplash.jpg" alt="Superintelligence" /></p>
+  <figcaption>Photo by Yulia Matvienko on Unsplash</figcaption>
+</figure>
+
+<p><strong>Superintelligence</strong> represents the next level of AGI, surpassing human capabilities in all tasks. It may involve exponential self-improvement, leading to uncontrollable and irreversible technological growth. While the idea of superintelligence may seem like a significant leap forward, its implications and potential risks are complex and require careful consideration.</p>
+
+<h3 id="takeoff-and-timelines">Takeoff and Timelines</h3>
+
+<p>Two critical concepts in AI safety are “takeoff” and “timelines.”</p>
+
+<p><strong>Takeoff</strong> refers to the speed or trajectory of advancement from human-level AI to superintelligence. A fast takeoff can happen in a matter of days or hours, posing challenges in preparation. A slow takeoff provides more time for adaptation and co-evolution.</p>
+
+<p><strong>Timelines</strong>, on the other hand, refer to the expected duration until superintelligence arrives. Short timelines could be within months or a few years, while long timelines may span decades, centuries, or potentially never. Recent developments, including advancements in models like ChatGPT, have shifted the perception of AI timelines to a much closer horizon.</p>
+
+<h3 id="the-orthogonality-thesis">The Orthogonality Thesis</h3>
+
+<p>The Orthogonality Thesis posits that intelligence and goals are independent. Even a superintelligent AI can have simple or nonsensical goals that may not align with human values. This concept is exemplified by the “Paperclip Maximizer” thought experiment, where an AI’s sole goal is to maximize the production of paperclips, potentially leading it to turn everything, including humanity, into raw materials.</p>
+
+<h3 id="outer-and-inner-misalignment">Outer and Inner Misalignment</h3>
+
+<p>AI safety concerns extend to both outer and inner misalignment. <strong>Outer misalignment</strong> arises when AI’s goals are fundamentally misaligned with human interests, potentially leading to harmful outcomes driven by malicious actors. <strong>Inner misalignment</strong> is more subtle, where the AI’s creators intend for benign or helpful goals, but the AI, with its non-human thinking, generates solutions that are detrimental to humans.</p>
+
+<h3 id="the-gorilla-problem">The Gorilla Problem</h3>
+
+<p>The “Gorilla Problem” highlights the unintended consequences of technological advancement. Just as humans unintentionally endangered gorillas while pursuing their goals, superintelligent AI might not harbor malice toward humans but still pose a threat due to misalignment of interests.</p>
+
+<figure>
+<p><img src="/img/posts/2023-10-14-gorilla-rob-schreckhise-8zdEgWg5JAA-unsplash.jpg" alt="Gorilla" /></p>
+  <figcaption>Photo by Rob Schreckhise on Unsplash</figcaption>
+</figure>
+
+<p>Open source AI models, while democratizing access to AI capabilities, also raise security concerns. Without adequate safeguards, powerful LLMs can be exploited by bad actors for malicious purposes, such as planning terrorist attacks or establishing oppressive regimes.</p>
+
+<h2 id="concrete-examples-and-solutions">Concrete Examples and Solutions</h2>
+
+<p>While the field of AI safety is still in its infancy, researchers are actively working on defining and addressing these concerns from various angles. Below are a few examples of ongoing efforts:</p>
+
+<h3 id="rlhf-reward-learning-from-human-feedback">RLHF (Reward Learning from Human Feedback)</h3>
+
+<p><a href="https://openai.com/research/instruction-following">RLHF</a> is a research approach by OpenAI’s Alignment team. It involves humans providing a large number of examples to teach AI models what constitutes good behavior. By fine-tuning models based on human feedback, AI systems can learn to align their actions with human values, although their effectiveness depends on the quality of the examples provided.</p>
+
+<h3 id="llm-evaluation">LLM Evaluation</h3>
+
+<p>Evaluating the output of large language models is crucial to understanding their capabilities and limitations. Researchers are working on systematic approaches to probe and benchmark LLMs to uncover their hidden skills and potential shortcomings.</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2306.09479">Inverse Scaling: When Bigger Isn’t Better</a></li>
+  <li><a href="https://arxiv.org/abs/2307.14324">Evaluating the Moral Beliefs Encoded in LLMs</a></li>
+  <li><a href="https://arxiv.org/abs/2309.15840">How to Catch an AI Liar</a></li>
+</ul>
+
+<h3 id="llm-internals-and-interpretability">LLM Internals and Interpretability</h3>
+
+<p>Understanding how LLMs work internally is essential for ensuring their safe and responsible use. Mechanistic interpretability involves reverse engineering these models to uncover how individual neurons and circuits function. This research can shed light on the decision-making processes of LLMs, including distinguishing between truth and hallucination.</p>
+
+<ul>
+  <li><a href="https://transformer-circuits.pub/2021/framework/index.html">A Mathematical Framework for Transformer Circuits</a></li>
+  <li><a href="https://arxiv.org/abs/2209.10652">Toy Models of Superposition</a></li>
+  <li><a href="https://arxiv.org/abs/2304.14997">Towards Automated Circuit Discovery for Mechanistic Interpretability</a></li>
+  <li><a href="https://arxiv.org/abs/2212.03827">Discovering Latent Knowledge in Language Models Without Supervision</a></li>
+</ul>
+
+<p>While there is promising research in the field of AI safety, the gap between AI advancement and safety awareness is widening. The involvement of diverse voices, including engineers, designers, communicators, and policymakers, is crucial to shaping a safe AI-driven future. If you possess knowledge in AI or machine learning, now is the time to get involved and make a difference.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>To stay informed and contribute to the field of AI safety, consider exploring the following resources:</p>
+
+<ul>
+  <li><a href="http://www.youtube.com/@aiexplained-official">AI Explained</a>: A YouTube channel that covers significant AI developments with a focus on AGI and safety.</li>
+  <li><a href="http://www.80000hours.org/problem-profiles/artificial-intelligence">80,000 Hours</a>: Offers free career advising to help individuals make meaningful and impactful career choices.</li>
+  <li><a href="http://aisafety.info">AISafety.info</a>: An FAQ resource for AI safety information.</li>
+  <li><a href="http://AISafetyFundamentals.com">AI Safety Fundamentals</a>: An online curriculum covering the basics of AI safety.</li>
+  <li><a href="http://AlignmentForum.org">Alignment Forum</a>: A platform where researchers share and discuss their work in AI alignment.</li>
+</ul>
+
+<h2 id="safer-ais">Safer AIs</h2>
+
+<p>In summary, this is an exciting yet crucial era in the evolution of AI. Comparing AI to fire can provide a helpful analogy: when handled well, it offers warmth and incredible benefits, but if managed poorly, it can lead to catastrophic consequences. Therefore, it is of utmost importance to have a diverse range of voices actively involved in shaping our AI-driven future.</p>
+
+<p>We need to stay informed and engaged in decisions that will impact all of us. My hope is that as we navigate this complex landscape, we can do so with humility, open-mindedness, and a firm commitment to harnessing the power of AI safely and responsibly. This future is in our hands, and by working together, we can ensure that AI continues to benefit society while minimizing potential risks.</p>
+
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Marko Horvat on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.]]></summary></entry><entry><title type="html">Women Developers Academy</title><link href="http://localhost:4000/2023/10/05/wda.html" rel="alternate" type="text/html" title="Women Developers Academy" /><published>2023-10-05T00:00:00-07:00</published><updated>2023-10-05T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/05/wda</id><content type="html" xml:base="http://localhost:4000/2023/10/05/wda.html"><![CDATA[<p>Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.</p>
+
+<h2 id="nailing-technical-presentations">Nailing Technical Presentations</h2>
+
+<p>Jen Person, a Developer Relations Engineer at Google, led our first workshop. The session provided a clear roadmap for creating well-structured technical talks. From understanding your audience to quantifying success, Jen guided us step-by-step. She suggested a clear outline, including sections like Introduction, Problem Description, Solution, and Conclusion. The session even touched on how to effectively use elements like code snippets and architecture diagrams. Homework? Creating our speaker bios and presentation decks. The focus was straightforward: arming us with what we need to give impactful tech talks.</p>
+
+<p><img src="/img/posts/2023-10-05-wda-session1.png" alt="Tech Talks Fun" /></p>
+
+<h2 id="mastering-presentation-delivery">Mastering Presentation Delivery</h2>
+
+<p>In the second workshop, Junnet Ali, a Google Community Program Manager, focused on the delivery aspect. Tailoring messages to your audience is key, she stressed. Through a structured approach that included research and practice, we learned how to keep our audience engaged. We also received tips on improving our virtual presence and delivering with confidence. Final steps included refining our presentation decks, obtaining mentor feedback, and practicing with recording tools like Nimbus, Zoom, or Meet.</p>
+
+<h2 id="selling-yourself-as-a-speaker">Selling Yourself as a Speaker</h2>
+
+<p>Heather McCormick from Google Cloud Training &amp; Certification took us through the art of effective self-promotion. This involved learning how to write talk proposals that catch the eye of conference organizers. Heather broke down the elements that make a proposal stand out: focus on the audience, clarity, and a compelling tone. We discussed how to draft impactful titles, abstracts, and leverage social media to establish credibility. The session concluded with actionable steps like proposal submissions and feedback gathering.</p>
+
+<p><img src="/img/posts/2023-10-05-wda-session3.png" alt="Tech Talks ABC" /></p>
+
+<h2 id="building-confidence-for-career-growth">Building Confidence for Career Growth</h2>
+
+<p>Joana Carrasqueira, Manager of AI Developer Relations at Google, closed the series by focusing on the importance of confidence. Joana emphasized that confidence is a skill anyone can learn, crucial for performance and well-being. We explored tactics for boosting self-confidence, such as positive self-talk and setting achievable goals. She advised us to align our career plans with our core values and skills, encouraging us to seek mentorship and engage with communities for continuous growth.</p>
+
+<p><img src="/img/posts/2023-10-05-wda-session4.png" alt="Self Assessment" /></p>
+
+<h2 id="impact-of-mentorship">Impact of Mentorship</h2>
+
+<p>I had the privilege of being mentored by Madona Wambua, an accomplished author, keynote speaker, and Android lead engineer. With her extensive background, including being a Google Developer Expert for Android and a GDG NYC Lead, Madona provided unparalleled guidance throughout the course. She hosts “Tech Talks with Madona” and is keen on sharing her wealth of Android knowledge. Our mentorship sessions started with getting to know each other and defining the objectives I wanted to achieve during the program. Under her guidance, I honed my presentation skills and refined my topics. Her mentorship was a cornerstone of my learning experience, and I couldn’t be more grateful for her insights and encouragement.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In summary, the North America Women Developer’s Academy has been an enriching experience that offered more than just technical know-how. I had the chance to connect with remarkable women in the field, each contributing invaluable perspectives and insights. This empowering environment has fine-tuned my public speaking abilities and provided me with actionable tools to share knowledge effectively. I’m excited to put these skills to use at upcoming DevFest events hosted by Google Developer Groups (GDG) in Sacramento and Vancouver. This journey has not only equipped me with essential skills but also expanded my professional network, and I eagerly look forward to contributing to the tech community in meaningful ways.</p>
+
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Farsai Chaikulngamdee on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/07/15/chatbot.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-07-15T00:00:00-07:00</published><updated>2023-07-15T00:00:00-07:00</updated><id>http://localhost:4000/2023/07/15/chatbot</id><content type="html" xml:base="http://localhost:4000/2023/07/15/chatbot.html"><![CDATA[<ul>
+  <li>How do you use LLMs to create chatbots to answer questions for your domain?</li>
+  <li>How do you keep the knowledge up-to-date after the model has already been trained?</li>
+  <li>How do you ensure generated answers are accurate and avoid hallucinations?</li>
+</ul>
+
+<p>Those are some common questions I’ve seen floating around. Unless you’ve been living under a rock, you’re probably aware that ChatGPT, the large language model (LLM) from OpenAI released last November, has taken the world by storm. It’s created excitement but also raised alarm as powerful AIs on the horizon no longer seems as far-fetched science fiction. As such, the group that I’ve been working with to curate quality answers to AI Safety and Alignment questions has been getting an influx of attention and volunteers. In fact, the entire field has seen a flurry of activity.</p>
+
+<h2 id="ai-safety--alignment-chatbot">AI Safety &amp; Alignment Chatbot</h2>
+
+<p>Several months ago <a href="https://www.lesswrong.com/posts/SLRLuiuDykfTdmesK/speed-running-everyone-through-the-bad-alignement-bingo">bounty was placed on LessWrong</a> for a conversational agent educating people on the different approaches to AI Safety and Alignment. Since I’ve been swamped with other projects, I only had a couple days to put together a quick prototype. Fortunately, many of the components needed for the project are related to previous work I’ve already done with extractive question answering:</p>
+
+<ol>
+  <li>Processing, chunking, and embedding the alignment research dataset</li>
+  <li>Using semantic search to retrieve relevant chunks</li>
+  <li>Answering the questions based on the chunk</li>
+</ol>
+
+<h2 id="chatbot-with-chatgpt">Chatbot with ChatGPT</h2>
+
+<p>Extracting an answer from a chunk of text is slow and the short few-word answer always felt unsatisfying. On March 1, OpenAI made ChatGPT available to programmers using the <code class="language-plaintext highlighter-rouge">gpt-3.5-turbo</code> model through their <a href="https://platform.openai.com/docs/guides/chat">cloud based API</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># TODO code for chat completion, model, temperature, context, chat history messages
+</span><span class="kn">import</span> <span class="nn">openai</span>
+
+<span class="n">openai</span><span class="p">.</span><span class="n">ChatCompletion</span><span class="p">.</span><span class="n">create</span><span class="p">(</span>
+  <span class="n">model</span><span class="o">=</span><span class="s">"gpt-3.5-turbo"</span><span class="p">,</span>
+  <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
+        <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"system"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="s">"You are a helpful assistant."</span><span class="p">},</span>
+        <span class="p">{</span><span class="s">"role"</span><span class="p">:</span> <span class="s">"user"</span><span class="p">,</span> <span class="s">"content"</span><span class="p">:</span> <span class="s">"What is AI Safety?"</span><span class="p">},</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="collaboration">Collaboration</h2>
+
+<p>We’ve been fortunate collaborate with other teams who also submitted prototypes and are dedicated to scaling AI safety and alignment education. Developers from the Stampy team also made incredible contributions to clean up our underlying dataset, which serves as the knowledge base, and also ensure we had proper infrastructure resources to get deployed. It’s been great learning from everyone and leveraging the best aspects from each project. Some of the notable features from other projects include:</p>
+
+<ul>
+  <li>Detailed citations of sources with a streaming GUI</li>
+  <li>Using langchain to rephrase standalone improving conversational capabilities</li>
+  <li>Suggesting followup questions to keep the conversation flowing</li>
+</ul>
+
+<p>There are definitely other areas of improvement we’re still working on:</p>
+
+<ul>
+  <li>Cleaning up the underlying dataset</li>
+  <li>Prompt engineering to ensure accuracy and appropriate tone</li>
+  <li>More thorough benchmarked testing, UX research, UI design</li>
+  <li>Customizing answer generation options based on user’s level and needs</li>
+  <li>Experimenting with other document splitting, vector DBs, embeddings &amp; retrieval, LLMs</li>
+</ul>
+
+<p>Together look forward to building a better product that can help answer questions based on the rapidly growing body of alignment research literature. If you’re interested in helping, please join us on <a href="https://discord.gg/cSVG2FdX">Rob Mile’s Discord</a>. Feel free to see our current progress on GitHub for the <a href="https://github.com/stampyAI/stampy-chat">chatbot</a> and the <a href="https://github.com/stampyAI/alignment-research-dataset">dataset</a>.</p>
+
+<p>As I’ve been conducting additional research, I’ll continue adding more resources on LangChain, prompt engineering, and fine-tuning a SBERT model below.</p>
+
+<h2 id="prompt-engineering">Prompt Engineering</h2>
+
+<p>As LLMs are getting better at understanding language and generalizing knowledge, the need to train or fine-tune models may be replaced with a need to understand how to interact or prompt LLMs to yield the best results. Below are some resources and guidelines for doing so:</p>
+
+<ul>
+  <li><a href="https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md#how-to-improve-reliability-on-complex-tasks">OpenAI Cookbook</a> along with <a href="https://learn.deeplearning.ai/chatgpt-prompt-eng/">DeepLearning.AI on Coursera</a> 1-hour introduction</li>
+  <li><a href="https://github.com/dair-ai/Prompt-Engineering-Guide">DAIR.AI</a> has good references to research literature</li>
+  <li><a href="https://learnprompting.org/docs/additional">LearnPrompting.org</a> provides basic introduction</li>
+  <li><a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/">Lilian Weng’s Blog</a></li>
+</ul>
+
+<h2 id="langchain">LangChain</h2>
+
+<p>LangChain is a valuable library that makes it easier to work with LLM from ingesting data by splitting up text and offering abstractions for different vectorstores, embedding models, prompt templates and text generation LLMs. It also handles conversational memory and chaining multiple calls to the LLMs, treating them like agents:</p>
+
+<ul>
+  <li><a href="https://python.langchain.com/en/latest/">LangChain Documentation</a></li>
+  <li><a href="https://github.com/hwchase17/langchain">LangChain GitHub Repo</a> includes examples</li>
+  <li><a href="https://learn.deeplearning.ai/langchain/">DeepLearning.AI on Coursera</a> for 1-hour introduction</li>
+</ul>
+
+<h2 id="general-resources">General Resources</h2>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2005.11401">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</a></li>
+  <li><a href="https://platform.openai.com/docs/guides/chat">ChatGPT</a></li>
+  <li><a href="https://github.com/hwchase17/langchain">LangChain</a></li>
+  <li><a href="https://www.lesswrong.com/posts/SLRLuiuDykfTdmesK/speed-running-everyone-through-the-bad-alignement-bingo">LessWrong Bounty</a></li>
+</ul>
+
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Mike Lewis HeadSmart Media on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[How do you use LLMs to create chatbots to answer questions for your domain? How do you keep the knowledge up-to-date after the model has already been trained? How do you ensure generated answers are accurate and avoid hallucinations?]]></summary></entry><entry><title type="html">LLM Mechanistic Interpretability</title><link href="http://localhost:4000/2023/06/30/mech-interpret.html" rel="alternate" type="text/html" title="LLM Mechanistic Interpretability" /><published>2023-06-30T00:00:00-07:00</published><updated>2023-06-30T00:00:00-07:00</updated><id>http://localhost:4000/2023/06/30/mech-interpret</id><content type="html" xml:base="http://localhost:4000/2023/06/30/mech-interpret.html"><![CDATA[<p>Mechanistic interpretability of large language models (LLMs) is a detailed exploration of the inner workings of Transformer-based model. It dissects and reverse engineers individual components like attention heads, layers, and neurons to understand their specific roles in model decisions. This is a new and exciting field that sits at the intersection of my life experiences. As an undergrad, I studied linguistics and computer science, particularly Natural Language Processing (NLP) and human languages in general. Homeschooling brought me into the education space. This gave me the opportunity to explore language acquisition through immersion and delve into effective pedagogical methods. I initially stumbled into the field while reviewing two papers for a work project:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2301.05217">Progress measures for grokking via mechanistic interpretability</a></li>
+  <li><a href="https://arxiv.org/abs/2303.08112">Eliciting Latent Predictions from Transformers with the Tuned Lens</a></li>
+</ul>
+
+<p>As I familiarize myself with the field, I am captivated by the potential it holds for linguistics. Theoretical linguists such as Noam Chomsky’s criticize that Large Language Models (LLMs) merely find statistical patterns in data and lack true understanding of human languages. Nevertheless, models trained on vast amounts of data have deciphered remarkable statistical relationships that could provide valuable insights for research in syntax and semantics. Furthermore, potential applications extend to phonetics and phonology, especially when considering how Whisper models effectively use attention patterns in spectrograms.</p>
+
+<h2 id="mechanistical-interpretability--transformerlens">Mechanistical Interpretability + TransformerLens</h2>
+
+<p>When I first encountered Anthropic’s Mathematical Framework, I found it puzzling yet intriguing. Fundamentally, why WOULDN’t anyone be interested in HOW and WHY these LLMs work? Would understanding these help us understand how humans understand language? I’d imagine many neuroscientists wished they could probe a living human brain and in real-time see what’s happening inside these neurons. Mechanistic interpretability tries to do exactly that with the Transformers of LLMs! Here are a few helpful resources to get orientated:</p>
+
+<ul>
+  <li><a href="https://youtu.be/ll0oduwDEwI">Mechanistic Interpretability: Getting Started</a> - Catherine Olsson’s talk at Cohere</li>
+  <li><a href="https://www.neelnanda.io/mechanistic-interpretability/getting-started">Concrete Steps to Get Started in Transformer Mechanistic Interpretability</a></li>
+  <li><a href="https://transformer-circuits.pub/">Transformer Circuits</a></li>
+  <li><a href="https://transformer-circuits.pub/2021/framework/index.html">A Mathematical Framework for Transformer Circuits</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLoyGOS2WIonajhAVqKUgEMNmeq3nEeM51">Anthropic Videos</a> and <a href="https://transformer-circuits.pub/">Transformer Circuits</a> blog</li>
+</ul>
+
+<p>TransformerLens is a tool designed to elucidate the inner workings of Transformer-based models like BERT or GPT-2. It facilitates the exploration of model components and their interactions, aiding in debugging, improving, and gaining insights from these complex models. I joined a small study group learning to use TransformerLens. It served as an excellent excuse to dig into the GitHub repo and get some hands on experience working through a tutorial.</p>
+
+<ul>
+  <li><a href="https://github.com/neelnanda-io/TransformerLens">TransformerLens Repo</a></li>
+  <li><a href="https://transformerlens-intro.streamlit.app/">TransformerLens Tutorial</a></li>
+</ul>
+
+<h2 id="eliciting-latent-knowledge">Eliciting Latent Knowledge</h2>
+
+<p>I’ve been reasing through other fascinating papers trying to figure out what LLMs have “learned” and what they “know” by looking at internal activations or embeddings in an unsupervised manner. I’ll park some papers I’ve been reading and will come back to synthesize these as part of future projects:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2212.03827">Discovering Latent Knowledge in Language Models Without Supervision</a></li>
+  <li><a href="https://arxiv.org/abs/2207.05221">Language Models (Mostly) Know What They Know</a></li>
+  <li><a href="https://arxiv.org/abs/2008.02275">Aligning AI With Shared Human Values</a></li>
+  <li><a href="https://arxiv.org/abs/2110.13136">What Would Jiminy Cricket Do? Towards Agents That Behave Morally</a></li>
+  <li><a href="https://arxiv.org/abs/2304.03279">Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the MACHIAVELLI Benchmark</a></li>
+  <li><a href="https://arxiv.org/abs/1909.05398">Interactive Fiction Games: A Colossal Adventure</a></li>
+  <li><a href="https://arxiv.org/abs/2010.02903">Keep CALM and Explore: Language Models for Action Generation in Text-based Game.</a></li>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Mechanistic interpretability of large language models (LLMs) is a detailed exploration of the inner workings of Transformer-based model. It dissects and reverse engineers individual components like attention heads, layers, and neurons to understand their specific roles in model decisions. This is a new and exciting field that sits at the intersection of my life experiences. As an undergrad, I studied linguistics and computer science, particularly Natural Language Processing (NLP) and human languages in general. Homeschooling brought me into the education space. This gave me the opportunity to explore language acquisition through immersion and delve into effective pedagogical methods. I initially stumbled into the field while reviewing two papers for a work project:]]></summary></entry><entry><title type="html">Demystifying ChatGPT + LLMs</title><link href="http://localhost:4000/2023/05/24/chatgpt-llms.html" rel="alternate" type="text/html" title="Demystifying ChatGPT + LLMs" /><published>2023-05-24T00:00:00-07:00</published><updated>2023-05-24T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/24/chatgpt-llms</id><content type="html" xml:base="http://localhost:4000/2023/05/24/chatgpt-llms.html"><![CDATA[<p>Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.</p>
 
 <h2 id="background-in-natural-language-processing-nlp">Background in Natural Language Processing (NLP)</h2>
 
 <p>Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create “expert” systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.</p>
 
+<figure>
 <p><img src="/img/posts/2023-05-24-llms-stats.png" alt="Statistics in LLMs" /></p>
+  <figcaption>Photo by Towfiqu Barbhuiya on Unsplash</figcaption>
+</figure>
 
 <p>Towards the late 90s, statistical methods were used. There’s a famous quote, “You shall know a word by the company it keeps.” That simple idea was profound. If you start counting words and looking at what other words tend to occur with it, you’ll end up learning a lot about the language itself. All those relationships make up the language model. Think back to when you were first learning your native language. As a child, you were immersed with sounds, words, and sentences of your language. Now, you have intuition of what sounds right or what’s off, even if you don’t know why. You’ve internalized all the statistics for your own language model.</p>
 
@@ -14,7 +287,10 @@
 
 <p>Before that, language models were painfully slow and forgetful. Imagine a sweet old granny struggling to understand words one by one and getting confused by long sentences. So, if you had tried to make models bigger, trained on more data, it didn’t matter.</p>
 
+<figure>
 <p><img src="/img/posts/2023-05-24-llms-superhero.png" alt="Transformers are Superheroes" /></p>
+  <figcaption>Photo from Everything Everywhere All at Once (2022)</figcaption>
+</figure>
 
 <p>Things didn’t really improve much until Transformers came along with attention superpowers. Now, models could look at everything, all at once. Long-term memory? No problem. Now, we can train on all of Wikipedia and piles and piles of books. The models kept learning and improving. Turns out, neural networks are extremely data hungry. They need tons of it to learn. So people went out and scraped everything they could find on the web: blogs, tweets, code, whatever was out there.</p>
 
@@ -28,7 +304,10 @@
 
 <p>They are trained for next word prediction. It’s like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it’s wrong, let’s update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with “Twinkle Twinkle Little…” the next word is most likely “Star.” Maybe feels like a sophisticated auto-complete. Think about when you’re talking with someone and you “complete each other’s sentences.” It’s often a sign of deep mutual understanding. Imagine a computer doing the same.</p>
 
+<figure>
 <p><img src="/img/posts/2023-05-24-llms-training.jpg" alt="Pre-Training LLMs" /></p>
+  <figcaption>Photo on Unsplash</figcaption>
+</figure>
 
 <p>When it comes to P in Pre-training we need to look to the past. A variety of different models would be trained as specialists: one for answering questions, another for classifying things, or for translation. But GPT is a generalist, pre-trained to understand human languages in general, which can be quickly fine-tuned on top of the pre-trained base.</p>
 
@@ -42,7 +321,10 @@
 
 <p>So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what’s expected. If you see “Prepare a report,” the output should indicate what a report looks like. For “Give me a summary,” the output should indicate what a summary looks like.</p>
 
+<figure>
 <p><img src="/img/posts/2023-05-24-llms-instruct.jpg" alt="ChatGPT was Fine-tuned on Instructions" /></p>
+  <figcaption>Photo on Unsplash</figcaption>
+</figure>
 
 <p>Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily “human.”</p>
 
@@ -71,7 +353,10 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
+<figure>
+<p><img src="/img/posts/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>
+  <figcaption>Photo by Diego PH, Cover by Towfiqu barbhuiya on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
 
 <h2 id="pre-reception">Pre-Reception</h2>
 
@@ -135,7 +420,12 @@
 
 <p>Overall, it was an incredibly experience and we hope to continue building our community of talented women in tech. If you’re interested in joining us or attending future events, be sure to follow us on <a href="https://www.linkedin.com/company/creatives-in-tech/">LinkedIn</a> and keep an eye out for our next event announcement. We hope to see you there! ⚡️</p>
 
-<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
+<p>This event was generously supported by <a href="https://developers.google.com/womentechmakers">Google Women Techmakers</a>, <a href="https://www.mylivestack.com/">WeTransact.Live</a>, and <a href="https://gatheround.com/">Gatheround</a>.</p>
+
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Hannah Busing on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
 
 <p><a href="https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx"><img src="/img/posts/2023-02-13-tensorflow-cert.png" alt="TensorFlow Developer Certificate" /></a></p>
 
@@ -205,7 +495,12 @@
 
 <p>The International Women’s Day (IWD) events from March through April are a highlight for WTM. These annual events serve as a powerful platform to celebrate the achievements of women in tech and inspire future generations. Google offers incentives and support to WTM Ambassadors helping contribute to the success of IWD by organizing events, spreading awareness, while making a meaningful impact.</p>
 
-<p>As I embark on this incredible journey as a Women Techmakers Ambassador, I’m filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping <a href="http://far.ai">FAR.AI</a>, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
+<p>As I embark on this incredible journey as a Women Techmakers Ambassador, I’m filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.</p>
+
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping <a href="http://far.ai">FAR.AI</a>, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
 
 <h2 id="research-overview">Research Overview</h2>
 
@@ -244,135 +539,9 @@
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry><entry><title type="html">Optimal Behavior Prior</title><link href="http://localhost:4000/2022/11/30/obp-poster.html" rel="alternate" type="text/html" title="Optimal Behavior Prior" /><published>2022-11-30T00:00:00-08:00</published><updated>2022-11-30T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/30/obp-poster</id><content type="html" xml:base="http://localhost:4000/2022/11/30/obp-poster.html"><![CDATA[<h2 id="effective-use-of-human-data">Effective Use of Human Data</h2>
+<p>It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>
 
-<p>Happy Thanksgiving! Would you have liked an AI preparing your feast? Or maybe cleaning up afterwards? On the road to creating collaborative AI agents that can better understand and assist humans, <a href="https://arxiv.org/abs/2211.01602">Optimal Behavior Prior</a> presents an efficient way to use data collected from humans using the <a href="https://github.com/HumanCompatibleAI/overcooked_ai">Overcooked-AI</a> benchmark environment.</p>
-
-<h2 id="figure-rework">Figure Rework</h2>
-
-<p>Through <a href="http://far.ai">FAR.AI</a>, I had the opportunity to design communications for the paper. The main figure was a centerpiece highlighting the key concepts from the paper and an algorithm also clarified the process.</p>
-
-<p><img src="/img/posts/2022-11-30-obp-1a.png" class="border-0" /></p>
-
-<p><img src="/img/posts/2022-11-30-obp-algorithm.png" class="border-0" /></p>
-
-<p>While the original figure was already well-done, we explored other ways to strengthen the ideas by:</p>
-
-<ul>
-  <li>Stacking the environments to show a given environment with agents in greater detail.</li>
-  <li>Combining the policy, agent, and neural network model images together into a single image emphasized the color &amp; labels more clearly.</li>
-  <li>Simplifying the human-data image.</li>
-  <li>Adding a narrative storyline with bold keywords to highlight the discrete steps.</li>
-  <li>Incorporating subtext from the algorithm underneath keywords added to the explanation.</li>
-</ul>
-
-<p><img src="/img/posts/2022-11-30-obp-1b.pn" class="border-0" /></p>
-
-<h2 id="poster-design">Poster Design</h2>
-
-<p>After some additional back &amp; forth to finalize text description and LaTex labels, the newly redesigned figure and other key elements from the paper were extracted to create the resulting poster. Normally, I use Adobe Illustrator or InDesign for layout projects. However, in this case, figures were formatted in Figma then printed on a 2’x3’ poster.</p>
-
-<p><img src="/img/posts/2022-11-30-obp-poster.png" alt="NeurIPS Poster" /></p>
-
-<p>Check out the full paper, <a href="https://arxiv.org/abs/2211.01602">“Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration”</a> presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Effective Use of Human Data]]></summary></entry><entry><title type="html">Minimalist Logo</title><link href="http://localhost:4000/2022/11/20/stampy-min-logo.html" rel="alternate" type="text/html" title="Minimalist Logo" /><published>2022-11-20T00:00:00-08:00</published><updated>2022-11-20T00:00:00-08:00</updated><id>http://localhost:4000/2022/11/20/stampy-min-logo</id><content type="html" xml:base="http://localhost:4000/2022/11/20/stampy-min-logo.html"><![CDATA[<h2 id="fun-vs-minimal">Fun vs Minimal</h2>
-
-<p>While some people loved the new Stampy logo, others felt it was a bit too “cutesy” and inappropriate to represent a serious topic as AGI safety and existential risk to humanity. So, an alternate website was launched with the same informational text content as stampy.ai but without the imagery. Between the various sites, the analytics indicated a healthy average of a few thousand visitors each week. We began exploring a more minimalistic logo for these alternate sites.</p>
-
-<h2 id="generated-alignment">Generated Alignment</h2>
-
-<p>With the idea of “alignment” and “seriousness” in mind, we first used namecheap’s <a href="https://www.namecheap.com/logo-maker/app/">Logo Maker</a> to generate some basic ideas. After answering a few questions on our preferences for font and logo styles &amp; colors, we gravitated towards indigo-bluish colors, some gradients, and parallel lines to indicate alignment.
-<img src="/img/posts/2022-11-20-stampy-min-ideas1.png" class="width-50" /></p>
-
-<h2 id="puzzling-challenges">Puzzling Challenges</h2>
-
-<p>For the next iteration, we brought in some additional ideas of mazes or puzzles, hinting at the idea of solving challenging problems. Someone suggested using concentric circles or colors from branding within the <a href="https://www.centreforeffectivealtruism.org/">Effective Altruism</a> movement.</p>
-
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas2.jpg" class="width-50" /></p>
-
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas3.png" class="width-50" /></p>
-
-<h2 id="easter-eggs">Easter Eggs</h2>
-
-<p>In our final rounds, we experimented with some Easter eggs, incorporating aspects of the original Stampy colors including elements of a face and stamp.</p>
-
-<p><img src="/img/posts/2022-11-20-stampy-min-ideas4.png" class="width-50" /></p>
-
-<p>Finally, introducing our new alternate, minimalistic, sorta-serious logo… It’s a puzzle. It’s a maze. It’s a stamp. It’s face. It’s anything it wants to be! Do you see all the possibilities?</p>
-
-<p><img src="/img/posts/2022-11-20-stampy-min-logo.svg" class="width-50" /></p>
-
-<p>Take a look at <a href="https://aisafety.info/">aisafety.info</a> with the new, minimalistic design.</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Fun vs Minimal]]></summary></entry><entry><title type="html">AI Alignment Literature</title><link href="http://localhost:4000/2022/09/22/align-lit.html" rel="alternate" type="text/html" title="AI Alignment Literature" /><published>2022-09-22T00:00:00-07:00</published><updated>2022-09-22T00:00:00-07:00</updated><id>http://localhost:4000/2022/09/22/align-lit</id><content type="html" xml:base="http://localhost:4000/2022/09/22/align-lit.html"><![CDATA[<h2 id="alignment-literature-search">Alignment Literature Search</h2>
-
-<p>The field of AI Safety &amp; Alignment is a new and very fluid field of study. There’s been an influx of recent research which makes it a daunting task for those interested in entering the field to get a good overview of the landscape and directions.</p>
-
-<p>For the last few months, getting backing into web development for the Stampy UI and working on the semantic search have been rewarding. Since we functioned well together as a team, a number of software engineers have decided to turn full-time on AGI Safety &amp; Alignment to form the <a href="https://alignment.dev/">Alignment Ecosystem Development</a> group. I’m really excited to start on a new project with them, taking the <a href="https://github.com/moirage/alignment-research-dataset">Alignment Research Dataset</a> to be searchable for AI alignment researchers. This is my excuse er chance to get better acquainted with research literature while also working with some NLP techniques. In the meantime, I’ve also been attending a weekly to biweekly <a href="https://www.agisafetyfundamentals.com/ai-alignment-curriculum">AGI Safety Fundamentals</a> reading group.</p>
-
-<p>Between the reading group and researching for the next project, I’m rapidly drowning in my random piles of handwritten notes. For now, I’ll be using various parts of this site and specificially this page to organize meandering thoughts and track progress, which will likely remain in a state of flux for some time.</p>
-
-<h2 id="prototypes-and-notes">Prototypes and Notes</h2>
-
-<p>Ultimately, I was able to create a few prototypes to demo:</p>
-
-<ul>
-  <li><a href="http://nlp.stampy.ai">Semantic Search for Similar Stampy FAQs</a></li>
-  <li><a href="https://nlp.stampy.ai/literature">Search Literature Abstracts &amp; Summaries</a></li>
-  <li><a href="https://nlp.stampy.ai/extract">Extract Answers from Literature</a></li>
-</ul>
-
-<p>These are deployed on Google Cloud Run. This project gave me an excuse to learn about Google Cloud Platform (GCP) and take some Coursera classes by Google on Cloud Computing and App Engineering. It was fascinating, and I learned enough to get my prototypes deployed. Unfortunately, much of reminded me of my tortuous days in IT doing sysadmin, so I was lucky enough to find a knowledgeable guru to save me from my misery.</p>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li><a href="https://arxiv.org/abs/2206.02841">Understanding AI Alignment Research: A Systematic Analysis</a> <a href="https://github.com/moirage/alignment-research-dataset">[GitHub]</a> (2022)</li>
-  <li><a href="https://arxiv.org/abs/2004.07180">SPECTER: Document-level Representation Learning using Citation-informed Transformers</a> <a href="https://github.com/allenai/specter">[GitHub]</a> (2020)</li>
-  <li><a href="https://arxiv.org/abs/2004.15011">TLDR: Extreme Summarization of Scientific Documents</a> <a href="https://github.com/allenai/scitldr">[GitHub]</a> (2020)</li>
-  <li><a href="https://arxiv.org/abs/1903.10676v3">SCIBERT: A Pretrained Language Model for Scientific Text</a> <a href="https://github.com/allenai/scibert">[GitHub]</a> (2019)</li>
-  <li><a href="https://arxiv.org/abs/1903.10676v3">S2ORC: The Semantic Scholar Open Research Corpus</a> <a href="https://github.com/allenai/s2orc">(GitHub)</a> (2019)</li>
-  <li><a href="https://arxiv.org/abs/1805.02262">Construction of the Literature Graph in Semantic Scholar</a> (2018)</li>
-</ul>
-
-<h2 id="open-domain-qa">Open Domain Q&amp;A</h2>
-
-<ul>
-  <li><a href="https://aclanthology.org/2020.acl-tutorials.8/">ACL2020 Tutorial: Open-Domain Question Answering</a> <a href="https://github.com/danqi/acl2020-openqa-tutorial">[GitHub]</a> (2020)</li>
-  <li><a href="https://arxiv.org/abs/2209.10063">Generate rather than Retrieve: Large Language Models are Strong Context Generators</a></li>
-  <li><a href="https://arxiv.org/abs/2009.08553">Generation-Augmented Retrieval for Open-domain Question Answering</a></li>
-  <li><a href="https://arxiv.org/abs/2004.04906">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
-  <li><a href="https://arxiv.org/abs/1704.00051">Reading Wikipedia to Answer Open-Domain Questions</a></li>
-</ul>
-
-<h2 id="vector-databases-and-building-ml-apps">Vector Databases and Building ML Apps</h2>
-
-<ul>
-  <li><a href="https://milvus.io/">milvus</a> <a href="https://github.com/milvus-io/bootcamp">[GitHub]</a></li>
-  <li><a href="https://www.pinecone.io/learn/">pinecone</a> <a href="https://github.com/pinecone-io">[GitHub]</a></li>
-  <li><a href="https://www.gradio.app/getting_started/">gradio</a> <a href="https://github.com/gradio-app">[GitHub]</a></li>
-  <li><a href="https://docs.streamlit.io/library/get-started">streamlit</a> <a href="https://github.com/streamlit">[GitHub]</a></li>
-</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Alignment Literature Search]]></summary></entry><entry><title type="html">AI4ALL Mentoring</title><link href="http://localhost:4000/2022/08/11/ai4all.html" rel="alternate" type="text/html" title="AI4ALL Mentoring" /><published>2022-08-11T00:00:00-07:00</published><updated>2022-08-11T00:00:00-07:00</updated><id>http://localhost:4000/2022/08/11/ai4all</id><content type="html" xml:base="http://localhost:4000/2022/08/11/ai4all.html"><![CDATA[<h2 id="ai4all">AI4ALL</h2>
-
-<p><a href="https://ai-4-all.org/">AI4ALL</a> opens doors to Artificial Intelligence for historically excluded talent through education and mentorship. They conduct <a href="https://ai-4-all.org/summer-programs/">summer programs</a> at universities across the US and offer extensive support to the alumni through their <a href="https://ai-4-all.org/changemakers/">Changemakers in AI</a> program.</p>
-
-<p><img src="/img/posts/2022-08-11-ai4all1.png" alt="AI4ALL" /></p>
-
-<h2 id="summer-program">Summer Program</h2>
-
-<p>The AI4ALL summer programs first entered our radar for my daughter, who had a long-time interest in AI. She attended the 3-week camp at Princeton in 2019 and had a blast learning about different ML algorithms &amp; AI ethics, conducting a hands-on research project using genomic data, and touring Washington DC to meet AI policy makers. The alumni network was even more impressive, with frequent updates on opportunities for internships and continued education.</p>
-
-<h2 id="portfolio-project">Portfolio Project</h2>
-
-<p>Soon, I found myself following along, learning these new concepts through their <a href="https://ai-4-all.org/open-learning/">Open Learning</a> platform for educators, then eventually studying deep learning and NLP on my own. A few months ago, I received a volunteer request for their 8-week long summer portfolio project. Students who already completed the regular summer program are given the opportunity to apply and deepen their knowledge of AI by working on an extended personal project. They attend weekly workshops, learning to select and pre-process their dataset, train and evaluate a model, then deliver a poster presentation of their findings.</p>
-
-<p>Students were divided into 3 areas of interest: numeric, text, and images then paired with mentors having relevant experience. My mentees worked on natural language processing tasks, using BERT to classify text. I created a couple videos below and also wrote a <a href="https://colab.research.google.com/github/ccstan99/ccstan99.github.io/blob/main/docs/huggingface-text-classification.ipynb">tutorial notebook</a> to help get them started.</p>
-
-<p><a href="https://www.youtube.com/watch?v=Q3N7zoIcjtw&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=1"><img src="/img/posts/2022-08-11-ai4all-video1.svg" alt="What is NLP?" /></a></p>
-
-<p><a href="https://www.youtube.com/watch?v=bedJ9bQBG6s&amp;list=PLSGYwl5_qS6jEhXHXuEymvNYvrFuD2BOG&amp;index=2"><img src="/img/posts/2022-08-11-ai4all-video2.svg" alt="What are Transformers?" /></a></p>
-
-<p>Since AI4ALL has a rigorous applicant screening process, all the participants were very bright and motivated, which led to a very reward mentoring experience.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>I can fully attest to “teaching is the best way to learn.” While homeschooling my kids, I was constantly learning new material and always thinking, “How would I explain this?” That mentality forced me to think more deeply and analytically. As the kids are off in more traditional educational settings now, it’s been a natural transition for me to return to my work in the technology sector and also mentor other students. Mentoring has been an excellent way to supercharge my upskilling. I previously wrote about my experience with <a href="/2022/06/23/technovation.html">Technovations</a>.</p>
-
-<p>I’d love to learn more about the many other wonderful programs out there. If you haven’t had a chance to share your skills through mentoring, definitely give it a try!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[AI4ALL]]></summary></entry></feed>
+<figure>
+<p> </p>
+  <figcaption>Cover Photo by Elena Popova on Unsplash</figcaption>
+</figure>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry></feed>

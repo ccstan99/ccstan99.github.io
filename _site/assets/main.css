@@ -2455,15 +2455,17 @@ td { font-size: 18px; vertical-align: top; border: 1px solid #ced4da; padding: 6
 
 th { color: #fff; font-size: 12px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; border: 1px solid #ced4da; background-color: #0085A1; padding: 6px; }
 
+figcaption { font-size: 0.8rem; text-align: right; }
+
 tr:nth-child(even) { background-color: #f8f9fa; }
 
 .md-content h1 { font-size: 1.7rem; }
 
-.md-content h2 { font-size: 1.6rem; }
+.md-content h2 { font-size: 1.5rem; }
 
-.md-content h3 { font-size: 1.5rem; }
+.md-content h3 { font-size: 1.2rem; }
 
-h3.post-subtitle { font-size: 1.3rem; }
+h3.post-subtitle { font-size: 1.2rem; }
 
 .btn { font-size: 14px; font-weight: 800; padding: 15px 25px; letter-spacing: 1px; text-transform: uppercase; border-radius: 0; font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 

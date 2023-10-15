@@ -31,3 +31,7 @@ The various figures were crafted into narrative summaring the research journey, 
 ## Conclusion
 
 It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
+
+{% figure caption:"Cover Photo by Elena Popova on Unsplash" %}
+&nbsp;
+{% endfigure %}

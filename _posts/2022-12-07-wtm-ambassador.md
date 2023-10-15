@@ -20,3 +20,7 @@ In mid-November, I received a notification that I had been selected as a WTM Amb
 The International Women's Day (IWD) events from March through April are a highlight for WTM. These annual events serve as a powerful platform to celebrate the achievements of women in tech and inspire future generations. Google offers incentives and support to WTM Ambassadors helping contribute to the success of IWD by organizing events, spreading awareness, while making a meaningful impact.
 
 As I embark on this incredible journey as a Women Techmakers Ambassador, I'm filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.
+
+{% figure caption:"Cover Photo by Toa Heftiba on Unsplash" %}
+&nbsp;
+{% endfigure %}
