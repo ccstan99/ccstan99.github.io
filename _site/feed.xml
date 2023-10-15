@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-15T00:53:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-15T00:57:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
 
 <h2 id="understanding-ai-safety">Understanding AI Safety</h2>
 
@@ -16,7 +16,7 @@
 
 <p>Defining intelligence for AGI, like <strong>human-level intelligence</strong>, can be challenging to define. Alan Turing, often regarded as the father of artificial intelligence, introduced the Turing test in 1950, a benchmark where a computer and a human engage in conversation, and an interrogator tries to determine which is which. The goal is to create an intelligent thinking machine that is indistinguishable from a human.However, defining what constitutes average human intelligence is not straightforward. Nevertheless, recent advancements in AI, such as GPT-4’s performance on standardized tests, suggest that human-level intelligence may be closer than we think.</p>
 
-<p><img src="/img/posts/2023-10-14-super-yulia-matvienko-kgz9vsP5JCU-unsplash.jpg" alt="Superintelligence" /></p>
+<p><img src="/img/2023/2023-10-14-super-yulia-matvienko-kgz9vsP5JCU-unsplash.jpg" alt="Superintelligence" /></p>
 <figcaption>Photo by Yulia Matvienko on Unsplash</figcaption>
 
 <p><strong>Superintelligence</strong> represents the next level of AGI, surpassing human capabilities in all tasks. It may involve exponential self-improvement, leading to uncontrollable and irreversible technological growth. While the idea of superintelligence may seem like a significant leap forward, its implications and potential risks are complex and require careful consideration.</p>
@@ -41,7 +41,7 @@
 
 <p>The “Gorilla Problem” highlights the unintended consequences of technological advancement. Just as humans unintentionally endangered gorillas while pursuing their goals, superintelligent AI might not harbor malice toward humans but still pose a threat due to misalignment of interests.</p>
 
-<p><img src="/img/posts/2023-10-14-gorilla-rob-schreckhise-8zdEgWg5JAA-unsplash.jpg" alt="Gorilla" /></p>
+<p><img src="/img/2023/2023-10-14-gorilla-rob-schreckhise-8zdEgWg5JAA-unsplash.jpg" alt="Gorilla" /></p>
 <figcaption>Photo by Rob Schreckhise on Unsplash</figcaption>
 
 <p>Open source AI models, while democratizing access to AI capabilities, also raise security concerns. Without adequate safeguards, powerful LLMs can be exploited by bad actors for malicious purposes, such as planning terrorist attacks or establishing oppressive regimes.</p>
@@ -101,7 +101,7 @@
 
 <p>Jen Person, a Developer Relations Engineer at Google, led our first workshop. The session provided a clear roadmap for creating well-structured technical talks. From understanding your audience to quantifying success, Jen guided us step-by-step. She suggested a clear outline, including sections like Introduction, Problem Description, Solution, and Conclusion. The session even touched on how to effectively use elements like code snippets and architecture diagrams. Homework? Creating our speaker bios and presentation decks. The focus was straightforward: arming us with what we need to give impactful tech talks.</p>
 
-<p><img src="/img/posts/2023-10-05-wda-session1.png" alt="Tech Talks Fun" /></p>
+<p><img src="/img/2023/2023-10-05-wda-session1.png" alt="Tech Talks Fun" /></p>
 
 <h2 id="mastering-presentation-delivery">Mastering Presentation Delivery</h2>
 
@@ -111,13 +111,13 @@
 
 <p>Heather McCormick from Google Cloud Training &amp; Certification took us through the art of effective self-promotion. This involved learning how to write talk proposals that catch the eye of conference organizers. Heather broke down the elements that make a proposal stand out: focus on the audience, clarity, and a compelling tone. We discussed how to draft impactful titles, abstracts, and leverage social media to establish credibility. The session concluded with actionable steps like proposal submissions and feedback gathering.</p>
 
-<p><img src="/img/posts/2023-10-05-wda-session3.png" alt="Tech Talks ABC" /></p>
+<p><img src="/img/2023/2023-10-05-wda-session3.png" alt="Tech Talks ABC" /></p>
 
 <h2 id="building-confidence-for-career-growth">Building Confidence for Career Growth</h2>
 
 <p>Joana Carrasqueira, Manager of AI Developer Relations at Google, closed the series by focusing on the importance of confidence. Joana emphasized that confidence is a skill anyone can learn, crucial for performance and well-being. We explored tactics for boosting self-confidence, such as positive self-talk and setting achievable goals. She advised us to align our career plans with our core values and skills, encouraging us to seek mentorship and engage with communities for continuous growth.</p>
 
-<p><img src="/img/posts/2023-10-05-wda-session4.png" alt="Self Assessment" /></p>
+<p><img src="/img/2023/2023-10-05-wda-session4.png" alt="Self Assessment" /></p>
 
 <h2 id="impact-of-mentorship">Impact of Mentorship</h2>
 
@@ -327,7 +327,7 @@
 
 <p>Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create “expert” systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-stats.png" alt="Statistics in LLMs" /></p>
+<p><img src="/img/2023/2023-05-24-llms-stats.png" alt="Statistics in LLMs" /></p>
 <figcaption>Photo by Towfiqu Barbhuiya on Unsplash</figcaption>
 
 <p>Towards the late 90s, statistical methods were used. There’s a famous quote, “You shall know a word by the company it keeps.” That simple idea was profound. If you start counting words and looking at what other words tend to occur with it, you’ll end up learning a lot about the language itself. All those relationships make up the language model. Think back to when you were first learning your native language. As a child, you were immersed with sounds, words, and sentences of your language. Now, you have intuition of what sounds right or what’s off, even if you don’t know why. You’ve internalized all the statistics for your own language model.</p>
@@ -338,7 +338,7 @@
 
 <p>Before that, language models were painfully slow and forgetful. Imagine a sweet old granny struggling to understand words one by one and getting confused by long sentences. So, if you had tried to make models bigger, trained on more data, it didn’t matter.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-superhero.png" alt="Transformers are Superheroes" /></p>
+<p><img src="/img/2023/2023-05-24-llms-superhero.png" alt="Transformers are Superheroes" /></p>
 <figcaption>Photo from Everything Everywhere All at Once (2022)</figcaption>
 
 <p>Things didn’t really improve much until Transformers came along with attention superpowers. Now, models could look at everything, all at once. Long-term memory? No problem. Now, we can train on all of Wikipedia and piles and piles of books. The models kept learning and improving. Turns out, neural networks are extremely data hungry. They need tons of it to learn. So people went out and scraped everything they could find on the web: blogs, tweets, code, whatever was out there.</p>
@@ -353,7 +353,7 @@
 
 <p>They are trained for next word prediction. It’s like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it’s wrong, let’s update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with “Twinkle Twinkle Little…” the next word is most likely “Star.” Maybe feels like a sophisticated auto-complete. Think about when you’re talking with someone and you “complete each other’s sentences.” It’s often a sign of deep mutual understanding. Imagine a computer doing the same.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-training.jpg" alt="Pre-Training LLMs" /></p>
+<p><img src="/img/2023/2023-05-24-llms-training.jpg" alt="Pre-Training LLMs" /></p>
 
 <p>When it comes to P in Pre-training we need to look to the past. A variety of different models would be trained as specialists: one for answering questions, another for classifying things, or for translation. But GPT is a generalist, pre-trained to understand human languages in general, which can be quickly fine-tuned on top of the pre-trained base.</p>
 
@@ -367,7 +367,7 @@
 
 <p>So GPT-3 was fine-tuned to respond to instructions. They got lots of sample instructions along with what’s expected. If you see “Prepare a report,” the output should indicate what a report looks like. For “Give me a summary,” the output should indicate what a summary looks like.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-instruct.jpg" alt="ChatGPT was Fine-tuned on Instructions" /></p>
+<p><img src="/img/2023/2023-05-24-llms-instruct.jpg" alt="ChatGPT was Fine-tuned on Instructions" /></p>
 
 <p>Next, it was also fine-tuned on sample back-and-forth conversations to learn how dialogues work. These extra fine-tuning steps were quick and cheap compared to pre-training the original, which took months and millions. It managed to bring out some innate abilities hidden in the base model. But suddenly, following instructions and carrying conversations made it extremely helpful and eerily “human.”</p>
 
@@ -396,32 +396,32 @@
 
 <p>We’re standing at the dawn of this new era shaped by AI. In order to survive, you’ll have to embrace AI in some way. No one wants to be the dinosaur. Sometimes, it feels like we’re blindly rushing into this awe-inspiring yet potentially treacherous territory. AI is a tool that holds immense power, but it’s far from perfect or even safe. As the saying goes, “Trust but verify.” We need to keep humans in the loop. My hope is that we can be guided by wisdom, empathy, and a commitment to embrace the power of AI responsibly.</p>
 
-<p><img src="/img/posts/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>
+<p><img src="/img/2023/2023-05-24-llms-embrace.png" alt="Embrace AI Responsibly" /></p>
 <figcaption>Photo by Diego PH, Cover by Towfiqu barbhuiya on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We’ll look at language models, how they got so large, and think about how to deal with all this AI buzz.]]></summary></entry><entry><title type="html">Google I/O 2023</title><link href="http://localhost:4000/2023/05/10/google-io.html" rel="alternate" type="text/html" title="Google I/O 2023" /><published>2023-05-10T00:00:00-07:00</published><updated>2023-05-10T00:00:00-07:00</updated><id>http://localhost:4000/2023/05/10/google-io</id><content type="html" xml:base="http://localhost:4000/2023/05/10/google-io.html"><![CDATA[<p><a href="https://io.google/2023/">Google I/O 2023</a> proved to be a memorable experience in so many ways!</p>
 
 <h2 id="pre-reception">Pre-Reception</h2>
 
 <p>The event kicked off with the Women Techmakers Ambassadors at the pre-reception on Tuesday evening. It was such an exciting moment to finally meet and connect with Creatives in Tech in person. We were buzzing with anticipation, eager to learn from each other and soak up all the knowledge and inspiration that awaited us.</p>
 
-<p><img src="/img/posts/2023-05-10-io-reception.jpg" alt="evening reception" /></p>
+<p><img src="/img/2023/2023-05-10-io-reception.jpg" alt="evening reception" /></p>
 
 <h2 id="keynote-at-shoreline">Keynote at Shoreline</h2>
 
 <p>One of the highlights of the event was undoubtedly the I/O keynote addresses. It was wonderful to witness Google’s announcements firsthand and watch the impressive AI/ML demos. The entire event was incredibly well-organized, right from the convenient shuttle services to the delicious breakfast and lunch options. And to our surprise, we were even provided with caps, sweatshirts, sunscreen, rain ponchos, and hand warmers - they truly had us covered for any unexpected weather or situation.</p>
 
-<p><img src="/img/posts/2023-05-10-io-keynote.jpg" alt="morning keynotes" /></p>
+<p><img src="/img/2023/2023-05-10-io-keynote.jpg" alt="morning keynotes" /></p>
 
 <h2 id="breakouts-at-bay-view">Breakouts at Bay View</h2>
 
 <p>After the keynote, we had the chance to attend breakout sessions at Google’s new Bayview campus. It was an opportunity to delve deeper into topics like women in leadership and AI/ML. The sessions were informative, engaging, and filled with valuable insights. We couldn’t resist exploring the beautiful campus and taking advantage of the bike trails. It was a refreshing way to unwind and enjoy the surroundings.</p>
 
-<p><img src="/img/posts/2023-05-10-io-bayview.jpg" alt="afternoon breakouts" /></p>
+<p><img src="/img/2023/2023-05-10-io-bayview.jpg" alt="afternoon breakouts" /></p>
 
 <p>I had such a fantastic time at Google I/O 2023 and highly recommend attending the event in the future. The atmosphere was fun-filled, the knowledge-sharing was inspiring, and the connections made were invaluable. Can’t wait for next time!</p>
 
 <p>Until then, keep exploring, learning, and embracing the exciting world of technology!</p>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Google I/O 2023 proved to be a memorable experience in so many ways!]]></summary></entry><entry><title type="html">Dare to be Creative in Tech</title><link href="http://localhost:4000/2023/03/22/wtm-iwd.html" rel="alternate" type="text/html" title="Dare to be Creative in Tech" /><published>2023-03-22T00:00:00-07:00</published><updated>2023-03-22T00:00:00-07:00</updated><id>http://localhost:4000/2023/03/22/wtm-iwd</id><content type="html" xml:base="http://localhost:4000/2023/03/22/wtm-iwd.html"><![CDATA[<p>Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-promo.jpg" alt="promo" /></p>
+<p><img src="/img/2023/2023-03-22-iwd-promo.jpg" alt="promo" /></p>
 
 <h2 id="our-event">Our Event</h2>
 
@@ -455,7 +455,7 @@
 
 <p>It was an immense honor to befriend so many smart and talented Women Techmaker Ambassadors. Our team of 12 volunteers and 9 speakers worked together to create a comprehensive plan that included a general run of show and weekly meetings starting in mid-January. Kaylyn spearheaded the event, guided us withe her vision, and provided extensive planning documents to keep everything on track. Michelle, our wonderful head of marketing, put together a social media toolkit and recruited backend volunteers. I offered input from the early stages and became more active as an organizer towards the end of February, taking time off work to ensure that everything went smoothly. All the volunteers and speakers actively contributed ideas and ultimately formed a sisterly bond.</p>
 
-<p><img src="/img/posts/2023-03-22-iwd-photobooth.png" alt="photobooth" /></p>
+<p><img src="/img/2023/2023-03-22-iwd-photobooth.png" alt="photobooth" /></p>
 
 <h2 id="join-our-community">Join Our Community</h2>
 
@@ -465,7 +465,7 @@
 
 <figcaption>Cover Photo by Hannah Busing on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Are you a woman in tech? Do you want to hear from other creative and talented women in the industry? Look no further than the Women Techmakers Ambassador community, Creatives in Tech! On March 22nd, we celebrated International Women’s Day by hosting a virtual event that highlighted the experiences of creative women in tech.]]></summary></entry><entry><title type="html">TensorFlow Developer Certification</title><link href="http://localhost:4000/2023/02/13/tensorflow-cert.html" rel="alternate" type="text/html" title="TensorFlow Developer Certification" /><published>2023-02-13T00:00:00-08:00</published><updated>2023-02-13T00:00:00-08:00</updated><id>http://localhost:4000/2023/02/13/tensorflow-cert</id><content type="html" xml:base="http://localhost:4000/2023/02/13/tensorflow-cert.html"><![CDATA[<p>Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.</p>
 
-<p><a href="https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx"><img src="/img/posts/2023-02-13-tensorflow-cert.png" alt="TensorFlow Developer Certificate" /></a></p>
+<p><a href="https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx"><img src="/img/2023/2023-02-13-tensorflow-cert.png" alt="TensorFlow Developer Certificate" /></a></p>
 
 <p>For starters, review the candidate handbook very carefully. The DeepLearning.AI on Coursera lays a strong foundation but you’ll need additional hands on practice as well. Be sure you’re comfortable with these topics:</p>
 
@@ -521,7 +521,7 @@
   <li><a href="https://github.com/ageron/handson-ml3">Hands-On ML with Scikit-Learn, Keras, and TensorFlow</a></li>
 </ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.]]></summary></entry><entry><title type="html">Women Techmakers Ambassador</title><link href="http://localhost:4000/2022/12/07/wtm-ambassador.html" rel="alternate" type="text/html" title="Women Techmakers Ambassador" /><published>2022-12-07T00:00:00-08:00</published><updated>2022-12-07T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/07/wtm-ambassador</id><content type="html" xml:base="http://localhost:4000/2022/12/07/wtm-ambassador.html"><![CDATA[<p>I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.</p>
 
-<p><img src="/img/posts/2022-12-07-wtm-ambassador.gif" alt="I'm a WTM Ambassador!" /></p>
+<p><img src="/img/2022/2022-12-07-wtm-ambassador.gif" alt="I'm a WTM Ambassador!" /></p>
 
 <p>After working in tech for many years now, I’ve gotten to the “sea of dudes”. Until recently, I’d never been involved with any movements geared towards women in tech. I’ve worked with great guys but I’ve realized that working with other women in tech has such a refreshingly nurturing vibe. Now, I’m wondering: Why didn’t I start sooner?!</p>
 

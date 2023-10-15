@@ -2,7 +2,7 @@
 layout: post
 title: "Go Attack"
 subtitle: "Adversarial Policies Beat Superhuman Go AIs"
-background: '/img/posts/2022-12-01-goattack.jpg'
+background: '/img/2022/2022-12-01-goattack.jpg'
 ---
 
 I am thrilled to share my recent helping [FAR.AI](http://far.ai), an AI Alignment research organization, creating the NeurIPS poster for the project ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)
@@ -19,14 +19,14 @@ To better communicate the research findings, I reworked images from previous pre
 
 | after | before |
 | :---: | :----: |
-| <img src="/img/posts/2022-12-01-goattack-model.svg" class="cols-2" /><br>Threat Model | <img src="/img/posts/2022-12-01-goattack-model-before.png" class="cols-2" /> |
-| <img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" class="cols-2" /><br>Non-Transitivity | <img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" class="cols-2" /> |
+| <img src="/img/2022/2022-12-01-goattack-model.svg" class="cols-2" /><br>Threat Model | <img src="/img/2022/2022-12-01-goattack-model-before.png" class="cols-2" /> |
+| <img src="/img/2022/2022-12-01-goattack-nontransitivity.svg" class="cols-2" /><br>Non-Transitivity | <img src="/img/2022/2022-12-01-goattack-nontransitivity-before.png" class="cols-2" /> |
 
 ## NeurIPS Poster
 
 The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
 
-![GoAttack Poster](/img/posts/2022-12-01-goattack.png)
+![GoAttack Poster](/img/2022/2022-12-01-goattack.png)
 
 ## Conclusion
 

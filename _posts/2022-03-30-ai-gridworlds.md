@@ -2,7 +2,7 @@
 layout: post
 title: "AI Safety Gridworlds"
 subtitle: "Concrete Problems in AI Safety"
-background: '/img/posts/2022-03-30-ai-gridworlds.png'
+background: '/img/2022/2022-03-30-ai-gridworlds.png'
 ---
 
 Here's the outline for a journal paper presentation and discussion. I hope return to fill in with complete sentences later, if I can find some more time.

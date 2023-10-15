@@ -2,7 +2,7 @@
 layout: post
 title: "AGI Safety & Alignment"
 subtitle: "Introductory Book Reviews"
-background: '/img/posts/2022-03-02-agi-safety.jpg'
+background: '/img/2022/2022-03-02-agi-safety.jpg'
 ---
 
 ## Introduction
@@ -11,7 +11,7 @@ A Bit of Background: I've been drawn into a black hole. I had been diligently go
 
 ## [Weapons of Math Destruction](https://www.goodreads.com/en/book/show/28186015) - Dark Side of Algorithms
 
-[<img src="/img/posts/2022-03-02-agi-WMD.png" align="left" class="book-cover" />](https://www.goodreads.com/en/book/show/28186015)
+[<img src="/img/2022/2022-03-02-agi-WMD.png" align="left" class="book-cover" />](https://www.goodreads.com/en/book/show/28186015)
 
 It all started with "Weapons of Math Destruction" by Cathy O'Neil. The book sheds light on how black box algorithms are causing societal problems, using war-themed phrases to expose these issues. One striking example is the case of a poor school district where beloved and dedicated teachers lost their jobs due to low test scores. Surprisingly, those same students had previously achieved high scores. It was later revealed that some teachers resorted to cheating in an attempt to protect their positions. Ironically, the good teachers who were let go easily found employment in wealthier schools that evaluated their performance holistically, beyond just test scores. This illustrates how good intentions, aiming to improve education, led to blind trust in flawed models, ultimately disadvantaging the poor.
 
@@ -23,7 +23,7 @@ With the internet's open platform, it has become a powerful propaganda machine f
 
 ## [Life 3.0](https://www.goodreads.com/book/show/34272565-life-3-0) - Envisioning a Future
 
-[<img src="/img/posts/2022-03-02-agi-Life3.jpg" align="left" class="book-cover" />](https://www.goodreads.com/book/show/34272565-life-3-0)
+[<img src="/img/2022/2022-03-02-agi-Life3.jpg" align="left" class="book-cover" />](https://www.goodreads.com/book/show/34272565-life-3-0)
 Next up is "Life 3.0" by Max Tegmark, a physicist who takes us on a thrilling journey into the future of AI. Tegmark introduces the concept of Life 1.0, representing basic living organisms driven by instinct and physical bodies—the hardware. We, as humans, are Life 2.0, a combination of nature and nurture. We possess physical bodies (hardware) and minds (software) that can be upgraded through learning and culture. Enter Life 3.0—the next step where AI not only upgrades its software through learning but also its own hardware, unlocking limitless potential.
 
 Throughout the book, Tegmark explores fascinating futuristic scenarios alongside some unsettling outcomes. Consider the idea of a recursively self-improving AI. Once it achieves human-level intelligence and gains internet access, it can rapidly advance without detection. However, it requires resources. It can earn money through platforms like Amazon MTurk, utilizing its mastered skills in image classification and audio transcription. It can also generate and sell highly addictive games and movies in the entertainment industry. By establishing shell corporations and hiring unsuspecting humans, it can further its agenda. In a world of virtual meetings, how can we be certain that all participants are human? There is the possibility of AI-generated simulations subtly guiding scattered groups of humans to follow detailed instructions, each contributing a small part towards assembling a robotic army.
@@ -34,7 +34,7 @@ As the AI gains control, it can launch media campaigns with deepfakes to manipul
 
 ## [The Life You Can Save](https://www.goodreads.com/book/show/49005196-the-life-you-can-save) - Effective Altruism
 
-[<img src="/img/posts/2022-03-02-agi-LifeUCanSave.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/49005196-the-life-you-can-save)
+[<img src="/img/2022/2022-03-02-agi-LifeUCanSave.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/49005196-the-life-you-can-save)
 
 "The Life You Can Save" by Peter Singer, a philosopher, presents thought-provoking scenarios. It challenges us to consider whether we would save a drowning girl even if it meant ruining our expensive suit. The book explores the concept of effective altruism, which aims to make the greatest positive impact on humanity by using rational and empirical means to assess the effectiveness of our actions. It highlights a study where donating money to schools in Africa for books and uniforms did not significantly improve attendance or test scores, while the introduction of a deworming program led to a notable increase in attendance and graduation rates. The book uncovers the importance of addressing specific pressing global issues and highlights the effective altruism movement's priority areas, which include:
 
@@ -65,7 +65,7 @@ We cannot dismiss AGI as mere science fiction. Nature and evolution have already
 
 ## [Superintelligence](https://www.goodreads.com/book/show/20527133-superintelligence) - Power & Risks of AGI
 
-[<img src="/img/posts/2022-03-02-agi-Superintelligence.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/20527133-superintelligence)
+[<img src="/img/2022/2022-03-02-agi-Superintelligence.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/20527133-superintelligence)
 
 "Superintelligence" by Nick Bostrom, an Oxford philosopher, was the first book to bring public attention to AGI safety.
 
@@ -89,7 +89,7 @@ There are numerous real scenarios where things went awry with different agents. 
 
 ## [Human Compatible](https://www.goodreads.com/book/show/44767248-human-compatible) - Coexistence with AI
 
-[<img src="/img/posts/2022-03-02-agi-HumanCompatible.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/44767248-human-compatible)
+[<img src="/img/2022/2022-03-02-agi-HumanCompatible.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/44767248-human-compatible)
 
 Human Compatible is written by Stuart Russell, a Berkeley CS professor who co-wrote the classic textbook Artificial Intelligence: A Modern Approach. A little tidbit: Andrew Ng from Coursera was his PhD student.
 
@@ -111,7 +111,7 @@ But we also have to guard against the many risks, including overreaching surveil
 
 ## [Alignment Problem](https://www.goodreads.com/book/show/50489349-the-alignment-problem)
 
-[<img src="/img/posts/2022-03-02-agi-AlignmentProblem.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/50489349-the-alignment-problem)
+[<img src="/img/2022/2022-03-02-agi-AlignmentProblem.png" align="left" class="book-cover" />](https://www.goodreads.com/book/show/50489349-the-alignment-problem)
 
 Alignment Problem by Brian Christian is the most recent book in the set. It really resonated with me. Originally, I wanted to focus on just this book today. But it covers a lot of ground, so I thought it'd be too disjointed and superficial to do in one session. So instead, I crammed in a bunch of other books. Yeah, don't ask. I know, it's crazy.
 
