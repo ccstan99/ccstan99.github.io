@@ -2,7 +2,7 @@
 layout: post
 title: "LLM Mechanistic Interpretability"
 subtitle: "Reverse Engineering Transformers"
-background: '/img/2023/2023-06-30-mech-interpret.jpg'
+background: '/img/2023/2023-06-30-mech-interpret-garett-mizunaka-xFjti9rYILo-unsplash.jpg'
 ---
 
 Mechanistic interpretability of large language models (LLMs) is a detailed exploration of the inner workings of Transformer-based model. It dissects and reverse engineers individual components like attention heads, layers, and neurons to understand their specific roles in model decisions. This is a new and exciting field that sits at the intersection of my life experiences. As an undergrad, I studied linguistics and computer science, particularly Natural Language Processing (NLP) and human languages in general. Homeschooling brought me into the education space. This gave me the opportunity to explore language acquisition through immersion and delve into effective pedagogical methods. I initially stumbled into the field while reviewing two papers for a work project:
@@ -38,3 +38,5 @@ I've been reasing through other fascinating papers trying to figure out what LLM
 - [Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the MACHIAVELLI Benchmark](https://arxiv.org/abs/2304.03279)
 - [Interactive Fiction Games: A Colossal Adventure](https://arxiv.org/abs/1909.05398)
 - [Keep CALM and Explore: Language Models for Action Generation in Text-based Game.](https://arxiv.org/abs/2010.02903)
+
+<figcaption>Cover Photo by Garett Mizunaka on Unsplash</figcaption>

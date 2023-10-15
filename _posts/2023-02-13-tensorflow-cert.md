@@ -2,7 +2,7 @@
 layout: post
 title: "TensorFlow Developer Certification"
 subtitle: "Google's ML Professional Development"
-background: '/img/2023/2023-02-13-tensorflow-cert.jpg'
+background: '/img/2023/2023-02-13-tensorflow-cert-suzi-kim-LpK55Nv-Na8-unsplash.jpg'
 ---
 
 Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.
@@ -50,3 +50,5 @@ For starters, review the candidate handbook very carefully. The DeepLearning.AI 
 - [Review Candidate Handbook](https://www.tensorflow.org/certificate)
 - [DeepLearning.AI on Coursera](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [Hands-On ML with Scikit-Learn, Keras, and TensorFlow](https://github.com/ageron/handson-ml3)
+
+<figcaption>Cover Photo by Suzi Kim on Unsplash</figcaption>

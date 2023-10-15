@@ -2,7 +2,7 @@
 layout: post
 title: "Women Techmakers Ambassador"
 subtitle: "Host. Speak. Mentor. Create."
-background: '/img/2022/2022-12-07-wtm-ambassador.jpg'
+background: '/img/2022/2022-12-07-wtm-ambassador-toa-heftiba-fbCxL_wEo5M-unsplash.jpg'
 ---
 
 I'm delighted to share that I recently became a Google's Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program's mission, resources, and the many ways in which I can contribute to my community.
