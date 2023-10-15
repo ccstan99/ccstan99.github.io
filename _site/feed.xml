@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-14T23:47:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-15T00:53:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ccstan99</title><subtitle>ccstan99&apos;s learning journal</subtitle><author><name>ccstan99</name></author><entry><title type="html">AI for Safer AI</title><link href="http://localhost:4000/2023/10/14/safer-ai.html" rel="alternate" type="text/html" title="AI for Safer AI" /><published>2023-10-14T00:00:00-07:00</published><updated>2023-10-14T00:00:00-07:00</updated><id>http://localhost:4000/2023/10/14/safer-ai</id><content type="html" xml:base="http://localhost:4000/2023/10/14/safer-ai.html"><![CDATA[<p>In recent years, the field of artificial intelligence (AI) has been making significant strides, with the emergence of Large Language Models (LLMs) being at the forefront of these developments. While AI has already had a considerable impact on society, there is a growing concern about the potential risks associated with its continued advancement, leading to the emergence of the field of AI Safety.</p>
 
 <h2 id="understanding-ai-safety">Understanding AI Safety</h2>
 
@@ -127,7 +127,73 @@
 
 <p>In summary, the North America Women Developer’s Academy has been an enriching experience that offered more than just technical know-how. I had the chance to connect with remarkable women in the field, each contributing invaluable perspectives and insights. This empowering environment has fine-tuned my public speaking abilities and provided me with actionable tools to share knowledge effectively. I’m excited to put these skills to use at upcoming DevFest events hosted by Google Developer Groups (GDG) in Sacramento and Vancouver. This journey has not only equipped me with essential skills but also expanded my professional network, and I eagerly look forward to contributing to the tech community in meaningful ways.</p>
 
-<figcaption>Cover Photo by Farsai Chaikulngamdee on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/07/15/chatbot.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-07-15T00:00:00-07:00</published><updated>2023-07-15T00:00:00-07:00</updated><id>http://localhost:4000/2023/07/15/chatbot</id><content type="html" xml:base="http://localhost:4000/2023/07/15/chatbot.html"><![CDATA[<ul>
+<figcaption>Cover Photo by Farsai Chaikulngamdee on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[Recently, I had the honor of participating in the North America Women Developer’s Academy (WDA) 2023, facilitated by Women Techmakers and the Google Developer Experts. This six-week virtual program focused on strengthening technical women in various aspects, including skill development and community involvement. As a Women Techmakers Ambassador, my main goal was to improve my technical prsentation skills. The program included weekly workshops, mentorship sessions, and coursework. One of the highlights was crafting a 15-minute presentation under expert guidance, aimed at future speaking events.]]></summary></entry><entry><title type="html">Intro to ML</title><link href="http://localhost:4000/2023/09/07/intro-ml.html" rel="alternate" type="text/html" title="Intro to ML" /><published>2023-09-07T00:00:00-07:00</published><updated>2023-09-07T00:00:00-07:00</updated><id>http://localhost:4000/2023/09/07/intro-ml</id><content type="html" xml:base="http://localhost:4000/2023/09/07/intro-ml.html"><![CDATA[<p>I had the honor of co-hosting an Introduction to to Machine Learning (ML) tutorial with Phillipa Burgess, host of Muse and Metrics podcast as well as a fellow Women Techmakers Ambassador. We begin by discussing what ML is and how it differs from traditional programming. Next, we delve into a typical ML workflow that starts with data preparation. After our data is ready, we train a model and evaluate its performance. Lastly, we discuss next steps and free resources to help you continue learning.</p>
+
+<p><img src="/img/2023/2023-09-07-intro-ml-welcome.png" alt="Welcome" /></p>
+
+<h2 id="what-is-machine-learning">What is Machine Learning?</h2>
+
+<h3 id="traditional-programming">Traditional Programming</h3>
+
+<p>In traditional programming, you write explicit rules in code. Take a program that converts temperature from Celsius to Fahrenheit as an example. You input the temperature in Celsius, and the program uses a predefined formula to output the temperature in Fahrenheit.</p>
+
+<h3 id="machine-learning">Machine Learning</h3>
+
+<p>ML, however, works differently. Instead of giving the program a formula, you provide it with examples—pairs of input and output data. The algorithm then goes through the data to find patterns, learning to make predictions on its own. For example, you could provide a bunch of temperatures in Celsius along with their Fahrenheit equivalents, and the model would learn the conversion rule by itself.</p>
+
+<p>This approach is powerful for complex tasks. Consider image recognition: it would be difficult to define explicit rules to determine if a photo contains a cat. But with ML, you can train a model on numerous examples of photos with and without cats, and the algorithm will figure out how to identify them.</p>
+
+<p>Language processing benefits similarly from ML. Instead of feeding a program exhaustive lists of vocabulary and grammar rules, you can train a model on well-written text, allowing it to learn the language’s structure and usage patterns.</p>
+
+<h2 id="data-in-machine-learning">Data in Machine Learning</h2>
+
+<h3 id="understanding-your-data">Understanding Your Data</h3>
+
+<p>Before we get started, it’s crucial to understand your data. Ask questions like:</p>
+
+<ul>
+  <li>Where does the data come from?</li>
+  <li>What type of data is it—images, numbers, text?</li>
+  <li>What questions can the data answer?</li>
+</ul>
+
+<p>For this tutorial, we’ll use data about penguins from three specific islands in the Palmer Archipelago. The dataset contains tabular information like bill depth, flipper length, body mass, and sex for each penguin.</p>
+
+<p><img src="/img/2023/2023-09-07-intro-ml-data-explore.png" alt="Data Explore" /></p>
+
+<h3 id="data-preparation">Data Preparation</h3>
+
+<p>Preparing your data is often the most time-consuming part of an ML project. In our case, we’ll use features like bill depth and flipper length as input for our model. First, check for missing data and decide how to handle it. Data needs to be numerical for the algorithm to understand it. Also, for our supervised learning model, the output will be the type of penguin—Adelie, Gentoo, or Chinstrap, encoded numerically as 0, 1, or 2, respectively.</p>
+
+<p>Then, we split the data into a training set and a testing set, often using an 80-20 split. Training on all the data can lead to biased results; it’s crucial to reserve a random sample for evaluation.</p>
+
+<h2 id="models-and-algorithms-in-machine-learning">Models and Algorithms in Machine Learning</h2>
+
+<p><strong>Decision Tree</strong> is a simple yet effective algorithm for beginners. Think of it like a flowchart that makes decisions based on the input features. For example, if a penguin’s bill length is less than 44 mm, it’s most likely an Adelie. The model learns these rules during the training phase.</p>
+
+<p><img src="/img/2023/2023-09-07-intro-ml-tree.png" alt="Decision Tree" /></p>
+
+<p><strong>Decision Forest</strong> is a slightly more advanced algorithm, which employs multiple Decision Trees for better accuracy. Each tree in the forest is trained on different subsets of the data, making the ensemble of trees more reliable and accurate than a single tree.</p>
+
+<p><img src="/img/2023/2023-09-07-intro-ml-forest.png" alt="Decision Forest" /></p>
+
+<p>The good news is that the mathematical and coding aspects of Decision Trees and Forests are mostly handled by existing libraries, letting you focus on the data and the problem at hand. As you delve deeper into ML, you’ll find that a strong foundation is crucial for understanding more complex algorithms and techniques.</p>
+
+<p>Here are links to the <a href="https://bit.ly/WTM23_introML">Google Colab Notebook</a> detailed instructions and the <a href="https://www.youtube.com/watch?v=stgiAM8pTq8&amp;t">YouTube video</a> with the complete tutorial. This was adapted based on the tutorial developed for the 2022 Women in Machine Learning (WiML) Conference by Michelle Carney and Soo Sung from the Tensorflow team.</p>
+
+<h2 id="learning-resources">Learning Resources</h2>
+
+<p>The fun doesn’t have to stop here! There are a TON of free, online resources to help you learn ML and get started with Generative AI!</p>
+
+<ul>
+  <li><a href="https://www.deeplearning.ai/short-courses/">DeepLearning.ai</a> series of 1-hour short courses to learn generative AI</li>
+  <li><a href="https://www.cloudskillsboost.google/journeys/118">Introduction to Generative AI</a> earn badges while following a learning path with videos &amp; exercises</li>
+  <li><a href="https://developers.google.com/machine-learning/crash-course">ML Crash Course</a> Google’s fast-paced, practical introduction to machine learning.</li>
+  <li><a href="https://www.fast.ai/">fast.ai</a> if you already have some coding background, this is a practical guide to dive into deep learning.</li>
+  <li><a href="https://www.kaggle.com/competitions">Kaggle Competitions</a>, If you’re ready to dive in and start coding, check out the “competitions” on Kaggle! It’s a great way to apply what you’ve learned with a community of other learners.</li>
+  <li><a href="https://simplemlforsheets.com/tutorial.html">SimpleML in Google sheets</a> for a no-code way to get started with ML.</li>
+  <li><a href="https://goo.gle/made-with-tfjs">Made with TFJS</a> youtube series that highlight awesome projects made for the web!</li>
+</ul>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I had the honor of co-hosting an Introduction to to Machine Learning (ML) tutorial with Phillipa Burgess, host of Muse and Metrics podcast as well as a fellow Women Techmakers Ambassador. We begin by discussing what ML is and how it differs from traditional programming. Next, we delve into a typical ML workflow that starts with data preparation. After our data is ready, we train a model and evaluate its performance. Lastly, we discuss next steps and free resources to help you continue learning.]]></summary></entry><entry><title type="html">Chatbot with Your Data</title><link href="http://localhost:4000/2023/07/15/chatbot.html" rel="alternate" type="text/html" title="Chatbot with Your Data" /><published>2023-07-15T00:00:00-07:00</published><updated>2023-07-15T00:00:00-07:00</updated><id>http://localhost:4000/2023/07/15/chatbot</id><content type="html" xml:base="http://localhost:4000/2023/07/15/chatbot.html"><![CDATA[<ul>
   <li>How do you use LLMs to create chatbots to answer questions for your domain?</li>
   <li>How do you keep the knowledge up-to-date after the model has already been trained?</li>
   <li>How do you ensure generated answers are accurate and avoid hallucinations?</li>
@@ -469,45 +535,4 @@
 
 <p>As I embark on this incredible journey as a Women Techmakers Ambassador, I’m filled with excitement and gratitude. I look forward to leveraging my skills and experiences to support others in tech. The opportunity to be a part of a global network of like-minded individuals and the chance to make a tangible impact in my community are priceless.</p>
 
-<figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry><entry><title type="html">Go Attack</title><link href="http://localhost:4000/2022/12/01/goattack-poster.html" rel="alternate" type="text/html" title="Go Attack" /><published>2022-12-01T00:00:00-08:00</published><updated>2022-12-01T00:00:00-08:00</updated><id>http://localhost:4000/2022/12/01/goattack-poster</id><content type="html" xml:base="http://localhost:4000/2022/12/01/goattack-poster.html"><![CDATA[<p>I am thrilled to share my recent helping <a href="http://far.ai">FAR.AI</a>, an AI Alignment research organization, creating the NeurIPS poster for the project <a href="https://goattack.far.ai/">“Adversarial Policies Beat Superhuman Go AIs.”</a></p>
-
-<h2 id="research-overview">Research Overview</h2>
-
-<p>The project, fondly nicknamed “Go Attack”, aimed to challenge the state-of-the-art Go-playing AI system KataGo. Researchers developed adversarial policies designed to play against KataGo. The adversarial policies achieved an astounding win rate of over 99% when KataGo used no tree search, and over 97% when it utilized enough search to be considered superhuman.</p>
-
-<p>What’s even more surprising is that the adversaries did not win by playing Go better than KataGo. In fact, they were easily beaten by human amateurs. Instead, the adversaries won by exploiting weaknesses in KataGo, tricking it into making serious blunders. This attack strategy transferred effortlessly to other superhuman Go-playing AIs, showcasing the surprising failure modes even in the most advanced AI systems.</p>
-
-<h2 id="reworked-figures">Reworked Figures</h2>
-
-<p>To better communicate the research findings, I reworked images from previous presentations and figures, particularly focusing on clarifying the <strong>threat model</strong> and the concept of <strong>non-transitivity</strong> with the unexpected result: If play were transitive, Human players would not beat Adversary! Finally, I incorporated images generated from different Go board configurations to showcase various strategies we employed during testing.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">after</th>
-      <th style="text-align: center">before</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model.svg" class="cols-2" /><br />Threat Model</td>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-model-before.png" class="cols-2" /></td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity.svg" class="cols-2" /><br />Non-Transitivity</td>
-      <td style="text-align: center"><img src="/img/posts/2022-12-01-goattack-nontransitivity-before.png" class="cols-2" /></td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="neurips-poster">NeurIPS Poster</h2>
-
-<p>The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.</p>
-
-<p><img src="/img/posts/2022-12-01-goattack.png" alt="GoAttack Poster" /></p>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p>It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the <a href="https://goattack.far.ai/">website</a>, reading the <a href="https://arxiv.org/abs/2211.00241">paper</a>, or exploring the <a href="https://github.com/AlignmentResearch/go_attack">code</a>. Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!</p>
-
-<figcaption>Cover Photo by Elena Popova on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I am thrilled to share my recent helping FAR.AI, an AI Alignment research organization, creating the NeurIPS poster for the project “Adversarial Policies Beat Superhuman Go AIs.”]]></summary></entry></feed>
+<figcaption>Cover Photo by Toa Heftiba on Unsplash</figcaption>]]></content><author><name>ccstan99</name></author><summary type="html"><![CDATA[I’m delighted to share that I recently became a Google’s Women Techmakers (WTM) Ambassador, joining a vibrant community of over 1000 women from around the world who are passionate about technology and dedicated to fostering equity and diversity in the tech industry. The onboarding introduced me to the program’s mission, resources, and the many ways in which I can contribute to my community.]]></summary></entry></feed>
