@@ -2,7 +2,7 @@
 layout: post
 title: "AGI Safety & Alignment"
 subtitle: "Introductory Book Reviews"
-background: '/img/2022/2022-03-02-agi-safety.jpg'
+background: '/img/2022/2022-03-02-agi-safety-jessica-ruscello-lUtPqjz5D5k-unsplash.jpg'
 ---
 
 ## Introduction
@@ -148,3 +148,5 @@ Well, that was a mad dash through a bunch of somewhat AI and ML related books. W
 - Nick Bostrom, [Superintelligence](https://www.goodreads.com/book/show/20527133-superintelligence) (2014)
 - Stuart Russell, [Human Compatible](https://www.goodreads.com/book/show/44767248-human-compatible) (2019)
 - Brian Christian, [Alignment Problem](https://www.goodreads.com/book/show/50489349-the-alignment-problem) (2020)
+
+<figcaption>Cover Photo by Jessica Ruscello on Unsplash</figcaption>

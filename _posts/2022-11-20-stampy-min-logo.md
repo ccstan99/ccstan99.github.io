@@ -2,7 +2,7 @@
 layout: post
 title: "Minimalist Logo"
 subtitle: "AI Safety Info Logo"
-background: '/img/2022/2022-11-20-stampy-min-logo.jpg'
+background: '/img/2022/2022-11-20-stampy-min-logo-fabrice-villard-Du41jIaI5Ww-unsplash.jpg'
 ---
 
 ## Fun vs Minimal

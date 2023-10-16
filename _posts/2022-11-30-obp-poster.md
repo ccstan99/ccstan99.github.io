@@ -2,7 +2,7 @@
 layout: post
 title: "Optimal Behavior Prior"
 subtitle: "NeurIPS Human in the Loop Workshop Poster"
-background: '/img/2022/2022-11-30-obp.jpg'
+background: '/img/2022/2022-11-30-obp-edgar-castrejon-_4_8zoWPw-8-unsplash.jpg'
 ---
 
 ## Effective Use of Human Data
@@ -34,3 +34,5 @@ After some additional back & forth to finalize text description and LaTex labels
 ![NeurIPS Poster](/img/2022/2022-11-30-obp-poster.png)
 
 Check out the full paper, ["Optimal Behavior Prior: Data-Efficient Human Models for Improved Human-AI Collaboration"](https://arxiv.org/abs/2211.01602) presented at the NeurIPS 2022 Human in the Loop Learning (HiLL) Workshop. Special thanks to Micah Carroll for providing the initial figures, sample poster templates, and constructive feedback throughout the entire process.
+
+<figcaption>Cover Photo by Edgar Castrejon on Unsplash</figcaption>

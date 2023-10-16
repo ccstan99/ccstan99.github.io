@@ -2,7 +2,7 @@
 layout: post
 title: "Go Attack"
 subtitle: "Adversarial Policies Beat Superhuman Go AIs"
-background: '/img/2022/2022-12-01-goattack.jpg'
+background: '/img/2022/2022-12-01-goattack-elena-popova-xdXxY5C9PUo-unsplash.jpg'
 ---
 
 I am thrilled to share my recent helping [FAR.AI](http://far.ai), an AI Alignment research organization, creating the NeurIPS poster for the project ["Adversarial Policies Beat Superhuman Go AIs."](https://goattack.far.ai/)

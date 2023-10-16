@@ -5,6 +5,8 @@ subtitle: "Overview of Language Models"
 background: '/img/2023/2023-05-24-llms.jpg'
 ---
 
+This blog post is based on highlights from a presentation I made for [OSEA Angel Investors](https://www.oseaangelinvestors.com/). I've deliver similar content elsewhere in the past, but now seems like a good time to put this down since interest in ChatGPT and LLMS has only ballooned.
+
 Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We'll look at language models, how they got so large, and think about how to deal with all this AI buzz.
 
 ## Background in Natural Language Processing (NLP)

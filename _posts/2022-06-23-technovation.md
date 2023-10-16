@@ -2,7 +2,7 @@
 layout: post
 title: "Technovation Challenge"
 subtitle: "Mentoring & Judging Mobile Apps for Social Good"
-background: '/img/2022/2022-06-23-technovation.jpg'
+background: '/img/2022/2022-06-23-technovation-alexander-sinn-KgLtFCgfC28-unsplash.jpg'
 ---
 
 ## Technovation
