@@ -2465,7 +2465,19 @@ tr:nth-child(even) { background-color: #f8f9fa; }
 
 .md-content h3 { font-size: 1.2rem; }
 
-h3.post-subtitle { font-size: 1.2rem; }
+span.post-title { font-weight: 600; text-decoration: none; font-size: 1.6rem; }
+
+span.post-subtitle { text-decoration: none; font-size: 1rem; }
+
+span.post-meta { font-size: 1rem; }
+
+.image-container { width: 80px; height: 80px; overflow: hidden; position: relative; }
+
+.post-image { width: 100%; height: 100%; object-fit: cover; object-position: center; border-radius: 5px; }
+
+.post-container { display: flex; align-items: start; margin-bottom: 20px; }
+
+.post-content { margin-left: 20px; flex: 1; }
 
 .btn { font-size: 14px; font-weight: 800; padding: 15px 25px; letter-spacing: 1px; text-transform: uppercase; border-radius: 0; font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
