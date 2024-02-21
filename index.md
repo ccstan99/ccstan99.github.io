@@ -3,7 +3,7 @@ layout: home
 background: '/img/bg-index.jpg'
 ---
 
-I've been immersed in the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). After years of homeschooling my kids, instilling a lifelong love of learning, it's finally my turn! Before all that, I originally studied [Linguistics & Computer Science at UCLA](https://linguistics.ucla.edu/), got a MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/), then did freelance work with interactive programming and design.
+I've been immersed in the exciting developments in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). After years of homeschooling my kids, instilling a lifelong love of learning, it's finally my turn! Before all that, I originally studied [Linguistics & Computer Science at UCLA](https://linguistics.ucla.edu/), earned a MS Computer Science in [Human Computer Interaction (HCI) at Stanford](https://hci.stanford.edu/), then did freelance work with interactive programming and design.
 
 ## Projects
 
