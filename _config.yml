@@ -1,13 +1,14 @@
-title:              ccstan99
+title:              cheng2
 email:              ccstan99@gmail.com
-description:        ccstan99's learning journal
-author:             ccstan99
+description:        My Personal Learning Journal
+author:             cheng2
 baseurl:            ""
 url:                "https://ccstan99.github.io"
 
 # Social Profiles
 github_username:    ccstan99
 linkedin_username:  cheng2-tan
+twitter_username:  cheng2_tan
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   G-D2PE2V9SD7 # out your google-analytics code

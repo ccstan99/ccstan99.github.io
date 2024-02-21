@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-description: learning AI & NLP
+description: Learning about LLMs & AI safety
 background: '/img/bg-about.jpg'
 ---
 
