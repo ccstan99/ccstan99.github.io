@@ -5,9 +5,9 @@ description: Learning about LLMs & AI safety
 background: '/img/bg-about.jpg'
 ---
 
-Thanks to the incredible wealth of resources readily available on the internet, I've been catching up on the latest in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). My hope is to focus on educational outreach, bringing STEM to underrepresented populations.
+Thanks to the treasure trove of resources readily available on the internet, I've been catching up on the latest in Artificial Intelligence (AI), particularly Natural Language Processing (NLP). My aim is to concentrate on educational outreach, bringing STEM to underrepresented populations.
 
-Since Large Language Models (LLMs) are all the rage now, I often get asked where to start. Here are a few good starting points to learn the basics. The first 3 from DeepLearning.AI on Coursera are each 1-hour overviews. I haven't personally used the last 2, LLMU or the Bootcamp, but they came as recommendations with more in-depth coverage.
+Since Large Language Models (LLMs) are all the rage now, I'm often asked, "Where should I start?" Below are some of my favorite to learn the basics. The first 3 from DeepLearning.AI on Coursera are each 1-hour overviews -- more have been released recently. While I haven't personally used the last two resources, LLM University & LLM Bootcamp, they come highly recommended for those seeking more comprehensive coverage.
 
 ## Large Language Models
 

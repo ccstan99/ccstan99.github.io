@@ -5,7 +5,14 @@ description: Speaking & Teaching
 background: '/img/bg-events.jpg'
 ---
 
-I dare not claim to be an expert but my kids tell me I'm pretty good at explaining things. Since I spent 10+ years homeschooling them, I consider that precious praise. Since I also learn best by teaching, here I am...
+I dare not claim to be an expert but my kids tell me I'm pretty good at explaining things. Since I spent 10+ years homeschooling them, I consider that precious praise. I learn best by teaching, so please [reach out](https://www.linkedin.com/in/cheng2-tan/) if you'd like me to speak on:
+
+- Demystifying AI & LLMs
+- Using AI in Education
+- Building Chatbots with Retrieval Augmented Generation
+- Designing Your Life & Career for Women in Tech
+- Relaunching after a Career Break
+- Preparing Engaging Tech Presentations
 
 | Event | Description |
 |-------|-------------|
