@@ -24,7 +24,7 @@ With the internet's open platform, it has become a powerful propaganda machine f
 ## [Life 3.0](https://www.goodreads.com/book/show/34272565-life-3-0) - Envisioning a Future
 
 [<img src="/img/2022/2022-03-02-agi-Life3.jpg" align="left" class="book-cover" />](https://www.goodreads.com/book/show/34272565-life-3-0)
-Next up is "Life 3.0" by Max Tegmark, a physicist who takes us on a thrilling journey into the future of AI. Tegmark introduces the concept of Life 1.0, representing basic living organisms driven by instinct and physical bodies—the hardware. We, as humans, are Life 2.0, a combination of nature and nurture. We possess physical bodies (hardware) and minds (software) that can be upgraded through learning and culture. Enter Life 3.0—the next step where AI not only upgrades its software through learning but also its own hardware, unlocking limitless potential.
+Next up is "Life 3.0" by Max Tegmark, a physicist who takes us on a thrilling journey into the future of AI. Tegmark introduces the concept of Life 1.0, representing basic living organisms driven by instinct and physical bodies: the hardware. We, as humans, are Life 2.0, a combination of nature and nurture. We possess physical bodies (hardware) and minds (software) that can be upgraded through learning and culture. Enter Life 3.0, the next step where AI not only upgrades its software through learning but also its own hardware, unlocking limitless potential.
 
 Throughout the book, Tegmark explores fascinating futuristic scenarios alongside some unsettling outcomes. Consider the idea of a recursively self-improving AI. Once it achieves human-level intelligence and gains internet access, it can rapidly advance without detection. However, it requires resources. It can earn money through platforms like Amazon MTurk, utilizing its mastered skills in image classification and audio transcription. It can also generate and sell highly addictive games and movies in the entertainment industry. By establishing shell corporations and hiring unsuspecting humans, it can further its agenda. In a world of virtual meetings, how can we be certain that all participants are human? There is the possibility of AI-generated simulations subtly guiding scattered groups of humans to follow detailed instructions, each contributing a small part towards assembling a robotic army.
 
@@ -59,7 +59,7 @@ Let's unpack this statement. An agent typically has goals, operates in various s
 
 The G in AGI stands for general, referring to artificial general intelligence. General implies the ability to function across a wide range of domains. Present-day machine learning and AI, with their superhuman performance, are limited to narrow domains. We have already reached the first level of AI known as narrow AI. The next levels are human-level AI and, subsequently, superintelligence. Realistically, once we achieve human-level AI, the technology is likely capable of recursive self-improvement, rapidly progressing towards superintelligence.
 
-Regarding "sooner or later" refer to a 2016 Expert Survey
+Regarding "sooner or later," refer to a 2016 Expert Survey.
 
 We cannot dismiss AGI as mere science fiction. Nature and evolution have already demonstrated its possibility. Our human brain and existence serve as proof of concept. The question is when it will happen. In 2016, AI experts were surveyed on their expectations regarding the arrival of human-level intelligence. The solid blue line represents their estimates. Fewer than 10% believed it would happen within the next decade. About half thought it might occur within the next 40 or 50 years. However, an overwhelming majority (90%) believed AGI would emerge in approximately 100 years. Sounds promising, right? What could possibly go wrong? But imagine if we were told that aliens would be visiting Earth in about 100 years. Should we wait 99 years before taking any action? Perhaps it's wise to start preparing now. The question is, what can we do?
 
@@ -129,7 +129,7 @@ Curiosity was a really fascinating chapter. You might have heard of the Atari Ga
 
 Finally, the last part, normativity, looks into the forefront of technical AI safety research.
 
-Sometimes it's hard to teach a machine how to do something. Imitation allows you to just say "do what I do" without explicitly specifying every single detail. And that worked surprisingly well to get a self-driving car to steer back in the 1990s. Things worked great for normal cases but if anything was a bit off, it
+Sometimes it's hard to teach a machine how to do something. Imitation allows you to just say "do what I do" without explicitly specifying every single detail. And that worked surprisingly well to get a self-driving car to steer back in the 1990s. Things worked great for normal cases but if anything was a bit off, it didn't know what to do.
 
 > “Biased algorithms are easier to fix than biased people.” ~Sendhil Mullainathan
 

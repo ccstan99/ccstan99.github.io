@@ -5,13 +5,13 @@ subtitle: "Overview of Language Models"
 background: '/img/2023/2023-05-24-llms.jpg'
 ---
 
-This blog post is based on highlights from a presentation I made for [OSEA Angel Investors](https://www.oseaangelinvestors.com/). I've deliver similar content elsewhere in the past, but now seems like a good time to put this down since interest in ChatGPT and LLMS has only ballooned.
+This blog post is based on highlights from a presentation I made for [OSEA Angel Investors](https://www.oseaangelinvestors.com/). I've delivered similar content elsewhere in the past, but now seems like a good time to put this down since interest in ChatGPT and LLMS has only ballooned.
 
 Welcome to the world of ChatGPT and LLMs filled with alphabet soup jargon. We'll look at language models, how they got so large, and think about how to deal with all this AI buzz.
 
 ## Background in Natural Language Processing (NLP)
 
-Language models live in the field of natural language processing, The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create "expert" systems, hand-coding  grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.
+Language models live in the field of natural language processing. The ultimate dream, the holy grail, is to talk with computers just like talking with any other person and have it completely understand you. No need to learn computer languages. They can speak ours. Originally, linguists would painstakingly create "expert" systems, hand-coding grammar rules and all the vocabulary. Unfortunately, the end results were mediocre, at best.
 
 ![Statistics in LLMs](/img/2023/2023-05-24-llms-stats.png)
 <figcaption>Photo by Towfiqu Barbhuiya on Unsplash</figcaption>
@@ -37,7 +37,7 @@ Thus began the rise of large language models. Size is measured by the number of 
 
 Generative pre-trained transformers or GPT shine at generating text.
 
-They are trained for next word prediction. It's like a play the game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it's wrong, let's update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with "Twinkle Twinkle Little..." the next word is most likely "Star." Maybe feels like a sophisticated auto-complete. Think about when you're talking with someone and you "complete each other's sentences." It's often a sign of deep mutual understanding. Imagine a computer doing the same.
+They are trained for next word prediction. It's like playing a game. You grab a book, pick a sentence, and show the model the beginning of the sentence. It tries to guess the next word in the sentence. You show it the actual next word. Hmm, if it's wrong, let's update the neurons to do better the next time. Pick another sentence. Guess another word and update. Then repeat until the model gets really good at guessing the next words. Starting with "Twinkle Twinkle Little..." the next word is most likely "Star." Maybe feels like a sophisticated auto-complete. Think about when you're talking with someone and you "complete each other's sentences." It's often a sign of deep mutual understanding. Imagine a computer doing the same.
 
 ![Pre-Training LLMs](/img/2023/2023-05-24-llms-training.jpg)
 
@@ -59,7 +59,7 @@ Next, it was also fine-tuned on sample back-and-forth conversations to learn how
 
 ## On the Horizon
 
-That us up to late last year. Now, things are moving even faster since then. Let me point out a few items on the horizon to keep an eye on.
+That brings us up to late last year. Now, things are moving even faster since then. Let me point out a few items on the horizon to keep an eye on.
 
 Multi-modality
 : Language models deal mainly with text. Multi-modality allows them to use audio, images, and videos to understand the world. And the better to see you, to hear you, and to interact with you.

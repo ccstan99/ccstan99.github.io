@@ -9,7 +9,7 @@ I'm delighted to share that I recently became a Google's Women Techmakers (WTM) 
 
 ![I'm a WTM Ambassador!](/img/2022/2022-12-07-wtm-ambassador.gif)
 
-After working in tech for many years now, I've gotten to the "sea of dudes". Until recently, I'd never been involved with any movements geared towards women in tech. I've worked with great guys but I've realized that working with other women in tech has such a refreshingly nurturing vibe. Now, I'm wondering: Why didn't I start sooner?!
+After working in tech for many years now, I've gotten used to the "sea of dudes". Until recently, I'd never been involved with any movements geared towards women in tech. I've worked with great guys but I've realized that working with other women in tech has such a refreshingly nurturing vibe. Now, I'm wondering: Why didn't I start sooner?!
 
 ## Notification & Onboarding
 

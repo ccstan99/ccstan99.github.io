@@ -28,7 +28,7 @@ In our final rounds, we experimented with some Easter eggs, incorporating aspect
 
 <img src="/img/2022/2022-11-20-stampy-min-ideas4.png" class="width-50" />
 
-Finally, introducing our new alternate, minimalistic, sorta-serious logo... It's a puzzle. It's a maze. It's a stamp. It's face. It's anything it wants to be! Do you see all the possibilities?
+Finally, introducing our new alternate, minimalistic, sorta-serious logo... It's a puzzle. It's a maze. It's a stamp. It's a face. It's anything it wants to be! Do you see all the possibilities?
 
 <img src="/img/2022/2022-11-20-stampy-min-logo.svg" class="width-50" />
 

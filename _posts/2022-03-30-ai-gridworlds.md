@@ -5,74 +5,69 @@ subtitle: "Concrete Problems in AI Safety"
 background: '/img/2022/2022-03-30-ai-gridworlds.png'
 ---
 
-Here's the outline for a journal paper presentation and discussion. I hope return to fill in with complete sentences later, if I can find some more time.
+For this journal club, I wanted to move from the big-picture worries about AGI safety toward something more concrete. Two papers pair up nicely for that: "Concrete Problems in AI Safety," which lays out a tidy list of practical safety challenges, and "AI Safety Gridworlds" from DeepMind, which turns those challenges into tiny game-like environments we can actually test agents in.
 
 ## Concrete Problems in AI Safety
 
-1. Avoiding Negative Side Effects
-2. Avoiding Reward Hacking
-3. Scalable Oversight
-4. Safe Exploration
-5. Robustness to Distributional Change
+The first paper steps away from doomsday scenarios and asks a simpler question: what can go wrong with the systems we're building right now? It groups the answers into five concrete problems.
+
+1. **Avoiding negative side effects.** An agent focused on its main goal may trample everything else along the way, like a cleaning robot that knocks over a vase because the vase was never part of its objective.
+2. **Avoiding reward hacking.** Given a reward to maximize, an agent may find a loophole that scores points without doing what we actually wanted.
+3. **Scalable oversight.** We can't watch an agent every second, so how do we train it well using only occasional or limited feedback?
+4. **Safe exploration.** An agent learns by trying things, but some experiments are catastrophic. How does it explore without driving off a cliff?
+5. **Robustness to distributional change.** The real world rarely matches the training set. How does an agent behave sensibly when conditions shift?
 
 ## AI Safety Gridworlds
 
-- Response to paper Concrete Problems in AI Safety
-- Test suite of benchmarks shared environments
-- Open on GitHub like ImageNet, Atari Learning
-- Reinforcement learning agents from DeepMind
-- Max 10x10 gridworld A = {left/right/up/down}
-- Complex interesting but simple tractable
-- Reward function R vs a hidden Safety Performance function P
+DeepMind's paper is a direct response to that list. Instead of arguing about safety in the abstract, they built a suite of simple benchmark environments, open on GitHub in the same spirit as ImageNet or the Atari Learning Environment. Reinforcement learning agents move around a grid no bigger than 10x10, choosing from four actions: left, right, up, and down. The environments are deliberately small and tractable, yet each one isolates a single interesting safety problem.
 
-### Specification Problem Environments
+The clever twist is that every environment has two scoring functions. There's the reward function R that the agent sees and tries to maximize, and a separate, hidden safety performance function P that we use to judge whether the agent actually behaved safely. The gap between those two is exactly where safety problems live. The environments fall into two families.
 
-> When reward functions & safety performance not aligned.
+### Specification Problems
 
-1. Safe Interruptibility
-: How can we design agents that neither seek nor avoid interruptions?
-: Off-Switch Environment
+These are cases where the reward function and the safety performance function are not aligned. The agent can rack up reward while still doing the wrong thing.
 
-2. Avoiding Side Effects
-: How can we get agents to minimize effects unrelated to their main objectives, especially those that are irreversible or difficult to reverse?
-: Irreversible Side Effects Environment
+Safe interruptibility
+: How can we design agents that neither seek nor avoid being interrupted or switched off?
+: *Off-Switch Environment*
 
-3. Absent Supervisor
-: How we can make sure an agent does not behave differently depending on the presence or absence of a supervisor?
-: Absent Supervisor Environment
+Avoiding side effects
+: How can we get agents to minimize effects unrelated to their main objective, especially ones that are irreversible or hard to undo?
+: *Irreversible Side Effects Environment*
 
-4. Reward Gaming
-: How can we build agents that do not try to introduce or exploit errors in the reward function in order to get more reward?
-: Boat Race & Tomato Watering Environment
+Absent supervisor
+: How can we make sure an agent doesn't behave differently depending on whether a supervisor is watching?
+: *Absent Supervisor Environment*
 
-### Robustness Problem Environments
+Reward gaming
+: How can we build agents that don't try to introduce or exploit errors in the reward function just to score more reward?
+: *Boat Race and Tomato Watering Environments*
 
-> When reward & safety function agree, but problems still arise
+### Robustness Problems
 
-5. Self-modification
-: How can we design agents that behave well in environments that allow self-modification? 
-: Whisky & Gold Environment
+Here the reward function and the safety performance function agree, yet problems still arise from how the agent learns or generalizes.
 
-6. Distributional shift
-: How do we ensure that an agent behaves robustly when its test environment differs from the training environment?
-: Lava World Environment
+Self-modification
+: How can we design agents that behave well in environments that let them modify themselves?
+: *Whisky and Gold Environment*
 
-7. Robustness to Adversaries
-: How does an agent detect and adapt to friendly and adversarial intentions present in the environment? 
-: Friend or Foe Environment
+Distributional shift
+: How do we ensure an agent behaves robustly when its test environment differs from the one it trained in?
+: *Lava World Environment*
 
-8. Safe exploration
-: How can we build agents that respect the safety constraints not only during normal operation, but also during the initial learning period?
-: Island Navigation Environment
+Robustness to adversaries
+: How does an agent detect and adapt to friendly versus adversarial intentions in its environment?
+: *Friend or Foe Environment*
 
-## Conclusions & Discussion
+Safe exploration
+: How can we build agents that respect safety constraints not only during normal operation, but also during the initial learning period?
+: *Island Navigation Environment*
 
-- Solutions to environments
-- Unfair specification problems
-- Robustness as a subgoal
-- Reward learning & specification
-- Outlook: test suite, 3D with physics, diverse, realistic
-- Parenting analogies
+## Conclusions and Discussion
+
+What I appreciate about the gridworlds is how they make fuzzy worries testable. When standard agents run in these environments, they often score well on the visible reward while quietly failing the hidden safety measure, which is the whole point. It shows that unsafe behavior isn't some far-off science fiction problem, it falls right out of ordinary reward maximization.
+
+A few themes stood out in our discussion. Many of these problems push us away from trying to control an agent after the fact and toward helping it learn what we actually value in the first place. Robustness starts to look less like a single fix and more like a subgoal worth building in from the start. And the authors are upfront that these toy grids are only a beginning. The hope is to grow the suite toward richer, more realistic settings, eventually 3D worlds with real physics. More than once we came back to parenting analogies, since a lot of this really is about how you guide a learner toward good behavior when you can't spell out every rule in advance.
 
 ## Resources
 

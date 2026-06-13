@@ -5,7 +5,7 @@ subtitle: "Google's ML Professional Development"
 background: '/img/2023/2023-02-13-tensorflow-cert-suzi-kim-LpK55Nv-Na8-unsplash.jpg'
 ---
 
-Look what I got! I hope return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.
+Look what I got! I hope to return to fill in more details of how I prepared for the exam and some helpful resources. Overall, this was an excellent learning experience that helped me upskill for Artificial Intelligence, Machine Learning, and Deep Learning in a focused manner.
 
 [![TensorFlow Developer Certificate](/img/2023/2023-02-13-tensorflow-cert.png)](https://www.credential.net/dd29cf54-be96-4380-8b4c-bc4c5971c781#gs.z3o0gx)
 

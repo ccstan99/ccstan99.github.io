@@ -24,12 +24,12 @@ To better communicate the research findings, I reworked images from previous pre
 
 ## NeurIPS Poster
 
-The various figures were crafted into narrative summaring the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
+The various figures were crafted into a narrative summarizing the research journey, highlighting the significant achievements and implications of the findings. In addition to creating the digital poster, I also designed a template for the organization that will be used for future conference presentations.
 
 ![GoAttack Poster](/img/2022/2022-12-01-goattack.png)
 
 ## Conclusion
 
-It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedbacks. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
+It was a privilege to make a small contribution to the field of AI safety. Learn more about the project by visiting the [website](https://goattack.far.ai/), reading the [paper](https://arxiv.org/abs/2211.00241), or exploring the [code](https://github.com/AlignmentResearch/go_attack). Special thanks to Adam Gleave for inviting me to help with the project and the many rounds of constructive feedback. Thanks also goes to Tony Wang who pointed out that the human figure resembled a cop and thug, which led to strengthening other visual cues such as changing the clothing color and adjusting the direction. Congrats to the team for winning a best paper award and an x-risk analysis award for the NeurIPS 2022 ML Safety Workshop!
 
 <figcaption>Cover Photo by Elena Popova on Unsplash</figcaption>
